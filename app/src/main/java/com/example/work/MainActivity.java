@@ -82,17 +82,12 @@ public class MainActivity extends AppCompatActivity {
                 unbindService(myServiceConnection);
             }
             if (v.getId() == R.id.send_static_broadcast) {
-                Intent intent = new Intent();
-                intent.putExtra(Intent.EXTRA_TEXT, "Hello, this is a message from MainActivity");
-                intent.setAction("com.example.work.Static_Action");
-                intent.setType("text/plain");
-                sendBroadcast(intent);
+                bindService(new Intent(MainActivity.this, RemoteService.class), myRemoteServiceConnection, BIND_AUTO_CREATE);
             }
         }
     }
 
     startServiceConnection myServiceConnection = new startServiceConnection();
-
 
     public static class startServiceConnection implements ServiceConnection {
         @Override
@@ -107,7 +102,27 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
-    @Override
+    MyRemoteServiceConnection myRemoteServiceConnection = new MyRemoteServiceConnection();
+
+    public static class MyRemoteServiceConnection implements ServiceConnection {
+        @Override
+        public void onServiceConnected(ComponentName name, IBinder service) {
+            IMyAidlInterface instance = IMyAidlInterface.Stub.asInterface(service);
+            Log.w("MainActivity", "Service connected：" + instance.hashCode());
+            try {
+                Log.w("MainActivity", "Service connected add：" + instance.add(2, 3));
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
+        }
+
+        @Override
+        public void onServiceDisconnected(ComponentName name) {
+
+        }
+    }
+
+        @Override
     protected void onResume() {
         super.onResume();
         registerReceiver(nativeReceiver, new IntentFilter(ConnectivityManager.CONNECTIVITY_ACTION));

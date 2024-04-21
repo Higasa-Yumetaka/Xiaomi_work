@@ -29,6 +29,11 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/Theme.Work" >
+        <service
+            android:name="com.example.work.RemoteService"
+            android:enabled="true"
+            android:exported="true" />
+
         <receiver
             android:name="com.example.work.NativeReceiver"
             android:enabled="true"

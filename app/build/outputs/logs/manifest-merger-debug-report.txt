@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\34829\AndroidStudioProjects\work\demo\work_0421\code\app\src\main\AndroidManifest.xml:2:1-71:12
-INJECTED from C:\Users\34829\AndroidStudioProjects\work\demo\work_0421\code\app\src\main\AndroidManifest.xml:2:1-71:12
-INJECTED from C:\Users\34829\AndroidStudioProjects\work\demo\work_0421\code\app\src\main\AndroidManifest.xml:2:1-71:12
-INJECTED from C:\Users\34829\AndroidStudioProjects\work\demo\work_0421\code\app\src\main\AndroidManifest.xml:2:1-71:12
+ADDED from C:\Users\34829\AndroidStudioProjects\work\demo\work_0421\code\app\src\main\AndroidManifest.xml:2:1-77:12
+INJECTED from C:\Users\34829\AndroidStudioProjects\work\demo\work_0421\code\app\src\main\AndroidManifest.xml:2:1-77:12
+INJECTED from C:\Users\34829\AndroidStudioProjects\work\demo\work_0421\code\app\src\main\AndroidManifest.xml:2:1-77:12
+INJECTED from C:\Users\34829\AndroidStudioProjects\work\demo\work_0421\code\app\src\main\AndroidManifest.xml:2:1-77:12
 MERGED from [com.google.android.material:material:1.11.0] C:\Users\34829\.gradle\caches\transforms-3\1f3bfc63a883d8785cc7aedbe71e7dca\transformed\material-1.11.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\34829\.gradle\caches\transforms-3\cfcb83684a7951905dc848dafaa37200\transformed\constraintlayout-2.1.4\AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.appcompat:appcompat-resources:1.6.1] C:\Users\34829\.gradle\caches\transforms-3\08790628c8f0bd97dc7c1f704bb96ff9\transformed\appcompat-resources-1.6.1\AndroidManifest.xml:17:1-22:12
@@ -60,8 +60,8 @@ ADDED from C:\Users\34829\AndroidStudioProjects\work\demo\work_0421\code\app\src
 	android:name
 		ADDED from C:\Users\34829\AndroidStudioProjects\work\demo\work_0421\code\app\src\main\AndroidManifest.xml:5:22-76
 application
-ADDED from C:\Users\34829\AndroidStudioProjects\work\demo\work_0421\code\app\src\main\AndroidManifest.xml:6:5-69:19
-INJECTED from C:\Users\34829\AndroidStudioProjects\work\demo\work_0421\code\app\src\main\AndroidManifest.xml:6:5-69:19
+ADDED from C:\Users\34829\AndroidStudioProjects\work\demo\work_0421\code\app\src\main\AndroidManifest.xml:7:5-75:19
+INJECTED from C:\Users\34829\AndroidStudioProjects\work\demo\work_0421\code\app\src\main\AndroidManifest.xml:7:5-75:19
 MERGED from [com.google.android.material:material:1.11.0] C:\Users\34829\.gradle\caches\transforms-3\1f3bfc63a883d8785cc7aedbe71e7dca\transformed\material-1.11.0\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.11.0] C:\Users\34829\.gradle\caches\transforms-3\1f3bfc63a883d8785cc7aedbe71e7dca\transformed\material-1.11.0\AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\34829\.gradle\caches\transforms-3\cfcb83684a7951905dc848dafaa37200\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
@@ -83,119 +83,127 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\34
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.9.0] C:\Users\34829\.gradle\caches\transforms-3\950162040326f49658c77129bbfc2569\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
 	android:supportsRtl
-		ADDED from C:\Users\34829\AndroidStudioProjects\work\demo\work_0421\code\app\src\main\AndroidManifest.xml:13:9-35
+		ADDED from C:\Users\34829\AndroidStudioProjects\work\demo\work_0421\code\app\src\main\AndroidManifest.xml:14:9-35
 	android:label
-		ADDED from C:\Users\34829\AndroidStudioProjects\work\demo\work_0421\code\app\src\main\AndroidManifest.xml:11:9-41
+		ADDED from C:\Users\34829\AndroidStudioProjects\work\demo\work_0421\code\app\src\main\AndroidManifest.xml:12:9-41
 	android:fullBackupContent
-		ADDED from C:\Users\34829\AndroidStudioProjects\work\demo\work_0421\code\app\src\main\AndroidManifest.xml:9:9-54
+		ADDED from C:\Users\34829\AndroidStudioProjects\work\demo\work_0421\code\app\src\main\AndroidManifest.xml:10:9-54
 	android:roundIcon
-		ADDED from C:\Users\34829\AndroidStudioProjects\work\demo\work_0421\code\app\src\main\AndroidManifest.xml:12:9-54
+		ADDED from C:\Users\34829\AndroidStudioProjects\work\demo\work_0421\code\app\src\main\AndroidManifest.xml:13:9-54
 	tools:targetApi
-		ADDED from C:\Users\34829\AndroidStudioProjects\work\demo\work_0421\code\app\src\main\AndroidManifest.xml:15:9-29
+		ADDED from C:\Users\34829\AndroidStudioProjects\work\demo\work_0421\code\app\src\main\AndroidManifest.xml:16:9-29
 	android:icon
-		ADDED from C:\Users\34829\AndroidStudioProjects\work\demo\work_0421\code\app\src\main\AndroidManifest.xml:10:9-43
+		ADDED from C:\Users\34829\AndroidStudioProjects\work\demo\work_0421\code\app\src\main\AndroidManifest.xml:11:9-43
 	android:allowBackup
-		ADDED from C:\Users\34829\AndroidStudioProjects\work\demo\work_0421\code\app\src\main\AndroidManifest.xml:7:9-35
+		ADDED from C:\Users\34829\AndroidStudioProjects\work\demo\work_0421\code\app\src\main\AndroidManifest.xml:8:9-35
 	android:theme
-		ADDED from C:\Users\34829\AndroidStudioProjects\work\demo\work_0421\code\app\src\main\AndroidManifest.xml:14:9-42
+		ADDED from C:\Users\34829\AndroidStudioProjects\work\demo\work_0421\code\app\src\main\AndroidManifest.xml:15:9-42
 	android:dataExtractionRules
-		ADDED from C:\Users\34829\AndroidStudioProjects\work\demo\work_0421\code\app\src\main\AndroidManifest.xml:8:9-65
+		ADDED from C:\Users\34829\AndroidStudioProjects\work\demo\work_0421\code\app\src\main\AndroidManifest.xml:9:9-65
+service#com.example.work.RemoteService
+ADDED from C:\Users\34829\AndroidStudioProjects\work\demo\work_0421\code\app\src\main\AndroidManifest.xml:17:9-20:47
+	android:enabled
+		ADDED from C:\Users\34829\AndroidStudioProjects\work\demo\work_0421\code\app\src\main\AndroidManifest.xml:19:13-35
+	android:exported
+		ADDED from C:\Users\34829\AndroidStudioProjects\work\demo\work_0421\code\app\src\main\AndroidManifest.xml:20:13-36
+	android:name
+		ADDED from C:\Users\34829\AndroidStudioProjects\work\demo\work_0421\code\app\src\main\AndroidManifest.xml:18:13-42
 receiver#com.example.work.NativeReceiver
-ADDED from C:\Users\34829\AndroidStudioProjects\work\demo\work_0421\code\app\src\main\AndroidManifest.xml:16:9-19:48
+ADDED from C:\Users\34829\AndroidStudioProjects\work\demo\work_0421\code\app\src\main\AndroidManifest.xml:22:9-25:39
 	android:enabled
-		ADDED from C:\Users\34829\AndroidStudioProjects\work\demo\work_0421\code\app\src\main\AndroidManifest.xml:18:13-35
+		ADDED from C:\Users\34829\AndroidStudioProjects\work\demo\work_0421\code\app\src\main\AndroidManifest.xml:24:13-35
 	android:exported
-		ADDED from C:\Users\34829\AndroidStudioProjects\work\demo\work_0421\code\app\src\main\AndroidManifest.xml:19:13-36
+		ADDED from C:\Users\34829\AndroidStudioProjects\work\demo\work_0421\code\app\src\main\AndroidManifest.xml:25:13-36
 	android:name
-		ADDED from C:\Users\34829\AndroidStudioProjects\work\demo\work_0421\code\app\src\main\AndroidManifest.xml:17:13-43
+		ADDED from C:\Users\34829\AndroidStudioProjects\work\demo\work_0421\code\app\src\main\AndroidManifest.xml:23:13-43
 receiver#com.example.work.StaticReceiver
-ADDED from C:\Users\34829\AndroidStudioProjects\work\demo\work_0421\code\app\src\main\AndroidManifest.xml:20:9-29:20
+ADDED from C:\Users\34829\AndroidStudioProjects\work\demo\work_0421\code\app\src\main\AndroidManifest.xml:26:9-35:20
 	android:enabled
-		ADDED from C:\Users\34829\AndroidStudioProjects\work\demo\work_0421\code\app\src\main\AndroidManifest.xml:22:13-35
+		ADDED from C:\Users\34829\AndroidStudioProjects\work\demo\work_0421\code\app\src\main\AndroidManifest.xml:28:13-35
 	android:exported
-		ADDED from C:\Users\34829\AndroidStudioProjects\work\demo\work_0421\code\app\src\main\AndroidManifest.xml:23:13-36
+		ADDED from C:\Users\34829\AndroidStudioProjects\work\demo\work_0421\code\app\src\main\AndroidManifest.xml:29:13-36
 	android:name
-		ADDED from C:\Users\34829\AndroidStudioProjects\work\demo\work_0421\code\app\src\main\AndroidManifest.xml:21:13-43
+		ADDED from C:\Users\34829\AndroidStudioProjects\work\demo\work_0421\code\app\src\main\AndroidManifest.xml:27:13-43
 intent-filter#action:name:com.example.work.Static_Action+data:mimeType:text/plain
-ADDED from C:\Users\34829\AndroidStudioProjects\work\demo\work_0421\code\app\src\main\AndroidManifest.xml:24:13-28:29
+ADDED from C:\Users\34829\AndroidStudioProjects\work\demo\work_0421\code\app\src\main\AndroidManifest.xml:30:13-34:29
 action#com.example.work.Static_Action
-ADDED from C:\Users\34829\AndroidStudioProjects\work\demo\work_0421\code\app\src\main\AndroidManifest.xml:25:17-73
+ADDED from C:\Users\34829\AndroidStudioProjects\work\demo\work_0421\code\app\src\main\AndroidManifest.xml:31:17-73
 	android:name
-		ADDED from C:\Users\34829\AndroidStudioProjects\work\demo\work_0421\code\app\src\main\AndroidManifest.xml:25:25-70
+		ADDED from C:\Users\34829\AndroidStudioProjects\work\demo\work_0421\code\app\src\main\AndroidManifest.xml:31:25-70
 data
-ADDED from C:\Users\34829\AndroidStudioProjects\work\demo\work_0421\code\app\src\main\AndroidManifest.xml:27:17-55
+ADDED from C:\Users\34829\AndroidStudioProjects\work\demo\work_0421\code\app\src\main\AndroidManifest.xml:33:17-55
 	android:mimeType
-		ADDED from C:\Users\34829\AndroidStudioProjects\work\demo\work_0421\code\app\src\main\AndroidManifest.xml:27:23-52
+		ADDED from C:\Users\34829\AndroidStudioProjects\work\demo\work_0421\code\app\src\main\AndroidManifest.xml:33:23-52
 activity#com.example.work.ServiceActivity
-ADDED from C:\Users\34829\AndroidStudioProjects\work\demo\work_0421\code\app\src\main\AndroidManifest.xml:31:9-33:40
+ADDED from C:\Users\34829\AndroidStudioProjects\work\demo\work_0421\code\app\src\main\AndroidManifest.xml:37:9-39:40
 	android:exported
-		ADDED from C:\Users\34829\AndroidStudioProjects\work\demo\work_0421\code\app\src\main\AndroidManifest.xml:33:13-37
+		ADDED from C:\Users\34829\AndroidStudioProjects\work\demo\work_0421\code\app\src\main\AndroidManifest.xml:39:13-37
 	android:name
-		ADDED from C:\Users\34829\AndroidStudioProjects\work\demo\work_0421\code\app\src\main\AndroidManifest.xml:32:13-44
+		ADDED from C:\Users\34829\AndroidStudioProjects\work\demo\work_0421\code\app\src\main\AndroidManifest.xml:38:13-44
 service#com.example.work.bindService
-ADDED from C:\Users\34829\AndroidStudioProjects\work\demo\work_0421\code\app\src\main\AndroidManifest.xml:35:9-38:39
+ADDED from C:\Users\34829\AndroidStudioProjects\work\demo\work_0421\code\app\src\main\AndroidManifest.xml:41:9-44:39
 	android:enabled
-		ADDED from C:\Users\34829\AndroidStudioProjects\work\demo\work_0421\code\app\src\main\AndroidManifest.xml:37:13-35
+		ADDED from C:\Users\34829\AndroidStudioProjects\work\demo\work_0421\code\app\src\main\AndroidManifest.xml:43:13-35
 	android:exported
-		ADDED from C:\Users\34829\AndroidStudioProjects\work\demo\work_0421\code\app\src\main\AndroidManifest.xml:38:13-36
+		ADDED from C:\Users\34829\AndroidStudioProjects\work\demo\work_0421\code\app\src\main\AndroidManifest.xml:44:13-36
 	android:name
-		ADDED from C:\Users\34829\AndroidStudioProjects\work\demo\work_0421\code\app\src\main\AndroidManifest.xml:36:13-40
+		ADDED from C:\Users\34829\AndroidStudioProjects\work\demo\work_0421\code\app\src\main\AndroidManifest.xml:42:13-40
 service#com.example.work.startService
-ADDED from C:\Users\34829\AndroidStudioProjects\work\demo\work_0421\code\app\src\main\AndroidManifest.xml:39:9-42:39
+ADDED from C:\Users\34829\AndroidStudioProjects\work\demo\work_0421\code\app\src\main\AndroidManifest.xml:45:9-48:39
 	android:enabled
-		ADDED from C:\Users\34829\AndroidStudioProjects\work\demo\work_0421\code\app\src\main\AndroidManifest.xml:41:13-35
+		ADDED from C:\Users\34829\AndroidStudioProjects\work\demo\work_0421\code\app\src\main\AndroidManifest.xml:47:13-35
 	android:exported
-		ADDED from C:\Users\34829\AndroidStudioProjects\work\demo\work_0421\code\app\src\main\AndroidManifest.xml:42:13-36
+		ADDED from C:\Users\34829\AndroidStudioProjects\work\demo\work_0421\code\app\src\main\AndroidManifest.xml:48:13-36
 	android:name
-		ADDED from C:\Users\34829\AndroidStudioProjects\work\demo\work_0421\code\app\src\main\AndroidManifest.xml:40:13-41
+		ADDED from C:\Users\34829\AndroidStudioProjects\work\demo\work_0421\code\app\src\main\AndroidManifest.xml:46:13-41
 activity#com.example.work.SingleInstanceActivity
-ADDED from C:\Users\34829\AndroidStudioProjects\work\demo\work_0421\code\app\src\main\AndroidManifest.xml:44:9-47:51
+ADDED from C:\Users\34829\AndroidStudioProjects\work\demo\work_0421\code\app\src\main\AndroidManifest.xml:50:9-53:51
 	android:launchMode
-		ADDED from C:\Users\34829\AndroidStudioProjects\work\demo\work_0421\code\app\src\main\AndroidManifest.xml:47:13-48
+		ADDED from C:\Users\34829\AndroidStudioProjects\work\demo\work_0421\code\app\src\main\AndroidManifest.xml:53:13-48
 	android:exported
-		ADDED from C:\Users\34829\AndroidStudioProjects\work\demo\work_0421\code\app\src\main\AndroidManifest.xml:46:13-37
+		ADDED from C:\Users\34829\AndroidStudioProjects\work\demo\work_0421\code\app\src\main\AndroidManifest.xml:52:13-37
 	android:name
-		ADDED from C:\Users\34829\AndroidStudioProjects\work\demo\work_0421\code\app\src\main\AndroidManifest.xml:45:13-51
+		ADDED from C:\Users\34829\AndroidStudioProjects\work\demo\work_0421\code\app\src\main\AndroidManifest.xml:51:13-51
 activity#com.example.work.SingleTaskActivity
-ADDED from C:\Users\34829\AndroidStudioProjects\work\demo\work_0421\code\app\src\main\AndroidManifest.xml:48:9-51:47
+ADDED from C:\Users\34829\AndroidStudioProjects\work\demo\work_0421\code\app\src\main\AndroidManifest.xml:54:9-57:47
 	android:launchMode
-		ADDED from C:\Users\34829\AndroidStudioProjects\work\demo\work_0421\code\app\src\main\AndroidManifest.xml:51:13-44
+		ADDED from C:\Users\34829\AndroidStudioProjects\work\demo\work_0421\code\app\src\main\AndroidManifest.xml:57:13-44
 	android:exported
-		ADDED from C:\Users\34829\AndroidStudioProjects\work\demo\work_0421\code\app\src\main\AndroidManifest.xml:50:13-37
+		ADDED from C:\Users\34829\AndroidStudioProjects\work\demo\work_0421\code\app\src\main\AndroidManifest.xml:56:13-37
 	android:name
-		ADDED from C:\Users\34829\AndroidStudioProjects\work\demo\work_0421\code\app\src\main\AndroidManifest.xml:49:13-47
+		ADDED from C:\Users\34829\AndroidStudioProjects\work\demo\work_0421\code\app\src\main\AndroidManifest.xml:55:13-47
 activity#com.example.work.SingleTopActivity
-ADDED from C:\Users\34829\AndroidStudioProjects\work\demo\work_0421\code\app\src\main\AndroidManifest.xml:52:9-55:46
+ADDED from C:\Users\34829\AndroidStudioProjects\work\demo\work_0421\code\app\src\main\AndroidManifest.xml:58:9-61:46
 	android:launchMode
-		ADDED from C:\Users\34829\AndroidStudioProjects\work\demo\work_0421\code\app\src\main\AndroidManifest.xml:55:13-43
+		ADDED from C:\Users\34829\AndroidStudioProjects\work\demo\work_0421\code\app\src\main\AndroidManifest.xml:61:13-43
 	android:exported
-		ADDED from C:\Users\34829\AndroidStudioProjects\work\demo\work_0421\code\app\src\main\AndroidManifest.xml:54:13-37
+		ADDED from C:\Users\34829\AndroidStudioProjects\work\demo\work_0421\code\app\src\main\AndroidManifest.xml:60:13-37
 	android:name
-		ADDED from C:\Users\34829\AndroidStudioProjects\work\demo\work_0421\code\app\src\main\AndroidManifest.xml:53:13-46
+		ADDED from C:\Users\34829\AndroidStudioProjects\work\demo\work_0421\code\app\src\main\AndroidManifest.xml:59:13-46
 activity#com.example.work.StandardActivity
-ADDED from C:\Users\34829\AndroidStudioProjects\work\demo\work_0421\code\app\src\main\AndroidManifest.xml:56:9-59:45
+ADDED from C:\Users\34829\AndroidStudioProjects\work\demo\work_0421\code\app\src\main\AndroidManifest.xml:62:9-65:45
 	android:launchMode
-		ADDED from C:\Users\34829\AndroidStudioProjects\work\demo\work_0421\code\app\src\main\AndroidManifest.xml:59:13-42
+		ADDED from C:\Users\34829\AndroidStudioProjects\work\demo\work_0421\code\app\src\main\AndroidManifest.xml:65:13-42
 	android:exported
-		ADDED from C:\Users\34829\AndroidStudioProjects\work\demo\work_0421\code\app\src\main\AndroidManifest.xml:58:13-37
+		ADDED from C:\Users\34829\AndroidStudioProjects\work\demo\work_0421\code\app\src\main\AndroidManifest.xml:64:13-37
 	android:name
-		ADDED from C:\Users\34829\AndroidStudioProjects\work\demo\work_0421\code\app\src\main\AndroidManifest.xml:57:13-45
+		ADDED from C:\Users\34829\AndroidStudioProjects\work\demo\work_0421\code\app\src\main\AndroidManifest.xml:63:13-45
 activity#com.example.work.MainActivity
-ADDED from C:\Users\34829\AndroidStudioProjects\work\demo\work_0421\code\app\src\main\AndroidManifest.xml:60:9-68:20
+ADDED from C:\Users\34829\AndroidStudioProjects\work\demo\work_0421\code\app\src\main\AndroidManifest.xml:66:9-74:20
 	android:exported
-		ADDED from C:\Users\34829\AndroidStudioProjects\work\demo\work_0421\code\app\src\main\AndroidManifest.xml:62:13-36
+		ADDED from C:\Users\34829\AndroidStudioProjects\work\demo\work_0421\code\app\src\main\AndroidManifest.xml:68:13-36
 	android:name
-		ADDED from C:\Users\34829\AndroidStudioProjects\work\demo\work_0421\code\app\src\main\AndroidManifest.xml:61:13-41
+		ADDED from C:\Users\34829\AndroidStudioProjects\work\demo\work_0421\code\app\src\main\AndroidManifest.xml:67:13-41
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\34829\AndroidStudioProjects\work\demo\work_0421\code\app\src\main\AndroidManifest.xml:63:13-67:29
+ADDED from C:\Users\34829\AndroidStudioProjects\work\demo\work_0421\code\app\src\main\AndroidManifest.xml:69:13-73:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\34829\AndroidStudioProjects\work\demo\work_0421\code\app\src\main\AndroidManifest.xml:64:17-69
+ADDED from C:\Users\34829\AndroidStudioProjects\work\demo\work_0421\code\app\src\main\AndroidManifest.xml:70:17-69
 	android:name
-		ADDED from C:\Users\34829\AndroidStudioProjects\work\demo\work_0421\code\app\src\main\AndroidManifest.xml:64:25-66
+		ADDED from C:\Users\34829\AndroidStudioProjects\work\demo\work_0421\code\app\src\main\AndroidManifest.xml:70:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\34829\AndroidStudioProjects\work\demo\work_0421\code\app\src\main\AndroidManifest.xml:66:17-77
+ADDED from C:\Users\34829\AndroidStudioProjects\work\demo\work_0421\code\app\src\main\AndroidManifest.xml:72:17-77
 	android:name
-		ADDED from C:\Users\34829\AndroidStudioProjects\work\demo\work_0421\code\app\src\main\AndroidManifest.xml:66:27-74
+		ADDED from C:\Users\34829\AndroidStudioProjects\work\demo\work_0421\code\app\src\main\AndroidManifest.xml:72:27-74
 uses-sdk
 INJECTED from C:\Users\34829\AndroidStudioProjects\work\demo\work_0421\code\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\34829\AndroidStudioProjects\work\demo\work_0421\code\app\src\main\AndroidManifest.xml

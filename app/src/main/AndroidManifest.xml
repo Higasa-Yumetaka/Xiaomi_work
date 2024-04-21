@@ -3,6 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools">
 
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
     <application
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
@@ -13,10 +14,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Work"
         tools:targetApi="31">
+        <service
+            android:name=".RemoteService"
+            android:enabled="true"
+            android:exported="true"></service>
+
         <receiver
             android:name=".NativeReceiver"
             android:enabled="true"
-            android:exported="true"></receiver>
+            android:exported="true" />
         <receiver
             android:name=".StaticReceiver"
             android:enabled="true"

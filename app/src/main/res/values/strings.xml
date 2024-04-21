@@ -10,5 +10,5 @@
     <string name="unbind_service">First UnBind Service</string>
     <string name="bind_service_2">Second Bind Service</string>
     <string name="unbind_service_2">Second UnBind Service</string>
-    <string name="send_static_broadcast">Send Static Broadcast</string>
+    <string name="send_static_broadcast">Aidl</string>
 </resources>
