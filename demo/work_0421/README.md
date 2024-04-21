@@ -25,4 +25,41 @@
 ### SingleInstance 模式
 - **生命周期**：单独位于一个新的任务中，且在这个任务中只有一个活动实例。(即单实例模式)
 - **区别**：每次启动活动都会创建一个新的任务，并将该活动实例放置在新的任务中。
-- 
+
+# Service 生命周期
+
+## startService()
+
+- **onCreate()**：
+    - 当服务首次启动时调用。
+    - 用于执行一次性的初始化操作。
+
+- **onStartCommand(Intent, int, int)**：
+    - 当通过 `startService()` 启动服务时调用。
+    - 服务启动后会一直运行，直到调用 `stopService()` 或 `stopSelf()` 停止服务。
+
+- **onDestroy()**：
+    - 当服务被销毁时调用。
+    - 用于执行清理操作，释放资源等。
+
+## bindService()
+
+- **onCreate()**：
+    - 当第一个组件通过 `bindService()` 方法绑定到服务时调用。
+    - 用于执行一次性的初始化操作。
+
+- **onBind(Intent)**：
+    - 当组件通过 `bindService()` 方法绑定到服务时调用。
+    - 返回一个 `IBinder` 对象，用于与客户端进行通信。
+
+- **onUnbind(Intent)**：
+    - 当所有绑定到服务的组件调用 `unbindService()` 解除绑定时调用。
+    - 用于执行清理操作，释放资源等。
+
+- **onRebind(Intent)**：
+    - 当之前解除绑定的组件再次调用 `bindService()` 方法重新绑定到服务时调用。
+    - 用于执行重新初始化的操作。
+
+- **onDestroy()**：
+    - 当最后一个组件通过 `unbindService()` 解除绑定后调用。
+    - 用于执行清理操作，释放资源等。
