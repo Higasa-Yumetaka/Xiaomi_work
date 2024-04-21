@@ -9,6 +9,6 @@ public class StaticReceiver extends BroadcastReceiver {
 
     @Override
     public void onReceive(Context context, Intent intent) {
-        Log.d("MyReceiver", "Received broadcast");
+        Log.d("StaticReceiver", "Received broadcast");
     }
 }

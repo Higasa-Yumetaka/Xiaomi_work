@@ -2,7 +2,9 @@ package com.example.work;
 
 import android.content.ComponentName;
 import android.content.Intent;
+import android.content.IntentFilter;
 import android.content.ServiceConnection;
+import android.net.ConnectivityManager;
 import android.os.Bundle;
 import android.os.IBinder;
 import android.util.Log;
@@ -15,10 +17,14 @@ public class MainActivity extends AppCompatActivity {
 
     static String TAG = "MainActivity";
 
+    private NativeReceiver nativeReceiver;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        nativeReceiver = new NativeReceiver();
 
         Button btn_standard = findViewById(R.id.button_2_standard);
         Button btn_singletop = findViewById(R.id.button_2_singletop);
@@ -101,4 +107,9 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
+    @Override
+    protected void onResume() {
+        super.onResume();
+        registerReceiver(nativeReceiver, new IntentFilter(ConnectivityManager.CONNECTIVITY_ACTION));
+    }
 }
