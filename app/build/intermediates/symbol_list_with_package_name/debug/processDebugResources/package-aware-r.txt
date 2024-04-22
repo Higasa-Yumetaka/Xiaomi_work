@@ -1355,6 +1355,7 @@ color background_floating_material_light
 color background_material_dark
 color background_material_light
 color black
+color blue
 color bright_foreground_disabled_material_dark
 color bright_foreground_disabled_material_light
 color bright_foreground_inverse_material_dark
@@ -1413,6 +1414,8 @@ color error_color_material_dark
 color error_color_material_light
 color foreground_material_dark
 color foreground_material_light
+color green
+color grey
 color highlighted_text_material_dark
 color highlighted_text_material_light
 color m3_appbar_overlay_color
@@ -2068,6 +2071,7 @@ color mtrl_textinput_focused_box_stroke_color
 color mtrl_textinput_hovered_box_stroke_color
 color notification_action_color_filter
 color notification_icon_bg_color
+color orange
 color primary_dark_material_dark
 color primary_dark_material_light
 color primary_material_dark
@@ -2076,6 +2080,10 @@ color primary_text_default_material_dark
 color primary_text_default_material_light
 color primary_text_disabled_material_dark
 color primary_text_disabled_material_light
+color purple_200
+color purple_500
+color purple_700
+color red
 color ripple_material_dark
 color ripple_material_light
 color secondary_text_default_material_dark
@@ -2091,6 +2099,7 @@ color switch_thumb_normal_material_light
 color tooltip_background_dark
 color tooltip_background_light
 color white
+color yellow
 dimen abc_action_bar_content_inset_material
 dimen abc_action_bar_content_inset_with_nav
 dimen abc_action_bar_default_height_material
@@ -2981,6 +2990,7 @@ drawable design_ic_visibility
 drawable design_ic_visibility_off
 drawable design_password_eye
 drawable design_snackbar_background
+drawable fragment_border
 drawable ic_arrow_back_black_24
 drawable ic_clear_black_24
 drawable ic_clock_black_24dp
@@ -3067,6 +3077,7 @@ drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
 drawable test_level_drawable
+drawable textview_background
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
 id ALT
@@ -3167,6 +3178,9 @@ id bounce
 id bounceBoth
 id bounceEnd
 id bounceStart
+id buttom_frame_1
+id buttom_frame_2
+id buttom_frame_3
 id buttonPanel
 id button_2_bind_service_1
 id button_2_bind_service_2
@@ -3178,6 +3192,9 @@ id button_2_start_service
 id button_2_stop_service
 id button_2_unbind_service_1
 id button_2_unbind_service_2
+id button_add_fragment
+id button_change_another_color
+id button_replace_fragmrnt
 id button_second
 id button_singleinstance
 id button_singletask
@@ -3279,7 +3296,9 @@ id fixed
 id flip
 id floating
 id forever
+id fragment_container_view
 id fragment_container_view_tag
+id fragment_frame_container
 id frost
 id fullscreen_header
 id ghost_view
@@ -3322,6 +3341,7 @@ id line3
 id linear
 id listMode
 id list_item
+id ll_buttom
 id m3_side_sheet
 id main
 id marquee
@@ -3349,6 +3369,9 @@ id material_timepicker_ok_button
 id material_timepicker_view
 id material_value_index
 id matrix
+id menu_dashboard
+id menu_home
+id menu_notifications
 id message
 id middle
 id mini
@@ -3533,6 +3556,12 @@ id textSpacerNoTitle
 id textStart
 id textTop
 id textView3
+id textView_1
+id textView_2
+id textView_3
+id textView_dashboard
+id textView_home
+id textView_notification
 id text_input_end_icon
 id text_input_error_icon
 id text_input_start_icon
@@ -3564,6 +3593,7 @@ id unlabeled
 id up
 id useLogo
 id vertical_only
+id viewPager
 id view_offset_helper
 id view_transition
 id view_tree_lifecycle_owner
@@ -3696,6 +3726,8 @@ layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_main
+layout activity_main2
+layout activity_main_0422
 layout activity_service
 layout activity_single_instance
 layout activity_single_task
@@ -3717,6 +3749,14 @@ layout design_navigation_menu
 layout design_navigation_menu_item
 layout design_text_input_end_icon
 layout design_text_input_start_icon
+layout fragment_buttom_1_0422
+layout fragment_buttom_2_0422
+layout fragment_buttom_3_0422
+layout fragment_viewpager_1_0422
+layout fragment_viewpager_2_0422
+layout fragment_viewpager_3_0422
+layout layout_example_fragment
+layout layout_example_fragment2
 layout m3_alert_dialog
 layout m3_alert_dialog_actions
 layout m3_alert_dialog_title
@@ -3780,6 +3820,7 @@ layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material
 layout support_simple_spinner_dropdown_item
 layout thrid_activity
+menu bottom_nav_menu
 mipmap ic_launcher
 mipmap ic_launcher_round
 plurals mtrl_badge_content_description
@@ -3834,6 +3875,7 @@ string go_to_singleinstance_activity
 string go_to_singletask_activity
 string go_to_singletop_activity
 string go_to_standard_activity
+string hello_blank_fragment
 string hide_bottom_view_on_scroll_behavior
 string icon_content_description
 string item_view_role_description

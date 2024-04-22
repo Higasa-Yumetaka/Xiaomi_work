@@ -29,17 +29,34 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/Theme.Work" >
-        <service
-            android:name="com.example.work.RemoteService"
+        <activity
+            android:name="com.example.work.work_0422.Main0422Activity"
             android:enabled="true"
-            android:exported="true" />
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="class_0422.MainActivity"
+            android:enabled="true"
+            android:exported="true" >
+        </activity>
+
+        <service
+            android:name="com.example.work.work_0421.RemoteService"
+            android:enabled="true"
+            android:exported="false"
+            android:permission="TODO" />
 
         <receiver
-            android:name="com.example.work.NativeReceiver"
+            android:name="com.example.work.work_0421.NativeReceiver"
             android:enabled="true"
             android:exported="true" />
         <receiver
-            android:name="com.example.work.StaticReceiver"
+            android:name="com.example.work.work_0421.StaticReceiver"
             android:enabled="true"
             android:exported="true" >
             <intent-filter>
@@ -50,42 +67,42 @@
         </receiver>
 
         <activity
-            android:name="com.example.work.ServiceActivity"
+            android:name="com.example.work.work_0421.ServiceActivity"
             android:exported="false" />
 
         <service
-            android:name="com.example.work.bindService"
+            android:name="com.example.work.work_0421.bindService"
             android:enabled="true"
             android:exported="true" />
         <service
-            android:name="com.example.work.startService"
+            android:name="com.example.work.work_0421.startService"
             android:enabled="true"
             android:exported="true" />
 
         <activity
-            android:name="com.example.work.SingleInstanceActivity"
+            android:name="com.example.work.work_0421.SingleInstanceActivity"
             android:exported="false"
             android:launchMode="singleInstance" />
         <activity
-            android:name="com.example.work.SingleTaskActivity"
+            android:name="com.example.work.work_0421.SingleTaskActivity"
             android:exported="false"
             android:launchMode="singleTask" />
         <activity
-            android:name="com.example.work.SingleTopActivity"
+            android:name="com.example.work.work_0421.SingleTopActivity"
             android:exported="false"
             android:launchMode="singleTop" />
         <activity
-            android:name="com.example.work.StandardActivity"
+            android:name="com.example.work.work_0421.StandardActivity"
             android:exported="false"
             android:launchMode="standard" />
         <activity
-            android:name="com.example.work.MainActivity"
+            android:name="com.example.work.work_0421.MainActivity"
             android:exported="true" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
+            <!-- <intent-filter> -->
+            <!-- <action android:name="android.intent.action.MAIN" /> -->
+            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+            <!-- </intent-filter> -->
         </activity>
 
         <provider

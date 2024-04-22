@@ -11,4 +11,6 @@
     <string name="bind_service_2">Second Bind Service</string>
     <string name="unbind_service_2">Second UnBind Service</string>
     <string name="send_static_broadcast">Aidl</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
