@@ -30,8 +30,10 @@
         android:testOnly="true"
         android:theme="@style/Theme.Work" >
         <activity
-            android:name="com.example.work.work_0422.Main0422Activity"
-            android:enabled="true"
+            android:name="com.example.work.TrueMainActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.work.work_0423.RecycleActivity"
             android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -40,10 +42,32 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="class_0422.MainActivity"
+            android:name="class_0423.ClassMain0423Activity"
+            android:exported="true" >
+
+            <!-- <intent-filter> -->
+            <!-- <action android:name="android.intent.action.MAIN" /> -->
+
+
+            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+            <!-- </intent-filter> -->
+        </activity>
+        <activity
+            android:name="com.example.work.work_0422.Main0422Activity"
             android:enabled="true"
             android:exported="true" >
+
+            <!-- <intent-filter> -->
+            <!-- <action android:name="android.intent.action.MAIN" /> -->
+
+
+            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+            <!-- </intent-filter> -->
         </activity>
+        <activity
+            android:name="class_0422.MainActivity"
+            android:enabled="true"
+            android:exported="true" />
 
         <service
             android:name="com.example.work.work_0421.RemoteService"

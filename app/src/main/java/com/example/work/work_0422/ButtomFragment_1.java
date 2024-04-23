@@ -48,11 +48,11 @@ public class ButtomFragment_1 extends Fragment {
     }
 
     public void TextSelected(Boolean selected) {
-        if (selected) {
-            textView.setSelected(true);
-        } else {
-            textView.setSelected(false);
-        }
+            if (selected) {
+                textView.setSelected(true);
+            } else {
+                textView.setSelected(false);
+            }
     }
 
 }
