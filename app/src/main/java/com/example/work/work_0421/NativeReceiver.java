@@ -6,6 +6,7 @@ import android.content.Intent;
 import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
 import android.util.Log;
+import android.widget.Toast;
 
 public class NativeReceiver extends BroadcastReceiver {
 
@@ -15,7 +16,8 @@ public class NativeReceiver extends BroadcastReceiver {
         Log.w("NativeReceiver", "onReceive");
         if (ConnectivityManager.CONNECTIVITY_ACTION.equals(action)) {
             int networkType = intent.getIntExtra(ConnectivityManager.EXTRA_NETWORK_TYPE, -1);
-            Log.w("NativeReceiver", "Connectivity changed" + networkType);
+//            Log.w("NativeReceiver", "Connectivity changed" + networkType);
+            Toast.makeText(context, "Connectivity changed" + networkType, Toast.LENGTH_SHORT).show();
             ConnectivityManager connectivityManager = (ConnectivityManager) context.getSystemService(Context.CONNECTIVITY_SERVICE);
             NetworkInfo networkInfo = connectivityManager.getActiveNetworkInfo();
             if (networkInfo != null && networkInfo.isConnected()) {

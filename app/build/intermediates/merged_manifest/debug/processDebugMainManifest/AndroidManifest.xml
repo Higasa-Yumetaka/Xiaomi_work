@@ -30,16 +30,57 @@
         android:testOnly="true"
         android:theme="@style/Theme.Work" >
         <activity
-            android:name="com.example.work.TrueMainActivity"
-            android:exported="false" />
+            android:name="class_0424.Class0424Layout3"
+            android:exported="true" >
+
+            <!-- <intent-filter> -->
+            <!-- <action android:name="android.intent.action.MAIN" /> -->
+
+
+            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+            <!-- </intent-filter> -->
+        </activity>
         <activity
-            android:name="com.example.work.work_0423.RecycleActivity"
+            android:name="class_0424.Class0423Layout2"
+            android:exported="true" >
+
+            <!-- <intent-filter> -->
+            <!-- <action android:name="android.intent.action.MAIN" /> -->
+
+
+            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+            <!-- </intent-filter> -->
+        </activity>
+        <activity
+            android:name="class_0424.Class0424MainActivity"
+            android:exported="true" >
+
+            <!-- <intent-filter> -->
+            <!-- <action android:name="android.intent.action.MAIN" /> -->
+
+
+            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+            <!-- </intent-filter> -->
+        </activity>
+        <activity
+            android:name="com.example.work.TrueMainActivity"
             android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.work.work_0423.RecycleActivity"
+            android:exported="true" >
+
+            <!-- <intent-filter> -->
+            <!-- <action android:name="android.intent.action.MAIN" /> -->
+
+
+            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+            <!-- </intent-filter> -->
         </activity>
         <activity
             android:name="class_0423.ClassMain0423Activity"
@@ -120,7 +161,7 @@
             android:exported="false"
             android:launchMode="standard" />
         <activity
-            android:name="com.example.work.work_0421.MainActivity"
+            android:name="com.example.work.work_0421.Work0421MainActivity"
             android:exported="true" >
 
             <!-- <intent-filter> -->

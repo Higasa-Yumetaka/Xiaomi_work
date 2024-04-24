@@ -24,6 +24,10 @@
         "source": "C:\\Users\\34829\\.gradle\\daemon\\8.4\\com.example.work.app-main-39:\\drawable\\fragment_border.xml"
     },
     {
+        "merged": "C:\\Users\\34829\\.gradle\\daemon\\8.4\\com.example.work.app-debug-37:\\layout_activity_class0424_layout4.xml.flat",
+        "source": "C:\\Users\\34829\\.gradle\\daemon\\8.4\\com.example.work.app-main-39:\\layout\\activity_class0424_layout4.xml"
+    },
+    {
         "merged": "C:\\Users\\34829\\.gradle\\daemon\\8.4\\com.example.work.app-debug-37:\\xml_data_extraction_rules.xml.flat",
         "source": "C:\\Users\\34829\\.gradle\\daemon\\8.4\\com.example.work.app-main-39:\\xml\\data_extraction_rules.xml"
     },
@@ -68,6 +72,10 @@
         "source": "C:\\Users\\34829\\.gradle\\daemon\\8.4\\com.example.work.app-main-39:\\layout\\activity_recycle.xml"
     },
     {
+        "merged": "C:\\Users\\34829\\.gradle\\daemon\\8.4\\com.example.work.app-debug-37:\\layout_activity_class0424_layout3.xml.flat",
+        "source": "C:\\Users\\34829\\.gradle\\daemon\\8.4\\com.example.work.app-main-39:\\layout\\activity_class0424_layout3.xml"
+    },
+    {
         "merged": "C:\\Users\\34829\\.gradle\\daemon\\8.4\\com.example.work.app-debug-37:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
         "source": "C:\\Users\\34829\\.gradle\\daemon\\8.4\\com.example.work.app-main-39:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
     },
@@ -108,6 +116,10 @@
         "source": "C:\\Users\\34829\\.gradle\\daemon\\8.4\\com.example.work.app-main-39:\\drawable\\note_dialog_button_shape.xml"
     },
     {
+        "merged": "C:\\Users\\34829\\.gradle\\daemon\\8.4\\com.example.work.app-debug-37:\\layout_list_item_layout.xml.flat",
+        "source": "C:\\Users\\34829\\.gradle\\daemon\\8.4\\com.example.work.app-main-39:\\layout\\list_item_layout.xml"
+    },
+    {
         "merged": "C:\\Users\\34829\\.gradle\\daemon\\8.4\\com.example.work.app-debug-37:\\drawable_logo12.jpg.flat",
         "source": "C:\\Users\\34829\\.gradle\\daemon\\8.4\\com.example.work.app-main-39:\\drawable\\logo12.jpg"
     },
@@ -118,6 +130,10 @@
     {
         "merged": "C:\\Users\\34829\\.gradle\\daemon\\8.4\\com.example.work.app-debug-37:\\drawable_button_selector.xml.flat",
         "source": "C:\\Users\\34829\\.gradle\\daemon\\8.4\\com.example.work.app-main-39:\\drawable\\button_selector.xml"
+    },
+    {
+        "merged": "C:\\Users\\34829\\.gradle\\daemon\\8.4\\com.example.work.app-debug-37:\\layout_activity_class0424_main.xml.flat",
+        "source": "C:\\Users\\34829\\.gradle\\daemon\\8.4\\com.example.work.app-main-39:\\layout\\activity_class0424_main.xml"
     },
     {
         "merged": "C:\\Users\\34829\\.gradle\\daemon\\8.4\\com.example.work.app-debug-37:\\drawable_logo6.jpg.flat",
@@ -160,10 +176,6 @@
         "source": "C:\\Users\\34829\\.gradle\\daemon\\8.4\\com.example.work.app-main-39:\\drawable\\logo5.jpg"
     },
     {
-        "merged": "com.example.work.app-debug-37:/drawable_note_dialog_shape.xml.flat",
-        "source": "com.example.work.app-main-39:/drawable/note_dialog_shape.xml"
-    },
-    {
         "merged": "C:\\Users\\34829\\.gradle\\daemon\\8.4\\com.example.work.app-debug-37:\\drawable_ic_launcher_background.xml.flat",
         "source": "C:\\Users\\34829\\.gradle\\daemon\\8.4\\com.example.work.app-main-39:\\drawable\\ic_launcher_background.xml"
     },
@@ -174,6 +186,10 @@
     {
         "merged": "C:\\Users\\34829\\.gradle\\daemon\\8.4\\com.example.work.app-debug-37:\\mipmap-xxhdpi_ic_launcher.webp.flat",
         "source": "C:\\Users\\34829\\.gradle\\daemon\\8.4\\com.example.work.app-main-39:\\mipmap-xxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.work.app-debug-37:/layout_activity_class0424_layout4.xml.flat",
+        "source": "com.example.work.app-main-39:/layout/activity_class0424_layout4.xml"
     },
     {
         "merged": "C:\\Users\\34829\\.gradle\\daemon\\8.4\\com.example.work.app-debug-37:\\layout_fragment_buttom_1_0422.xml.flat",

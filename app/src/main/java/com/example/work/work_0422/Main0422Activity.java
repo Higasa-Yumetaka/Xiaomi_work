@@ -21,6 +21,7 @@ public class Main0422Activity extends AppCompatActivity implements ButtomFragmen
     private ButtomFragment_2 btn_frame_2;
     private ButtomFragment_3 btn_frame_3;
 
+    private boolean init = false;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -39,6 +40,8 @@ public class Main0422Activity extends AppCompatActivity implements ButtomFragmen
                 .add(R.id.buttom_frame_3, btn_frame_3)
                 .commit();
 
+
+
         // 创建 ViewPager 适配器
         FragmentStatePagerAdapter fragmentPagerAdapter = new FragmentStatePagerAdapter(getSupportFragmentManager()) {
 
@@ -46,7 +49,10 @@ public class Main0422Activity extends AppCompatActivity implements ButtomFragmen
             public Fragment getItem(int position) {
                 switch (position) {
                     case 0:
-                        btn_frame_1.TextSelected(true);
+                        if (!init){
+                            btn_frame_1.TextSelected(true);
+                            init = true;
+                        }
                         return new PagerFragment_1();
                     case 1:
                         return new PagerFragment_2();
@@ -66,11 +72,11 @@ public class Main0422Activity extends AppCompatActivity implements ButtomFragmen
                 return "Page " + (position + 1);
             }
         };
-
         viewPager.setAdapter(fragmentPagerAdapter);
 
         // 监听ViewPager页面切换
         viewPager.addOnPageChangeListener(new ViewPager.OnPageChangeListener() {
+
             @Override
             public void onPageScrolled(int position, float positionOffset, int positionOffsetPixels) {
             }

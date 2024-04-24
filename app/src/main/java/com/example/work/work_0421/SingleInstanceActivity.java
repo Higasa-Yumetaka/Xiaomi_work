@@ -4,6 +4,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import android.widget.Button;
+import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -17,7 +18,8 @@ public class SingleInstanceActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        Log.i(TAG, "onCreate() pid" + android.os.Process.myPid() + " tid " + android.os.Process.myTid() + "hashCode " + this.hashCode());
+//        Log.i(TAG, "onCreate() pid" + android.os.Process.myPid() + " tid " + android.os.Process.myTid() + "hashCode " + this.hashCode());
+        Toast.makeText(this, "onCreate() pid" + android.os.Process.myPid() + " tid " + android.os.Process.myTid(), Toast.LENGTH_SHORT).show();
         setContentView(R.layout.activity_single_instance);
 
         Button button = findViewById(R.id.button_singleinstance);
@@ -31,13 +33,15 @@ public class SingleInstanceActivity extends AppCompatActivity {
     @Override
     protected void onStart() {
         super.onStart();
-        Log.i(TAG, "onStart() pid" + android.os.Process.myPid() + " tid " + android.os.Process.myTid() + "hashCode " + this.hashCode());
+//        Log.i(TAG, "onStart() pid" + android.os.Process.myPid() + " tid " + android.os.Process.myTid() + "hashCode " + this.hashCode());
+        Toast.makeText(this, "onStart() pid" + android.os.Process.myPid() + " tid " + android.os.Process.myTid(), Toast.LENGTH_SHORT).show();
     }
 
     @Override
     protected void onResume() {
         super.onResume();
-        Log.i(TAG, "onResume() pid" + android.os.Process.myPid() + " tid " + android.os.Process.myTid() + "hashCode " + this.hashCode());
+//        Log.i(TAG, "onResume() pid" + android.os.Process.myPid() + " tid " + android.os.Process.myTid() + "hashCode " + this.hashCode());
+        Toast.makeText(this, "onResume() pid" + android.os.Process.myPid() + " tid " + android.os.Process.myTid(), Toast.LENGTH_SHORT).show();
     }
 
     @Override

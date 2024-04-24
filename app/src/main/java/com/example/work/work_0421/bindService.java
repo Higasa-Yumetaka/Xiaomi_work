@@ -4,7 +4,7 @@ import android.app.Service;
 import android.content.Intent;
 import android.os.Binder;
 import android.os.IBinder;
-import android.util.Log;
+import android.widget.Toast;
 
 public class bindService extends Service {
 
@@ -15,12 +15,12 @@ public class bindService extends Service {
     @Override
     public void onCreate() {
         super.onCreate();
-        Log.i(TAG, "onCreate() pid" + android.os.Process.myPid() + " tid " + android.os.Process.myTid());
+        Toast.makeText(this, "onCreate() pid" + android.os.Process.myPid() + " tid " + android.os.Process.myTid(), Toast.LENGTH_SHORT).show();
     }
 
     @Override
     public int onStartCommand(Intent intent, int flags, int startId) {
-        Log.i(TAG, "onStartCommand() pid" + android.os.Process.myPid() + " tid " + android.os.Process.myTid());
+        Toast.makeText(this, "onStartCommand() pid" + android.os.Process.myPid() + " tid " + android.os.Process.myTid(), Toast.LENGTH_SHORT).show();
         return super.onStartCommand(intent, flags, startId);
     }
 
@@ -28,26 +28,26 @@ public class bindService extends Service {
 
     @Override
     public IBinder onBind(Intent intent) {
-        Log.i(TAG, "onBind() pid" + android.os.Process.myPid() + " tid " + android.os.Process.myTid());
+        Toast.makeText(this, "onBind() pid" + android.os.Process.myPid() + " tid " + android.os.Process.myTid(), Toast.LENGTH_SHORT).show();
         return localBinder;
     }
 
     @Override
     public boolean onUnbind(Intent intent) {
-        Log.i(TAG, "onUnbind() pid" + android.os.Process.myPid() + " tid " + android.os.Process.myTid());
+        Toast.makeText(this, "onUnbind() pid" + android.os.Process.myPid() + " tid " + android.os.Process.myTid(), Toast.LENGTH_SHORT).show();
         return super.onUnbind(intent);
     }
 
     @Override
     public void onRebind(Intent intent) {
-        Log.i(TAG, "onRebind() pid" + android.os.Process.myPid() + " tid " + android.os.Process.myTid());
+        Toast.makeText(this, "onRebind() pid" + android.os.Process.myPid() + " tid " + android.os.Process.myTid(), Toast.LENGTH_SHORT).show();
         super.onRebind(intent);
     }
 
     @Override
     public void onDestroy() {
         super.onDestroy();
-        Log.i(TAG, "onDestroy() pid" + android.os.Process.myPid() + " tid " + android.os.Process.myTid());
+        Toast.makeText(this, "onDestroy() pid" + android.os.Process.myPid() + " tid " + android.os.Process.myTid(), Toast.LENGTH_SHORT).show();
     }
 
     class MyLocalBinder extends Binder {

@@ -83,8 +83,15 @@ id fragment_frame_container
 id item_button
 id item_logo
 id item_name_textview
+id list_item_start_button
+id list_item_work_detail_textview
+id list_item_work_name_textview
 id ll_buttom
+id login_email
+id login_image
 id main
+id main_frame_layout
+id main_listView
 id menu_dashboard
 id menu_home
 id menu_notifications
@@ -102,6 +109,9 @@ id textView_dashboard
 id textView_home
 id textView_notification
 id viewPager
+layout activity_class0424_layout3
+layout activity_class0424_layout4
+layout activity_class0424_main
 layout activity_class_main0423
 layout activity_main
 layout activity_main2
@@ -121,6 +131,7 @@ layout fragment_viewpager_2_0422
 layout fragment_viewpager_3_0422
 layout layout_example_fragment
 layout layout_example_fragment2
+layout list_item_layout
 layout recycle_item_layout
 layout second_activity
 layout thrid_activity

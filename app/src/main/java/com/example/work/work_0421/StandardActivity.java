@@ -42,7 +42,7 @@ public class StandardActivity extends AppCompatActivity {
 
     }
 
-    MainActivity.startServiceConnection myServiceConnection = new MainActivity.startServiceConnection();
+    Work0421MainActivity.startServiceConnection myServiceConnection = new Work0421MainActivity.startServiceConnection();
 
 
     public static class startServiceConnection implements ServiceConnection {
