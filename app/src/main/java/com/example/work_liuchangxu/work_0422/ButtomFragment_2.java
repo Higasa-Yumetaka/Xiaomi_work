@@ -1,4 +1,4 @@
-package com.example.liuchangxu.work_0422;
+package com.example.work_liuchangxu.work_0422;
 
 import android.os.Bundle;
 import android.util.Log;
@@ -9,7 +9,7 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 
-import com.example.liuchangxu.R;
+import com.example.work_liuchangxu.R;
 
 public class ButtomFragment_2 extends Fragment {
 

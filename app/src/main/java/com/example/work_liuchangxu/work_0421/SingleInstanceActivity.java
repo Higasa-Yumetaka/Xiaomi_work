@@ -1,4 +1,4 @@
-package com.example.liuchangxu.work_0421;
+package com.example.work_liuchangxu.work_0421;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -8,7 +8,7 @@ import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.example.liuchangxu.R;
+import com.example.work_liuchangxu.R;
 
 
 public class SingleInstanceActivity extends AppCompatActivity {

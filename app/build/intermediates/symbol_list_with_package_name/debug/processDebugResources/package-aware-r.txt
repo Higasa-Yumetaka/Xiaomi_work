@@ -1,4 +1,4 @@
-com.example.work
+com.example.work_liuchangxu
 anim abc_fade_in
 anim abc_fade_out
 anim abc_grow_fade_in_from_bottom
@@ -77,6 +77,7 @@ animator mtrl_fab_hide_motion_spec
 animator mtrl_fab_show_motion_spec
 animator mtrl_fab_transformation_sheet_collapse_spec
 animator mtrl_fab_transformation_sheet_expand_spec
+array languages
 attr SharedValue
 attr SharedValueId
 attr actionBarDivider
@@ -1420,6 +1421,7 @@ color green
 color grey
 color highlighted_text_material_dark
 color highlighted_text_material_light
+color light_gray
 color m3_appbar_overlay_color
 color m3_assist_chip_icon_tint_color
 color m3_assist_chip_stroke_color
@@ -2025,6 +2027,7 @@ color memo_text_content
 color memo_text_ready
 color memo_text_time
 color memo_text_title
+color mid_gray
 color mtrl_btn_bg_color_selector
 color mtrl_btn_ripple_color
 color mtrl_btn_stroke_color_selector
@@ -2996,6 +2999,7 @@ drawable abc_vector_test
 drawable add
 drawable avd_hide_password
 drawable avd_show_password
+drawable back
 drawable btn_checkbox_checked_mtrl
 drawable btn_checkbox_checked_to_unchecked_mtrl_animation
 drawable btn_checkbox_unchecked_mtrl
@@ -3006,6 +3010,7 @@ drawable btn_radio_on_mtrl
 drawable btn_radio_on_to_off_mtrl_animation
 drawable button_pressed
 drawable button_selector
+drawable button_selector_0424
 drawable button_shape
 drawable design_fab_background
 drawable design_ic_visibility
@@ -3028,6 +3033,7 @@ drawable ic_mtrl_chip_checked_black
 drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
 drawable ic_search_black_24
+drawable item_round_gray_backfround
 drawable logo1
 drawable logo10
 drawable logo11
@@ -3113,6 +3119,19 @@ drawable notification_template_icon_bg
 drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
+drawable pic1
+drawable pic2
+drawable pic3
+drawable pic4
+drawable pic5
+drawable pic6
+drawable pic7
+drawable pic_privacy
+drawable round_blue_background
+drawable rounded_gray_background
+drawable save
+drawable search
+drawable simple_back
 drawable test_level_drawable
 drawable textview_background
 drawable tooltip_frame_dark
@@ -3220,6 +3239,8 @@ id buttom_frame_1
 id buttom_frame_2
 id buttom_frame_3
 id buttonPanel
+id button_1
+id button_2
 id button_2_bind_service_1
 id button_2_bind_service_2
 id button_2_singleinstance
@@ -3230,8 +3251,11 @@ id button_2_start_service
 id button_2_stop_service
 id button_2_unbind_service_1
 id button_2_unbind_service_2
+id button_3
+id button_4
 id button_add_fragment
 id button_change_another_color
+id button_group_activity_main0424
 id button_replace_fragmrnt
 id button_second
 id button_singleinstance
@@ -3351,6 +3375,8 @@ id graph_wrap
 id group_divider
 id grouping
 id groups
+id header_activity_main0424
+id header_text_activity_main0424
 id header_title
 id hideable
 id home
@@ -3363,6 +3389,7 @@ id ifRoom
 id ignore
 id ignoreRequest
 id image
+id imageView
 id immediateStop
 id included
 id indeterminate
@@ -3370,6 +3397,12 @@ id info
 id invisible
 id inward
 id italic
+id item_1_activity_main0424
+id item_2_activity_main0424
+id item_3_activity_main0424
+id item_4_activity_main0424
+id item_5_activity_main0424
+id item_6_activity_main0424
 id item_button
 id item_logo
 id item_name_textview
@@ -3386,15 +3419,15 @@ id line3
 id linear
 id listMode
 id list_item
+id list_item_imageview0424
+id list_item_name_textview0424
 id list_item_start_button
 id list_item_work_detail_textview
 id list_item_work_name_textview
+id list_view_activity_main0424
 id ll_buttom
-id login_email
-id login_image
 id m3_side_sheet
 id main
-id main_frame_layout
 id main_listView
 id marquee
 id masked
@@ -3507,6 +3540,7 @@ id path
 id pathRelative
 id peekHeight
 id percent
+id pic_privacy
 id pin
 id position
 id postLayout
@@ -3535,6 +3569,7 @@ id scrollIndicatorDown
 id scrollIndicatorUp
 id scrollView
 id scrollable
+id search_activity_main0424
 id search_badge
 id search_bar
 id search_button
@@ -3543,12 +3578,17 @@ id search_edit_frame
 id search_go_btn
 id search_mag_icon
 id search_plate
+id search_result_activity_main0424
 id search_src_text
+id search_view
 id search_voice_btn
 id select_dialog_listview
 id selected
 id selection_type
 id send_static_broadcast
+id service_activity_main0424
+id service_help_center_more_text
+id service_help_center_text
 id sharedValueSet
 id sharedValueUnset
 id shortcut
@@ -3566,6 +3606,7 @@ id snapMargins
 id south
 id spacer
 id special_effects_controller_view_tag
+id spinner_language
 id spline
 id split_action_bar
 id spread
@@ -3782,11 +3823,9 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
-layout activity_class0424_layout3
-layout activity_class0424_layout4
-layout activity_class0424_main
 layout activity_class_main0423
 layout activity_main
+layout activity_main0424
 layout activity_main2
 layout activity_main_0422
 layout activity_recycle
@@ -3795,6 +3834,8 @@ layout activity_single_instance
 layout activity_single_task
 layout activity_single_top
 layout activity_standard
+layout button_activity_main_0424
+layout button_group_activity_main0424
 layout custom_dialog
 layout delete_dialog
 layout design_bottom_navigation_item
@@ -3818,9 +3859,12 @@ layout fragment_buttom_3_0422
 layout fragment_viewpager_1_0422
 layout fragment_viewpager_2_0422
 layout fragment_viewpager_3_0422
+layout header_activity_main0424
+layout item_activity_main0424
 layout layout_example_fragment
 layout layout_example_fragment2
 layout list_item_layout
+layout list_item_layout0424
 layout m3_alert_dialog
 layout m3_alert_dialog_actions
 layout m3_alert_dialog_title
@@ -3879,10 +3923,12 @@ layout notification_template_icon_group
 layout notification_template_part_chronometer
 layout notification_template_part_time
 layout recycle_item_layout
+layout search_activity_main0424
 layout second_activity
 layout select_dialog_item_material
 layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material
+layout service_activity_main0424
 layout support_simple_spinner_dropdown_item
 layout thrid_activity
 layout true_activity_main
@@ -4062,6 +4108,8 @@ string status_bar_notification_info_overflow
 string stop_service
 string unbind_service
 string unbind_service_2
+string 用户协议
+string 隐私政策
 style AlertDialog_AppCompat
 style AlertDialog_AppCompat_Light
 style Animation_AppCompat_Dialog
@@ -4689,7 +4737,7 @@ style Theme_MaterialComponents_Light_NoActionBar
 style Theme_MaterialComponents_Light_NoActionBar_Bridge
 style Theme_MaterialComponents_NoActionBar
 style Theme_MaterialComponents_NoActionBar_Bridge
-style Theme_Work
+style Theme_work_liuchanxu
 style ThemeOverlay_AppCompat
 style ThemeOverlay_AppCompat_ActionBar
 style ThemeOverlay_AppCompat_Dark

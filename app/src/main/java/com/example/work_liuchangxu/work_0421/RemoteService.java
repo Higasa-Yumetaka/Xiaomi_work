@@ -1,11 +1,11 @@
-package com.example.liuchangxu.work_0421;
+package com.example.work_liuchangxu.work_0421;
 
 import android.app.Service;
 import android.content.Intent;
 import android.os.IBinder;
 import android.widget.Toast;
 
-import com.example.liuchangxu.IMyAidlInterface;
+import com.example.work_liuchangxu.IMyAidlInterface;
 
 public class RemoteService extends Service {
     public RemoteService() {

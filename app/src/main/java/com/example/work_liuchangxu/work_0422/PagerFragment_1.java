@@ -1,4 +1,4 @@
-package com.example.liuchangxu.work_0422;
+package com.example.work_liuchangxu.work_0422;
 
 import android.os.Bundle;
 
@@ -9,7 +9,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
-import com.example.liuchangxu.R;
+import com.example.work_liuchangxu.R;
 
 public class PagerFragment_1 extends Fragment {
     @Override

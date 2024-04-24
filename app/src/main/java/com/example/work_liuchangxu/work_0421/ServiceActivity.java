@@ -1,10 +1,10 @@
-package com.example.liuchangxu.work_0421;
+package com.example.work_liuchangxu.work_0421;
 
 import android.os.Bundle;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.example.liuchangxu.R;
+import com.example.work_liuchangxu.R;
 
 public class ServiceActivity extends AppCompatActivity {
 

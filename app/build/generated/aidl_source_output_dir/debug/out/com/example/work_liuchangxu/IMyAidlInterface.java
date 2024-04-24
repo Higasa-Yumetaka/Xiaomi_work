@@ -1,11 +1,11 @@
 /*
  * This file is auto-generated.  DO NOT MODIFY.
  */
-package com.example.liuchangxu;
+package com.example.work_liuchangxu;
 public interface IMyAidlInterface extends android.os.IInterface
 {
   /** Default implementation for IMyAidlInterface. */
-  public static class Default implements com.example.liuchangxu.IMyAidlInterface
+  public static class Default implements com.example.work_liuchangxu.IMyAidlInterface
   {
     @Override public int add(int a, int b) throws android.os.RemoteException
     {
@@ -17,7 +17,7 @@ public interface IMyAidlInterface extends android.os.IInterface
     }
   }
   /** Local-side IPC implementation stub class. */
-  public static abstract class Stub extends android.os.Binder implements com.example.liuchangxu.IMyAidlInterface
+  public static abstract class Stub extends android.os.Binder implements com.example.work_liuchangxu.IMyAidlInterface
   {
     /** Construct the stub at attach it to the interface. */
     public Stub()
@@ -25,19 +25,19 @@ public interface IMyAidlInterface extends android.os.IInterface
       this.attachInterface(this, DESCRIPTOR);
     }
     /**
-     * Cast an IBinder object into an com.example.work.IMyAidlInterface interface,
+     * Cast an IBinder object into an com.example.work_liuchangxu.IMyAidlInterface interface,
      * generating a proxy if needed.
      */
-    public static com.example.liuchangxu.IMyAidlInterface asInterface(android.os.IBinder obj)
+    public static com.example.work_liuchangxu.IMyAidlInterface asInterface(android.os.IBinder obj)
     {
       if ((obj==null)) {
         return null;
       }
       android.os.IInterface iin = obj.queryLocalInterface(DESCRIPTOR);
-      if (((iin!=null)&&(iin instanceof com.example.liuchangxu.IMyAidlInterface))) {
-        return ((com.example.liuchangxu.IMyAidlInterface)iin);
+      if (((iin!=null)&&(iin instanceof com.example.work_liuchangxu.IMyAidlInterface))) {
+        return ((com.example.work_liuchangxu.IMyAidlInterface)iin);
       }
-      return new com.example.liuchangxu.IMyAidlInterface.Stub.Proxy(obj);
+      return new com.example.work_liuchangxu.IMyAidlInterface.Stub.Proxy(obj);
     }
     @Override public android.os.IBinder asBinder()
     {
@@ -77,7 +77,7 @@ public interface IMyAidlInterface extends android.os.IInterface
       }
       return true;
     }
-    private static class Proxy implements com.example.liuchangxu.IMyAidlInterface
+    private static class Proxy implements com.example.work_liuchangxu.IMyAidlInterface
     {
       private android.os.IBinder mRemote;
       Proxy(android.os.IBinder remote)
@@ -114,6 +114,6 @@ public interface IMyAidlInterface extends android.os.IInterface
     }
     static final int TRANSACTION_add = (android.os.IBinder.FIRST_CALL_TRANSACTION + 0);
   }
-  public static final java.lang.String DESCRIPTOR = "com.example.work.IMyAidlInterface";
+  public static final java.lang.String DESCRIPTOR = "com.example.work_liuchangxu.IMyAidlInterface";
   public int add(int a, int b) throws android.os.RemoteException;
 }

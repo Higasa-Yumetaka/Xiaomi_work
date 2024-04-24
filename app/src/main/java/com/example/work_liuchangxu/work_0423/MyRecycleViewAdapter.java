@@ -1,4 +1,4 @@
-package com.example.liuchangxu.work_0423;
+package com.example.work_liuchangxu.work_0423;
 
 import android.view.LayoutInflater;
 import android.view.View;
@@ -10,7 +10,7 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.example.liuchangxu.R;
+import com.example.work_liuchangxu.R;
 
 import java.util.List;
 

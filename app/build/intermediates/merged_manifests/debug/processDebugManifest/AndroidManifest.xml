@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.work"
+    package="com.example.work_liuchangxu"
     android:versionCode="1"
     android:versionName="1.0" >
 
@@ -11,10 +11,10 @@
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 
     <permission
-        android:name="com.example.work.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+        android:name="com.example.work_liuchangxu.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
         android:protectionLevel="signature" />
 
-    <uses-permission android:name="com.example.work.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+    <uses-permission android:name="com.example.work_liuchangxu.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
 
     <application
         android:allowBackup="true"
@@ -28,42 +28,13 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:testOnly="true"
-        android:theme="@style/Theme.Work" >
+        android:theme="@style/Theme.work_liuchanxu" >
         <activity
-            android:name="class_0424.Class0424Layout3"
+            android:name="com.example.work_liuchangxu.work_0424.Main0424Activity"
             android:exported="true" >
-
-            <!-- <intent-filter> -->
-            <!-- <action android:name="android.intent.action.MAIN" /> -->
-
-
-            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
-            <!-- </intent-filter> -->
         </activity>
         <activity
-            android:name="class_0424.Class0423Layout2"
-            android:exported="true" >
-
-            <!-- <intent-filter> -->
-            <!-- <action android:name="android.intent.action.MAIN" /> -->
-
-
-            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
-            <!-- </intent-filter> -->
-        </activity>
-        <activity
-            android:name="class_0424.Class0424MainActivity"
-            android:exported="true" >
-
-            <!-- <intent-filter> -->
-            <!-- <action android:name="android.intent.action.MAIN" /> -->
-
-
-            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
-            <!-- </intent-filter> -->
-        </activity>
-        <activity
-            android:name="com.example.work.TrueMainActivity"
+            android:name="com.example.work_liuchangxu.TrueMainActivity"
             android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -72,107 +43,72 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.example.work.work_0423.RecycleActivity"
+            android:name="com.example.work_liuchangxu.work_0423.RecycleActivity"
             android:exported="true" >
-
-            <!-- <intent-filter> -->
-            <!-- <action android:name="android.intent.action.MAIN" /> -->
-
-
-            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
-            <!-- </intent-filter> -->
         </activity>
         <activity
-            android:name="class_0423.ClassMain0423Activity"
+            android:name="com.example.work_liuchangxu.work_0422.Main0422Activity"
             android:exported="true" >
-
-            <!-- <intent-filter> -->
-            <!-- <action android:name="android.intent.action.MAIN" /> -->
-
-
-            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
-            <!-- </intent-filter> -->
         </activity>
-        <activity
-            android:name="com.example.work.work_0422.Main0422Activity"
-            android:enabled="true"
-            android:exported="true" >
-
-            <!-- <intent-filter> -->
-            <!-- <action android:name="android.intent.action.MAIN" /> -->
-
-
-            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
-            <!-- </intent-filter> -->
-        </activity>
-        <activity
-            android:name="class_0422.MainActivity"
-            android:enabled="true"
-            android:exported="true" />
 
         <service
-            android:name="com.example.work.work_0421.RemoteService"
+            android:name="com.example.work_liuchangxu.work_0421.RemoteService"
             android:enabled="true"
             android:exported="false"
             android:permission="TODO" />
 
         <receiver
-            android:name="com.example.work.work_0421.NativeReceiver"
+            android:name="com.example.work_liuchangxu.work_0421.NativeReceiver"
             android:enabled="true"
             android:exported="true" />
         <receiver
-            android:name="com.example.work.work_0421.StaticReceiver"
+            android:name="com.example.work_liuchangxu.work_0421.StaticReceiver"
             android:enabled="true"
             android:exported="true" >
             <intent-filter>
-                <action android:name="com.example.work.Static_Action" />
+                <action android:name="com.example.work_liuchangxu.Static_Action" />
 
                 <data android:mimeType="text/plain" />
             </intent-filter>
         </receiver>
 
         <activity
-            android:name="com.example.work.work_0421.ServiceActivity"
+            android:name="com.example.work_liuchangxu.work_0421.ServiceActivity"
             android:exported="false" />
 
         <service
-            android:name="com.example.work.work_0421.bindService"
+            android:name="com.example.work_liuchangxu.work_0421.bindService"
             android:enabled="true"
             android:exported="true" />
         <service
-            android:name="com.example.work.work_0421.startService"
+            android:name="com.example.work_liuchangxu.work_0421.startService"
             android:enabled="true"
             android:exported="true" />
 
         <activity
-            android:name="com.example.work.work_0421.SingleInstanceActivity"
+            android:name="com.example.work_liuchangxu.work_0421.SingleInstanceActivity"
             android:exported="false"
             android:launchMode="singleInstance" />
         <activity
-            android:name="com.example.work.work_0421.SingleTaskActivity"
+            android:name="com.example.work_liuchangxu.work_0421.SingleTaskActivity"
             android:exported="false"
             android:launchMode="singleTask" />
         <activity
-            android:name="com.example.work.work_0421.SingleTopActivity"
+            android:name="com.example.work_liuchangxu.work_0421.SingleTopActivity"
             android:exported="false"
             android:launchMode="singleTop" />
         <activity
-            android:name="com.example.work.work_0421.StandardActivity"
+            android:name="com.example.work_liuchangxu.work_0421.StandardActivity"
             android:exported="false"
             android:launchMode="standard" />
         <activity
-            android:name="com.example.work.work_0421.Work0421MainActivity"
+            android:name="com.example.work_liuchangxu.work_0421.Work0421MainActivity"
             android:exported="true" >
-
-            <!-- <intent-filter> -->
-            <!-- <action android:name="android.intent.action.MAIN" /> -->
-            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
-            <!-- </intent-filter> -->
         </activity>
 
         <provider
             android:name="androidx.startup.InitializationProvider"
-            android:authorities="com.example.work.androidx-startup"
+            android:authorities="com.example.work_liuchangxu.androidx-startup"
             android:exported="false" >
             <meta-data
                 android:name="androidx.emoji2.text.EmojiCompatInitializer"

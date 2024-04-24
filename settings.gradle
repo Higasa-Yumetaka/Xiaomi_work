@@ -19,5 +19,5 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "Work"
+rootProject.name = "work_liuchangxu"
 include ':app'

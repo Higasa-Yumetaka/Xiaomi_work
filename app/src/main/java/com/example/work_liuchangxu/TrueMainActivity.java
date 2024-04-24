@@ -1,4 +1,4 @@
-package com.example.liuchangxu;
+package com.example.work_liuchangxu;
 
 import android.content.Context;
 import android.content.Intent;
@@ -14,9 +14,10 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.example.liuchangxu.work_0421.Work0421MainActivity;
-import com.example.liuchangxu.work_0422.Main0422Activity;
-import com.example.liuchangxu.work_0423.RecycleActivity;
+import com.example.work_liuchangxu.work_0421.Work0421MainActivity;
+import com.example.work_liuchangxu.work_0422.Main0422Activity;
+import com.example.work_liuchangxu.work_0423.RecycleActivity;
+import com.example.work_liuchangxu.work_0424.Main0424Activity;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -32,9 +33,12 @@ public class TrueMainActivity extends AppCompatActivity {
         setContentView(R.layout.true_activity_main);
 
         // 新建作业添加到NameList
-        NameList.add("work_0421|Activity");
-        NameList.add("work_0422|Fragment");
+        NameList.add("work_0424|UI");
         NameList.add("work_0423|RecycleView");
+        NameList.add("work_0422|Fragment");
+        NameList.add("work_0421|Activity");
+
+
 
         MyListAdapter adapter = new MyListAdapter(TrueMainActivity.this, R.layout.list_item_layout, NameList);
         adapter.setOnItemClickListener(onButtonClickListener);
@@ -47,11 +51,13 @@ public class TrueMainActivity extends AppCompatActivity {
         Intent intent = null;
         // 新建作业跳转
         if(position == 0) {
-            intent = new Intent(this, Work0421MainActivity.class);
+            intent = new Intent(this, Main0424Activity.class);
         } else if(position == 1) {
-            intent = new Intent(this, Main0422Activity.class);
-        } else if(position == 2) {
             intent = new Intent(this, RecycleActivity.class);
+        } else if(position == 2) {
+            intent = new Intent(this, Main0422Activity.class);
+        } else if(position == 3) {
+            intent = new Intent(this, Work0421MainActivity.class);
         }
         startActivity(intent);
     };

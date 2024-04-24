@@ -1,4 +1,4 @@
-package com.example.liuchangxu.work_0423;
+package com.example.work_liuchangxu.work_0423;
 
 public class MyBean {
 

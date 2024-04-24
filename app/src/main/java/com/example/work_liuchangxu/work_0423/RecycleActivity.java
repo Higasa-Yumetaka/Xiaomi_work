@@ -1,4 +1,4 @@
-package com.example.liuchangxu.work_0423;
+package com.example.work_liuchangxu.work_0423;
 
 import android.os.Bundle;
 import android.util.Log;
@@ -10,7 +10,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.example.liuchangxu.R;
+import com.example.work_liuchangxu.R;
 
 import java.util.ArrayList;
 import java.util.List;

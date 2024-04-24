@@ -1,4 +1,4 @@
-package com.example.liuchangxu.work_0422;
+package com.example.work_liuchangxu.work_0422;
 
 import android.os.Bundle;
 
@@ -7,7 +7,7 @@ import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentStatePagerAdapter;
 import androidx.viewpager.widget.ViewPager;
 
-import com.example.liuchangxu.R;
+import com.example.work_liuchangxu.R;
 
 public class Main0422Activity extends AppCompatActivity implements ButtomFragment_1.IButtomFragmentAction_1, ButtomFragment_2.IButtomFragmentAction_2, ButtomFragment_3.IButtomFragmentAction_3{
 

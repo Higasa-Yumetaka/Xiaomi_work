@@ -12,6 +12,8 @@
     <color name="orange">#FFBB00</color>
     <color name="orange_pressed">#FF7700</color>
     <color name="grey">#9E9E9E</color>
+    <color name="light_gray">#60D3D3D3</color>
+    <color name="mid_gray">#8E92AF</color>
     <color name="memo_item">#ededed</color><!--便签元素颜色-->
     <color name="memo_background">#f7f7f7</color><!--便签背景颜色-->
     <color name="memo_text_title">#191919</color><!--便签标题颜色-->

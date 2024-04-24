@@ -3,11 +3,11 @@ plugins {
 }
 
 android {
-    namespace 'com.example.work'
+    namespace 'com.example.work_liuchangxu'
     compileSdk 34
 
     defaultConfig {
-        applicationId "com.example.work"
+        applicationId "com.example.work_liuchangxu"
         minSdk 27
         targetSdk 34
         versionCode 1

@@ -1,4 +1,4 @@
-package com.example.liuchangxu;
+package com.example.work_liuchangxu;
 
 import org.junit.Test;
 
