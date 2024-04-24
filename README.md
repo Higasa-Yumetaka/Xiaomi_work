@@ -1,14 +1,12 @@
 # Xiaomi Android Works
 
-## 启动APP后，可以看到以下界面：
-![启动界面](demo/主页.png)
-## 点击某一天作业的“打开”按钮即可跳转到当天作业APP界面
-
 ## 作业0424已上传
 ```
 1. 实现一个UI
 2. 查看过度绘制
 3. 实现图片src与文本的动态加载
+```
+![实现的界面](demo/work_0424/作业展示0424.png)
 ```
 ### 演示视频见[此处](demo/work_0424/作业演示视频0424.mp4)
 ### 代码见[此处](app/src/main/java/com/example/work_liuchangxu/work_0423)
