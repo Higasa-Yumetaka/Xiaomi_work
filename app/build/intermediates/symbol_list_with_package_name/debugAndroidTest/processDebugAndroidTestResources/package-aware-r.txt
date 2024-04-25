@@ -1,3 +1,0 @@
-com.example.work_liuchangxu.test
-style WhiteBackgroundDialogTheme
-style WhiteBackgroundTheme
