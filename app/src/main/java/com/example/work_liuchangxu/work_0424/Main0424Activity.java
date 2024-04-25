@@ -39,8 +39,8 @@ public class Main0424Activity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main0424);
 
-        List1.add("忘记账号了，该如何找回？");
-        List1.add("忘记密码了，如何重置密码？");
+        List1.add("忘记账号了，该如何找回?");
+        List1.add("忘记密码了，如何重置密码?");
         List1.add("手机号停用了，如何登录或换绑手机号?");
         List1.add("申诉不通过怎么办?");
         List1.add("账号被盗了，怎么办?");

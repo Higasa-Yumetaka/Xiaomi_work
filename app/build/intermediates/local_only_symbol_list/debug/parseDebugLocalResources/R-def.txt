@@ -98,6 +98,7 @@ id button_singleinstance
 id button_singletask
 id button_singletop
 id button_standard
+id class0425imageView
 id delete_cancel
 id delete_confirm
 id delete_message
@@ -150,6 +151,7 @@ id textView_dashboard
 id textView_home
 id textView_notification
 id viewPager
+layout activity_class0425_main
 layout activity_class_main0423
 layout activity_main
 layout activity_main0424

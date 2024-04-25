@@ -15,37 +15,48 @@
         android:theme="@style/Theme.work_liuchanxu"
         tools:targetApi="31">
         <activity
-            android:name=".work_0424.Main0424Activity"
-            android:exported="true" >
+            android:name=".class_0425.Class0425MainActivity2"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
         </activity>
+        <activity
+            android:name=".class_0425.Class0425MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".work_0424.Main0424Activity"
+            android:exported="true" />
         <activity
             android:name=".TrueMainActivity"
-            android:exported="true">
-             <intent-filter>
-             <action android:name="android.intent.action.MAIN" />
-             <category android:name="android.intent.category.LAUNCHER" />
-             </intent-filter>
-        </activity>
+            android:exported="true"></activity>
         <activity
             android:name=".work_0423.RecycleActivity"
-            android:exported="true">
-        </activity>
+            android:exported="true" />
         <activity
             android:name=".work_0422.Main0422Activity"
-            android:exported="true">
-        </activity>
+            android:exported="true" />
+
         <service
-            android:name="com.example.work_liuchangxu.work_0421.RemoteService"
+            android:name=".work_0421.RemoteService"
             android:enabled="true"
             android:exported="false"
             android:permission="TODO" />
 
         <receiver
-            android:name="com.example.work_liuchangxu.work_0421.NativeReceiver"
+            android:name=".work_0421.NativeReceiver"
             android:enabled="true"
             android:exported="true" />
         <receiver
-            android:name="com.example.work_liuchangxu.work_0421.StaticReceiver"
+            android:name=".work_0421.StaticReceiver"
             android:enabled="true"
             android:exported="true">
             <intent-filter>
@@ -86,8 +97,7 @@
             android:launchMode="standard" />
         <activity
             android:name=".work_0421.Work0421MainActivity"
-            android:exported="true">
-        </activity>
+            android:exported="true" />
     </application>
 
 </manifest>

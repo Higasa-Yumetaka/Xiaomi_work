@@ -19,5 +19,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "work_liuchangxu"
+rootProject.name = "class_liuchangxu"
 include ':app'
+include ':class_0425_library'
