@@ -4,7 +4,21 @@
             "outputFile": "com.example.work_liuchangxu.app-mergeDebugResources-36:/values-v24/values-v24.xml",
             "map": [
                 {
+<<<<<<< HEAD
                     "source": "C:\\Users\\34829\\.gradle\\caches\\transforms-3\\f7f64397ad2a82414252301f318e3cab\\transformed\\material-1.11.0\\res\\values-v24\\values-v24.xml",
+=======
+                    "source": "C:\\Users\\34829\\.gradle\\caches\\transforms-4\\f9ba8cf535dbaf3e83b176bffeaef613\\transformed\\appcompat-1.6.1\\res\\values-v24\\values-v24.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,212",
+                        "endColumns": "156,134",
+                        "endOffsets": "207,342"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\34829\\.gradle\\caches\\transforms-4\\09f481c02a94031248cdedb2d89e3225\\transformed\\material-1.11.0\\res\\values-v24\\values-v24.xml",
+>>>>>>> 69a99b6878855218abb7e8416899f8cf86e85b2b
                     "from": {
                         "startLines": "2,3,4,5,6,9,12,15",
                         "startColumns": "4,4,4,4,4,4,4,4",
@@ -21,6 +35,7 @@
                         "endColumns": "84,98,86,100,10,10,10,10",
                         "endOffsets": "427,526,613,714,913,1126,1327,1542"
                     }
+<<<<<<< HEAD
                 },
                 {
                     "source": "C:\\Users\\34829\\.gradle\\caches\\transforms-3\\9c117f5d860e61184361d37fbc4fa793\\transformed\\appcompat-1.6.1\\res\\values-v24\\values-v24.xml",
@@ -31,6 +46,8 @@
                         "endColumns": "156,134",
                         "endOffsets": "207,342"
                     }
+=======
+>>>>>>> 69a99b6878855218abb7e8416899f8cf86e85b2b
                 }
             ]
         }

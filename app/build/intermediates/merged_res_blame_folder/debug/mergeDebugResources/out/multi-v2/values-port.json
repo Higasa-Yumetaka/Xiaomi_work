@@ -4,7 +4,11 @@
             "outputFile": "com.example.work_liuchangxu.app-mergeDebugResources-36:/values-port/values-port.xml",
             "map": [
                 {
+<<<<<<< HEAD
                     "source": "C:\\Users\\34829\\.gradle\\caches\\transforms-3\\9c117f5d860e61184361d37fbc4fa793\\transformed\\appcompat-1.6.1\\res\\values-port\\values-port.xml",
+=======
+                    "source": "C:\\Users\\34829\\.gradle\\caches\\transforms-4\\f9ba8cf535dbaf3e83b176bffeaef613\\transformed\\appcompat-1.6.1\\res\\values-port\\values-port.xml",
+>>>>>>> 69a99b6878855218abb7e8416899f8cf86e85b2b
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

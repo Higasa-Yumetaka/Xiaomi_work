@@ -17,7 +17,7 @@ android {
     }
 
     buildFeatures{
-        aidl = true
+        aidl = true // enable aidl
     }
 
     buildTypes {
@@ -29,6 +29,7 @@ android {
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_17
         targetCompatibility JavaVersion.VERSION_17
+        // ^jdk16:允许在class内声明static变量
     }
 }
 
@@ -43,8 +44,15 @@ dependencies {
     androidTestImplementation libs.espresso.core
     implementation libs.glide
 
+<<<<<<< HEAD
     implementation libs.fragment
     implementation libs.fragment.ktx
     implementation(libs.recyclerview)
+=======
+    // fragment java and kotlin dependencies
+    implementation libs.fragment
+    implementation libs.fragment.ktx
+
+>>>>>>> 69a99b6878855218abb7e8416899f8cf86e85b2b
 
 }
