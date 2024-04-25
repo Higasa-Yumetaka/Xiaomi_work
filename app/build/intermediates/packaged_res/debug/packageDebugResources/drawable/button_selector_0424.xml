@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_selected="true">
+        <shape android:shape="rectangle">
+            <size android:width="50dp" android:height="50dp"/> <!-- 调整按钮的大小 -->
+            <corners android:radius="25dp" />
+            <solid android:color="#FFE8F3FF" />
+        </shape>
+        <color android:color="#ff4d7dfd"/>
+    </item>
+    <item>
+        <shape android:shape="rectangle">
+            <size android:width="50dp" android:height="50dp"/> <!-- 调整按钮的大小 -->
+            <corners android:radius="25dp" />
+            <solid android:color="#00ffffff" />
+        </shape>
+        <color android:color="#ff666666"/>
+    </item>
+</selector>

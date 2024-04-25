@@ -1,0 +1,53 @@
+plugins {
+    alias(libs.plugins.androidApplication)
+}
+
+android {
+    namespace 'com.example.work_liuchangxu'
+    compileSdk 34
+
+    defaultConfig {
+        applicationId "com.example.work_liuchangxu"
+        minSdk 27
+        targetSdk 34
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    buildFeatures{
+        aidl = true // enable aidl
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+        // ^jdk16:允许在class内声明static变量
+    }
+}
+
+dependencies {
+
+    implementation libs.appcompat
+    implementation libs.material
+    implementation libs.activity
+    implementation libs.constraintlayout
+    // maven
+    testImplementation libs.junit
+    androidTestImplementation libs.ext.junit
+    androidTestImplementation libs.espresso.core
+
+    // fragment java and kotlin dependencies
+    implementation libs.fragment
+    implementation libs.fragment.ktx
+    // eventbus
+    implementation(libs.eventbus)
+
+
+}

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <include
+        android:id="@+id/item_1_activity_main0424"
+        layout="@layout/item_activity_main0424"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintHorizontal_chainStyle="spread_inside"
+        app:layout_constraintEnd_toStartOf="@id/item_2_activity_main0424"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <include
+        android:id="@+id/item_2_activity_main0424"
+        layout="@layout/item_activity_main0424"
+        android:src="@drawable/pic2"
+        app:layout_constraintStart_toEndOf="@id/item_1_activity_main0424"
+        app:layout_constraintTop_toTopOf="@id/item_1_activity_main0424"
+        app:layout_constraintBottom_toBottomOf="@id/item_1_activity_main0424"
+        app:layout_constraintEnd_toStartOf="@id/item_3_activity_main0424"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <include
+        android:id="@+id/item_3_activity_main0424"
+        layout="@layout/item_activity_main0424"
+        app:layout_constraintStart_toEndOf="@id/item_2_activity_main0424"
+        app:layout_constraintTop_toTopOf="@id/item_1_activity_main0424"
+        app:layout_constraintBottom_toBottomOf="@id/item_1_activity_main0424"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <include
+        android:id="@+id/item_4_activity_main0424"
+        layout="@layout/item_activity_main0424"
+        android:layout_marginTop="12dp"
+        app:layout_constraintHorizontal_chainStyle="spread_inside"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/item_1_activity_main0424"
+        app:layout_constraintEnd_toStartOf="@id/item_5_activity_main0424"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <include
+        android:id="@+id/item_5_activity_main0424"
+        layout="@layout/item_activity_main0424"
+        app:layout_constraintStart_toEndOf="@id/item_4_activity_main0424"
+        app:layout_constraintEnd_toStartOf="@id/item_6_activity_main0424"
+        app:layout_constraintTop_toTopOf="@id/item_4_activity_main0424"
+        app:layout_constraintBottom_toBottomOf="@id/item_4_activity_main0424"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <include
+        android:id="@+id/item_6_activity_main0424"
+        layout="@layout/item_activity_main0424"
+        app:layout_constraintStart_toEndOf="@id/item_5_activity_main0424"
+        app:layout_constraintTop_toTopOf="@id/item_4_activity_main0424"
+        app:layout_constraintBottom_toBottomOf="@id/item_4_activity_main0424"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
