@@ -17,7 +17,7 @@ android {
     }
 
     buildFeatures{
-        aidl = true
+        aidl = true // enable aidl
     }
 
     buildTypes {
@@ -29,6 +29,7 @@ android {
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_17
         targetCompatibility JavaVersion.VERSION_17
+        // ^jdk16:允许在class内声明static变量
     }
 }
 
@@ -42,8 +43,9 @@ dependencies {
     androidTestImplementation libs.ext.junit
     androidTestImplementation libs.espresso.core
 
-    def fragment_version = "1.6.2"
-    implementation "androidx.fragment:fragment:$fragment_version"
-    implementation "androidx.fragment:fragment-ktx:$fragment_version"
+    // fragment java and kotlin dependencies
+    implementation libs.fragment
+    implementation libs.fragment.ktx
+
 
 }
