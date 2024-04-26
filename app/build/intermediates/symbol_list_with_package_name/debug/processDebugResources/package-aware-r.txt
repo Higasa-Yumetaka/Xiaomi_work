@@ -3148,6 +3148,8 @@ drawable textview_background
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
 id ALT
+id ActivityImageView0425
+id ActivityTextView0425
 id BOTTOM_END
 id BOTTOM_START
 id BaseQuickAdapter_databinding_support
@@ -3641,6 +3643,8 @@ id src_atop
 id src_in
 id src_over
 id standard
+id star_button_image0425
+id star_button_text0425
 id start
 id startHorizontal
 id startToEnd
@@ -3652,6 +3656,7 @@ id stretch
 id submenuarrow
 id submit_area
 id supportScrollUp
+id swipeRefreshLayout_0425
 id tabMode
 id tablayout0425
 id tag_accessibility_actions
@@ -3854,6 +3859,8 @@ layout activity_main0425
 layout activity_main_0422
 layout activity_recycle
 layout activity_service
+layout activity_show_image0425
+layout activity_show_text0425
 layout activity_single_instance
 layout activity_single_task
 layout activity_single_top

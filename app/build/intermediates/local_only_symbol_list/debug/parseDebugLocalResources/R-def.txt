@@ -72,6 +72,8 @@ drawable save
 drawable search
 drawable simple_back
 drawable textview_background
+id ActivityImageView0425
+id ActivityTextView0425
 id add_button
 id buttom_frame_1
 id buttom_frame_2
@@ -138,6 +140,9 @@ id service_activity_main0424
 id service_help_center_more_text
 id service_help_center_text
 id spinner_language
+id star_button_image0425
+id star_button_text0425
+id swipeRefreshLayout_0425
 id tablayout0425
 id textView
 id textView3
@@ -156,6 +161,8 @@ layout activity_main0425
 layout activity_main_0422
 layout activity_recycle
 layout activity_service
+layout activity_show_image0425
+layout activity_show_text0425
 layout activity_single_instance
 layout activity_single_task
 layout activity_single_top

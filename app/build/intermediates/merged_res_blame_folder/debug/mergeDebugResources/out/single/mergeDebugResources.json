@@ -116,6 +116,10 @@
         "source": "C:\\Users\\34829\\.gradle\\daemon\\8.7\\com.example.work_liuchangxu.app-main-43:\\layout\\list_item_layout0424.xml"
     },
     {
+        "merged": "C:\\Users\\34829\\.gradle\\daemon\\8.7\\com.example.work_liuchangxu.app-debug-41:\\layout_activity_show_text0425.xml.flat",
+        "source": "C:\\Users\\34829\\.gradle\\daemon\\8.7\\com.example.work_liuchangxu.app-main-43:\\layout\\activity_show_text0425.xml"
+    },
+    {
         "merged": "C:\\Users\\34829\\.gradle\\daemon\\8.7\\com.example.work_liuchangxu.app-debug-41:\\drawable_round_blue_background.xml.flat",
         "source": "C:\\Users\\34829\\.gradle\\daemon\\8.7\\com.example.work_liuchangxu.app-main-43:\\drawable\\round_blue_background.xml"
     },
@@ -224,10 +228,6 @@
         "source": "C:\\Users\\34829\\.gradle\\daemon\\8.7\\com.example.work_liuchangxu.app-main-43:\\layout\\item_activity_main0424.xml"
     },
     {
-        "merged": "com.example.work_liuchangxu.app-debug-41:/layout_item_image_recycle_0425.xml.flat",
-        "source": "com.example.work_liuchangxu.app-main-43:/layout/item_image_recycle_0425.xml"
-    },
-    {
         "merged": "C:\\Users\\34829\\.gradle\\daemon\\8.7\\com.example.work_liuchangxu.app-debug-41:\\mipmap-anydpi_ic_launcher.xml.flat",
         "source": "C:\\Users\\34829\\.gradle\\daemon\\8.7\\com.example.work_liuchangxu.app-main-43:\\mipmap-anydpi\\ic_launcher.xml"
     },
@@ -276,6 +276,10 @@
         "source": "C:\\Users\\34829\\.gradle\\daemon\\8.7\\com.example.work_liuchangxu.app-main-43:\\drawable\\logo6.jpg"
     },
     {
+        "merged": "C:\\Users\\34829\\.gradle\\daemon\\8.7\\com.example.work_liuchangxu.app-debug-41:\\layout_activity_show_image0425.xml.flat",
+        "source": "C:\\Users\\34829\\.gradle\\daemon\\8.7\\com.example.work_liuchangxu.app-main-43:\\layout\\activity_show_image0425.xml"
+    },
+    {
         "merged": "C:\\Users\\34829\\.gradle\\daemon\\8.7\\com.example.work_liuchangxu.app-debug-41:\\drawable_logo2.png.flat",
         "source": "C:\\Users\\34829\\.gradle\\daemon\\8.7\\com.example.work_liuchangxu.app-main-43:\\drawable\\logo2.png"
     },
@@ -294,6 +298,10 @@
     {
         "merged": "C:\\Users\\34829\\.gradle\\daemon\\8.7\\com.example.work_liuchangxu.app-debug-41:\\drawable_add.png.flat",
         "source": "C:\\Users\\34829\\.gradle\\daemon\\8.7\\com.example.work_liuchangxu.app-main-43:\\drawable\\add.png"
+    },
+    {
+        "merged": "com.example.work_liuchangxu.app-debug-41:/layout_fragment_main_layout_0425.xml.flat",
+        "source": "com.example.work_liuchangxu.app-main-43:/layout/fragment_main_layout_0425.xml"
     },
     {
         "merged": "C:\\Users\\34829\\.gradle\\daemon\\8.7\\com.example.work_liuchangxu.app-debug-41:\\mipmap-xhdpi_ic_launcher_round.webp.flat",

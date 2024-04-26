@@ -15,11 +15,17 @@
         android:theme="@style/Theme.work_liuchanxu"
         tools:targetApi="31">
         <activity
+            android:name=".work_0425.ShowImageActivity0425"
+            android:exported="false" />
+        <activity
+            android:name=".work_0425.ShowTextActivity0425"
+            android:exported="false" />
+        <activity
             android:name=".work_0425.Main0425Activity"
             android:exported="false" />
         <activity
             android:name=".work_0424.Main0424Activity"
-            android:exported="true"></activity>
+            android:exported="true" />
         <activity
             android:name=".TrueMainActivity"
             android:exported="true">
@@ -31,10 +37,10 @@
         </activity>
         <activity
             android:name=".work_0423.RecycleActivity"
-            android:exported="true"></activity>
+            android:exported="true" />
         <activity
             android:name=".work_0422.Main0422Activity"
-            android:exported="true"></activity>
+            android:exported="true" />
 
         <service
             android:name=".work_0421.RemoteService"
@@ -88,7 +94,7 @@
             android:launchMode="standard" />
         <activity
             android:name=".work_0421.Work0421MainActivity"
-            android:exported="true"></activity>
+            android:exported="true" />
     </application>
 
 </manifest>

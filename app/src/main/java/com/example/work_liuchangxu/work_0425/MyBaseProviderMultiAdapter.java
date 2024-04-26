@@ -16,6 +16,6 @@ public class MyBaseProviderMultiAdapter extends BaseProviderMultiAdapter<MyStruc
 
     @Override
     protected int getItemType(@NotNull List<? extends MyStruct> data, int position) {
-        return data.get(position).getType();
+        return data.get(position).getItemType();
     }
 }

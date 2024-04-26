@@ -3147,6 +3147,8 @@ int drawable textview_background 0x7f080109
 int drawable tooltip_frame_dark 0x7f08010a
 int drawable tooltip_frame_light 0x7f08010b
 int id ALT 0x7f090000
+int id ActivityImageView0425 0x7f09024d
+int id ActivityTextView0425 0x7f09024e
 int id BOTTOM_END 0x7f090001
 int id BOTTOM_START 0x7f090002
 int id BaseQuickAdapter_databinding_support 0x7f090003
@@ -3640,6 +3642,8 @@ int id src_atop 0x7f0901ea
 int id src_in 0x7f0901eb
 int id src_over 0x7f0901ec
 int id standard 0x7f0901ed
+int id star_button_image0425 0x7f09024b
+int id star_button_text0425 0x7f09024c
 int id start 0x7f0901ee
 int id startHorizontal 0x7f0901ef
 int id startToEnd 0x7f0901f0
@@ -3651,6 +3655,7 @@ int id stretch 0x7f0901f5
 int id submenuarrow 0x7f0901f6
 int id submit_area 0x7f0901f7
 int id supportScrollUp 0x7f0901f8
+int id swipeRefreshLayout_0425 0x7f09024f
 int id tabMode 0x7f0901f9
 int id tablayout0425 0x7f0901fa
 int id tag_accessibility_actions 0x7f0901fb
@@ -3853,6 +3858,8 @@ int layout activity_main0425 0x7f0c001e
 int layout activity_main_0422 0x7f0c001f
 int layout activity_recycle 0x7f0c0020
 int layout activity_service 0x7f0c0021
+int layout activity_show_image0425 0x7f0c008f
+int layout activity_show_text0425 0x7f0c0090
 int layout activity_single_instance 0x7f0c0022
 int layout activity_single_task 0x7f0c0023
 int layout activity_single_top 0x7f0c0024
