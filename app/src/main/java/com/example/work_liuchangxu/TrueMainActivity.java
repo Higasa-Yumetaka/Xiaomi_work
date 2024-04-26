@@ -18,6 +18,8 @@ import com.example.work_liuchangxu.work_0421.Work0421MainActivity;
 import com.example.work_liuchangxu.work_0422.Main0422Activity;
 import com.example.work_liuchangxu.work_0423.RecycleActivity;
 import com.example.work_liuchangxu.work_0424.Main0424Activity;
+import com.example.work_liuchangxu.work_0426.AnimationActivity_1;
+import com.example.work_liuchangxu.work_0426.Main0426Activity;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -33,6 +35,7 @@ public class TrueMainActivity extends AppCompatActivity {
         setContentView(R.layout.true_activity_main);
 
         // 新建作业添加到NameList
+        NameList.add("work_0426|Animation");
         NameList.add("work_0425|Components");
         NameList.add("work_0424|UI");
         NameList.add("work_0423|RecycleView");
@@ -64,6 +67,8 @@ public class TrueMainActivity extends AppCompatActivity {
             intent = new Intent(this, Main0424Activity.class);
         } else if (position == (Total_nums - 5)){
             intent = new Intent(this, com.example.work_liuchangxu.work_0425.Main0425Activity.class);
+        } else if (position == (Total_nums - 6)){
+            intent = new Intent(this, Main0426Activity.class);
         }
         startActivity(intent);
     };

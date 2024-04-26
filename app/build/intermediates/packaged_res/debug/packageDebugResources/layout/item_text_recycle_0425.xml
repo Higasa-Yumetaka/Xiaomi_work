@@ -3,6 +3,9 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_height="wrap_content"
     android:layout_width="match_parent"
+    android:layout_marginStart="25dp"
+    android:layout_marginEnd="25dp"
+    android:background="@drawable/item_round_gray_backfround"
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <TextView
@@ -12,28 +15,26 @@
         android:text="EMPTY"
         android:layout_marginTop="10dp"
         android:layout_marginBottom="10dp"
-        android:layout_marginStart="25dp"
+        android:layout_marginStart="15dp"
         android:textSize="25dp"
         android:textColor="@color/black"
         app:layout_constraintHorizontal_chainStyle="spread_inside"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintEnd_toStartOf="@id/star_button_text0425"
-        app:layout_constraintBottom_toBottomOf="parent"
-        />
+        app:layout_constraintBottom_toBottomOf="parent"/>
 
     <ImageButton
         android:id="@+id/star_button_text0425"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:src="@drawable/star"
-        android:layout_marginEnd="25dp"
+        android:layout_marginEnd="15dp"
         android:backgroundTint="#00000000"
         app:layout_constraintStart_toEndOf="@id/item_textView0425"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="@id/item_textView0425"
-        app:layout_constraintBottom_toBottomOf="@id/item_textView0425"
-        />
+        app:layout_constraintBottom_toBottomOf="@id/item_textView0425"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
 

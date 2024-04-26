@@ -32,6 +32,15 @@
         android:testOnly="true"
         android:theme="@style/Theme.work_liuchanxu" >
         <activity
+            android:name="com.example.work_liuchangxu.work_0426.AnimationActivity_2"
+            android:exported="false" />
+        <activity
+            android:name="com.example.work_liuchangxu.work_0426.Main0426Activity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.work_liuchangxu.work_0426.AnimationActivity_1"
+            android:exported="false" />
+        <activity
             android:name="com.example.work_liuchangxu.work_0425.ShowImageActivity0425"
             android:exported="false" />
         <activity

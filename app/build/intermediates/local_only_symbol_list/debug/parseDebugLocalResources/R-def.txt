@@ -41,9 +41,11 @@ drawable button_shape
 drawable fab_pressed
 drawable fragment_border
 drawable great_wall
+drawable hny
 drawable ic_launcher_background
 drawable ic_launcher_foreground
 drawable item_round_gray_backfround
+drawable lanten
 drawable logo1
 drawable logo10
 drawable logo11
@@ -95,6 +97,8 @@ id button_2_unbind_service_2
 id button_3
 id button_4
 id button_change_another_color
+id button_goto_animation_activity_1
+id button_goto_animation_activity_2
 id button_group_activity_main0424
 id button_second
 id button_singleinstance
@@ -131,6 +135,7 @@ id main_listView
 id menu_dashboard
 id menu_home
 id menu_notifications
+id my_view
 id pb_loading
 id pic_privacy
 id recycleView_0425
@@ -147,6 +152,7 @@ id star_button_activity_image0425
 id star_button_activity_text0425
 id star_button_image0425
 id star_button_text0425
+id start_button
 id swipeRefreshLayout_0425
 id tablayout0425
 id textView
@@ -164,6 +170,7 @@ id viewPager0425
 layout activity_main
 layout activity_main0424
 layout activity_main0425
+layout activity_main0426
 layout activity_main_0422
 layout activity_recycle
 layout activity_service
@@ -173,6 +180,7 @@ layout activity_single_instance
 layout activity_single_task
 layout activity_single_top
 layout activity_standard
+layout animation_activity_0426
 layout button_activity_main_0424
 layout button_group_activity_main0424
 layout delete_dialog
