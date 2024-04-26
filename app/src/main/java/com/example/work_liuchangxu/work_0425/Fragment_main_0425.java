@@ -24,7 +24,6 @@ import org.greenrobot.eventbus.ThreadMode;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Objects;
 
 public class Fragment_main_0425 extends Fragment {
 
@@ -96,12 +95,15 @@ public class Fragment_main_0425 extends Fragment {
             // 令起线程异步模拟向数据源中添加数据
             new Thread(() -> {
                 try {
-                    Thread.sleep(2000);
+                    // 随机每个加载耗时
+                    int sleepTime = (int) (Math.random() * 120);
+                    // 随机加载10到20个数据
+                    int count = (int) (Math.random() * 10) + 10;
+                    Thread.sleep((long) sleepTime * count);
                     requireActivity().runOnUiThread(() -> {
                         List<MyStruct> newDataList = new ArrayList<>();
-                        // 随机加载10到20个数据
-                        int count = (int) (Math.random() * 10) + 10;
-                        for(int i = 0; i < count; i++) {
+
+                        for (int i = 0; i < count; i++) {
                             newDataList.add(new MyStruct(MyStruct.TYPE_TEXT, "这是第" + (dataList.size() / 2 + 1 + i) + "个文本"));
                             newDataList.add(new MyStruct(MyStruct.TYPE_IMAGE, R.drawable.great_wall));
                         }
@@ -111,6 +113,7 @@ public class Fragment_main_0425 extends Fragment {
                         adapter.notifyDataSetChanged();
                         // 标记加载完成
                         adapter.setLoadingComplete();
+                        Toast.makeText(getActivity(), "加载了" + count + "条数据", Toast.LENGTH_SHORT).show();
                     });
                 } catch (InterruptedException e) {
                     e.printStackTrace();
