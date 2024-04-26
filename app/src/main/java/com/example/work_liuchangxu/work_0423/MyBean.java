@@ -2,10 +2,8 @@ package com.example.work_liuchangxu.work_0423;
 
 public class MyBean {
 
-
-    private String Name;
-    private int icon;
-
+    public String Name;
+    public int icon;
 
     public String getName (){
         return Name;

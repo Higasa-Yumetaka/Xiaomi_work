@@ -30,9 +30,11 @@
         android:testOnly="true"
         android:theme="@style/Theme.work_liuchanxu" >
         <activity
+            android:name="com.example.work_liuchangxu.work_0425.Main0425Activity"
+            android:exported="false" />
+        <activity
             android:name="com.example.work_liuchangxu.work_0424.Main0424Activity"
-            android:exported="true" >
-        </activity>
+            android:exported="true" />
         <activity
             android:name="com.example.work_liuchangxu.TrueMainActivity"
             android:exported="true" >
@@ -44,12 +46,10 @@
         </activity>
         <activity
             android:name="com.example.work_liuchangxu.work_0423.RecycleActivity"
-            android:exported="true" >
-        </activity>
+            android:exported="true" />
         <activity
             android:name="com.example.work_liuchangxu.work_0422.Main0422Activity"
-            android:exported="true" >
-        </activity>
+            android:exported="true" />
 
         <service
             android:name="com.example.work_liuchangxu.work_0421.RemoteService"
@@ -103,8 +103,7 @@
             android:launchMode="standard" />
         <activity
             android:name="com.example.work_liuchangxu.work_0421.Work0421MainActivity"
-            android:exported="true" >
-        </activity>
+            android:exported="true" />
 
         <provider
             android:name="androidx.startup.InitializationProvider"

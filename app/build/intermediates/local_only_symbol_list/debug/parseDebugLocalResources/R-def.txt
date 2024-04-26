@@ -40,6 +40,7 @@ drawable button_selector_0424
 drawable button_shape
 drawable fab_pressed
 drawable fragment_border
+drawable great_wall
 drawable ic_launcher_background
 drawable ic_launcher_foreground
 drawable item_round_gray_backfround
@@ -110,8 +111,10 @@ id item_4_activity_main0424
 id item_5_activity_main0424
 id item_6_activity_main0424
 id item_button
+id item_imageView0425
 id item_logo
 id item_name_textview
+id item_textView0425
 id list_item_imageview0424
 id list_item_name_textview0424
 id list_item_start_button
@@ -125,6 +128,7 @@ id menu_dashboard
 id menu_home
 id menu_notifications
 id pic_privacy
+id recycleView_0425
 id recycle_view
 id search_activity_main0424
 id search_result_activity_main0424
@@ -134,8 +138,10 @@ id service_activity_main0424
 id service_help_center_more_text
 id service_help_center_text
 id spinner_language
+id tablayout0425
 id textView
 id textView3
+id textView_0425
 id textView_1
 id textView_2
 id textView_3
@@ -143,8 +149,10 @@ id textView_dashboard
 id textView_home
 id textView_notification
 id viewPager
+id viewPager0425
 layout activity_main
 layout activity_main0424
+layout activity_main0425
 layout activity_main_0422
 layout activity_recycle
 layout activity_service
@@ -158,11 +166,15 @@ layout delete_dialog
 layout fragment_buttom_1_0422
 layout fragment_buttom_2_0422
 layout fragment_buttom_3_0422
+layout fragment_main_layout_0425
+layout fragment_self_layout_0425
 layout fragment_viewpager_1_0422
 layout fragment_viewpager_2_0422
 layout fragment_viewpager_3_0422
 layout header_activity_main0424
 layout item_activity_main0424
+layout item_image_recycle_0425
+layout item_text_recycle_0425
 layout layout_example_fragment
 layout layout_example_fragment2
 layout list_item_layout

@@ -33,6 +33,7 @@ public class TrueMainActivity extends AppCompatActivity {
         setContentView(R.layout.true_activity_main);
 
         // 新建作业添加到NameList
+        NameList.add("work_0425|Components");
         NameList.add("work_0424|UI");
         NameList.add("work_0423|RecycleView");
         NameList.add("work_0422|Fragment");
@@ -61,6 +62,8 @@ public class TrueMainActivity extends AppCompatActivity {
             intent = new Intent(this, RecycleActivity.class);
         } else if (position == (Total_nums - 4)){
             intent = new Intent(this, Main0424Activity.class);
+        } else if (position == (Total_nums - 5)){
+            intent = new Intent(this, com.example.work_liuchangxu.work_0425.Main0425Activity.class);
         }
         startActivity(intent);
     };

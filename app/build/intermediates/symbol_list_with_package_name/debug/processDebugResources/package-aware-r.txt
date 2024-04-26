@@ -1107,6 +1107,7 @@ attr suffixText
 attr suffixTextAppearance
 attr suffixTextColor
 attr suggestionRowLayout
+attr swipeRefreshLayoutProgressSpinnerBackgroundColor
 attr switchMinWidth
 attr switchPadding
 attr switchStyle
@@ -3021,6 +3022,7 @@ drawable design_password_eye
 drawable design_snackbar_background
 drawable fab_pressed
 drawable fragment_border
+drawable great_wall
 drawable ic_arrow_back_black_24
 drawable ic_call_answer
 drawable ic_call_answer_low
@@ -3148,6 +3150,10 @@ drawable tooltip_frame_light
 id ALT
 id BOTTOM_END
 id BOTTOM_START
+id BaseQuickAdapter_databinding_support
+id BaseQuickAdapter_dragging_support
+id BaseQuickAdapter_swiping_support
+id BaseQuickAdapter_viewholder_support
 id CTRL
 id FUNCTION
 id META
@@ -3307,6 +3313,7 @@ id currentState
 id custom
 id customPanel
 id cut
+id dataBinding
 id date_picker_actions
 id decelerate
 id decelerateAndComplete
@@ -3375,6 +3382,7 @@ id frost
 id fullscreen_header
 id ghost_view
 id ghost_view_holder
+id glide_custom_view_target_tag
 id gone
 id graph
 id graph_wrap
@@ -3411,8 +3419,10 @@ id item_4_activity_main0424
 id item_5_activity_main0424
 id item_6_activity_main0424
 id item_button
+id item_imageView0425
 id item_logo
 id item_name_textview
+id item_textView0425
 id item_touch_helper_previous_elevation
 id jumpToEnd
 id jumpToStart
@@ -3433,6 +3443,12 @@ id list_item_work_detail_textview
 id list_item_work_name_textview
 id list_view_activity_main0424
 id ll_buttom
+id load_more_load_complete_view
+id load_more_load_end_view
+id load_more_load_fail_view
+id load_more_loading_view
+id loading_progress
+id loading_text
 id m3_side_sheet
 id main
 id main_listView
@@ -3557,6 +3573,7 @@ id progress_horizontal
 id radio
 id ratio
 id rectangles
+id recycleView_0425
 id recycle_view
 id report_drawn
 id reverseSawtooth
@@ -3636,6 +3653,7 @@ id submenuarrow
 id submit_area
 id supportScrollUp
 id tabMode
+id tablayout0425
 id tag_accessibility_actions
 id tag_accessibility_clickable_spans
 id tag_accessibility_heading
@@ -3658,6 +3676,7 @@ id textStart
 id textTop
 id textView
 id textView3
+id textView_0425
 id textView_1
 id textView_2
 id textView_3
@@ -3689,6 +3708,7 @@ id transition_position
 id transition_scene_layoutid_cache
 id transition_transform
 id triangle
+id tv_prompt
 id unchecked
 id uniform
 id unlabeled
@@ -3696,6 +3716,7 @@ id up
 id useLogo
 id vertical_only
 id viewPager
+id viewPager0425
 id view_offset_helper
 id view_transition
 id view_tree_lifecycle_owner
@@ -3829,6 +3850,7 @@ layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_main
 layout activity_main0424
+layout activity_main0425
 layout activity_main_0422
 layout activity_recycle
 layout activity_service
@@ -3836,6 +3858,7 @@ layout activity_single_instance
 layout activity_single_task
 layout activity_single_top
 layout activity_standard
+layout brvah_quick_view_load_more
 layout button_activity_main_0424
 layout button_group_activity_main0424
 layout custom_dialog
@@ -3858,6 +3881,8 @@ layout design_text_input_start_icon
 layout fragment_buttom_1_0422
 layout fragment_buttom_2_0422
 layout fragment_buttom_3_0422
+layout fragment_main_layout_0425
+layout fragment_self_layout_0425
 layout fragment_viewpager_1_0422
 layout fragment_viewpager_2_0422
 layout fragment_viewpager_3_0422
@@ -3865,6 +3890,8 @@ layout header_activity_main0424
 layout ime_base_split_test_activity
 layout ime_secondary_split_test_activity
 layout item_activity_main0424
+layout item_image_recycle_0425
+layout item_text_recycle_0425
 layout layout_example_fragment
 layout layout_example_fragment2
 layout list_item_layout
@@ -3978,6 +4005,10 @@ string bottomsheet_action_expand
 string bottomsheet_action_expand_halfway
 string bottomsheet_drag_handle_clicked
 string bottomsheet_drag_handle_content_description
+string brvah_load_complete
+string brvah_load_end
+string brvah_load_failed
+string brvah_loading
 string call_notification_answer_action
 string call_notification_answer_video_action
 string call_notification_decline_action
@@ -5373,6 +5404,7 @@ styleable State android_id constraints
 styleable StateListDrawable android_dither android_visible android_variablePadding android_constantSize android_enterFadeDuration android_exitFadeDuration
 styleable StateListDrawableItem android_drawable
 styleable StateSet defaultState
+styleable SwipeRefreshLayout swipeRefreshLayoutProgressSpinnerBackgroundColor
 styleable SwitchCompat android_textOn android_textOff android_thumb showText splitTrack switchMinWidth switchPadding switchTextAppearance thumbTextPadding thumbTint thumbTintMode track trackTint trackTintMode
 styleable SwitchMaterial useMaterialThemeColors
 styleable TabItem android_icon android_layout android_text
