@@ -3,6 +3,7 @@ package com.example.work_liuchangxu.work_0425;
 import android.os.Bundle;
 import android.widget.ImageButton;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -29,15 +30,22 @@ public class ShowTextActivity0425 extends AppCompatActivity {
 
         ImageButton imageButton = findViewById(R.id.star_button_activity_text0425);
         if (stared) {
+
             imageButton.setAlpha(1.0f);
+            imageButton.setColorFilter(getColor(R.color.red));
         } else {
             imageButton.setAlpha(0.3f);
+            imageButton.setColorFilter(getColor(R.color.grey));
         }
         imageButton.setOnClickListener(v -> {
-            if(stared)
+            if(stared){
                 imageButton.setAlpha(0.3f);
-            else
+                imageButton.setColorFilter(getColor(R.color.grey));
+            }
+            else{
                 imageButton.setAlpha(1.0f);
+                imageButton.setColorFilter(getColor(R.color.red));
+            }
             stared = !stared;
             EventBus.getDefault().post(new MyEvent(position, stared));
         });

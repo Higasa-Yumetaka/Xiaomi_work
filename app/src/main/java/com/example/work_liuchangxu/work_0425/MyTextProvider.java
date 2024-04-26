@@ -34,8 +34,10 @@ public class MyTextProvider extends BaseItemProvider<MyStruct> {
         ImageButton imageButton = baseViewHolder.getView(R.id.star_button_text0425);
         if (myStruct.isStared()) {
             imageButton.setAlpha(1.0f);
+            imageButton.setColorFilter(getContext().getColor(R.color.red));
         } else {
             imageButton.setAlpha(0.3f);
+            imageButton.setColorFilter(getContext().getColor(R.color.grey));
         }
         imageButton.setOnClickListener(v -> {
             if(myStruct.isStared())
@@ -44,6 +46,7 @@ public class MyTextProvider extends BaseItemProvider<MyStruct> {
                 Toast.makeText(getContext(), "点赞成功", Toast.LENGTH_SHORT).show();
             myStruct.setStared(!myStruct.isStared());
             imageButton.setAlpha(myStruct.isStared() ? 1.0f : 0.3f);
+            imageButton.setColorFilter(getContext().getColor(myStruct.isStared() ? R.color.red : R.color.grey));
         });
     }
 

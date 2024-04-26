@@ -3,6 +3,7 @@ package com.example.work_liuchangxu.work_0425;
 import android.os.Bundle;
 import android.widget.ImageButton;
 import android.widget.ImageView;
+import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -35,16 +36,22 @@ public class ShowImageActivity0425 extends AppCompatActivity {
         ImageButton imageButton = findViewById(R.id.star_button_activity_image0425);
         if (stared) {
             imageButton.setAlpha(1.0f);
+            imageButton.setColorFilter(getColor(R.color.red));
         } else {
             imageButton.setAlpha(0.3f);
+            imageButton.setColorFilter(getColor(R.color.grey));
         }
         imageButton.setOnClickListener(v -> {
-            if(stared)
-                //Toast.makeText(getContext(), "取消点赞", Toast.LENGTH_SHORT).show();
+            if(stared){
+                Toast.makeText(this, "取消点赞", Toast.LENGTH_SHORT).show();
                 imageButton.setAlpha(0.3f);
-            else
-                //Toast.makeText(getContext(), "点赞成功", Toast.LENGTH_SHORT).show();
+                imageButton.setColorFilter(getColor(R.color.grey));
+            }
+            else{
+                Toast.makeText(this, "点赞成功", Toast.LENGTH_SHORT).show();
                 imageButton.setAlpha(1.0f);
+                imageButton.setColorFilter(getColor(R.color.red));
+            }
             stared = !stared;
             EventBus.getDefault().post(new MyEvent(position, stared));
         });
