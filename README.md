@@ -1,6 +1,19 @@
 # Liuchangxu Android Works
 
-## 今日作业0424-Anroid UI已上传
+## 今日作业0425-Components已上传
+
+### 作业0425
+
+1. 运用组件实现滑动列表
+2. 支持点击查看详情大图和文案
+3. 包含下拉刷新功能
+
+![实现的界面](demo/work_0425/作业展示0425.png)
+
+演示视频见[此处](demo/work_0425/作业演示视频0425.mp4)
+代码见[此处](app/src/main/java/com/example/work_liuchangxu/work_0425)
+
+## 往日作业
 
 ### 作业0424
 
@@ -12,8 +25,6 @@
 
 演示视频见[此处](demo/work_0424/作业演示视频0424.mp4)
 代码见[此处](app/src/main/java/com/example/work_liuchangxu/work_0423)
-
-## 往日作业
 
 ### 作业0423
 
