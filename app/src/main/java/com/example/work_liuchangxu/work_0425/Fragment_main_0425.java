@@ -32,6 +32,7 @@ public class Fragment_main_0425 extends Fragment {
     View rootView;
     RecyclerView recyclerView;
     MyBaseProviderMultiAdapter adapter;
+
     @Override
     public void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -49,14 +50,14 @@ public class Fragment_main_0425 extends Fragment {
             recyclerView.setLayoutManager(layoutManager);
             Log.w("Fragment_main_0425", "onCreateView: recyclerView is not null");
             dataList = new ArrayList<>();
-            for(int i = 0; i < 20; i++) {
-                dataList.add(new MyStruct(MyStruct.TYPE_TEXT, "这是第" + (i+1) + "个文本"));
+            for (int i = 0; i < 20; i++) {
+                dataList.add(new MyStruct(MyStruct.TYPE_TEXT, "这是第" + (i + 1) + "个文本"));
                 dataList.add(new MyStruct(MyStruct.TYPE_IMAGE, R.drawable.great_wall));
             }
             adapter = new MyBaseProviderMultiAdapter(dataList);
             recyclerView.setAdapter(adapter);
             recyclerView.setItemAnimator(new DefaultItemAnimator());
-        }else {
+        } else {
             Log.e("Fragment_main_0425", "onCreateView: rootView is null");
         }
         if (rootView != null) {
@@ -77,7 +78,7 @@ public class Fragment_main_0425 extends Fragment {
         // 更新数据源中的数据
         dataList.get(event.getPosition()).setStared(event.isStared());
         // 通知适配器更新数据
-        adapter.notifyDataSetChanged();
+        adapter.notifyItemChanged(event.getPosition());
     }
 
 
@@ -86,4 +87,17 @@ public class Fragment_main_0425 extends Fragment {
         super.onDestroy();
         EventBus.getDefault().unregister(this);
     }
+
+    @Subscribe(threadMode = ThreadMode.MAIN)
+    public void addItem(MyLoadingEvent event) {
+        if (event.LOADING_STATE == MyLoadingEvent.STATE_LOADING) {
+            for (int i = 0; i < 3; i++) {
+                dataList.add(new MyStruct(MyStruct.TYPE_TEXT, "这是第" + (dataList.size() + 1) + "个文本"));
+                dataList.add(new MyStruct(MyStruct.TYPE_IMAGE, R.drawable.great_wall));
+            }
+        }
+
+        adapter.notifyItemInserted(dataList.size() - 1);
+    }
+
 }

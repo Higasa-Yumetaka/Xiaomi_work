@@ -39,9 +39,9 @@ public class MyTextProvider extends BaseItemProvider<MyStruct> {
         }
         imageButton.setOnClickListener(v -> {
             if(myStruct.isStared())
-                Toast.makeText(getContext(), "取消收藏", Toast.LENGTH_SHORT).show();
+                Toast.makeText(getContext(), "取消点赞", Toast.LENGTH_SHORT).show();
             else
-                Toast.makeText(getContext(), "收藏成功", Toast.LENGTH_SHORT).show();
+                Toast.makeText(getContext(), "点赞成功", Toast.LENGTH_SHORT).show();
             myStruct.setStared(!myStruct.isStared());
             imageButton.setAlpha(myStruct.isStared() ? 1.0f : 0.3f);
         });

@@ -40,10 +40,10 @@ public class ShowImageActivity0425 extends AppCompatActivity {
         }
         imageButton.setOnClickListener(v -> {
             if(stared)
-                //Toast.makeText(getContext(), "取消收藏", Toast.LENGTH_SHORT).show();
+                //Toast.makeText(getContext(), "取消点赞", Toast.LENGTH_SHORT).show();
                 imageButton.setAlpha(0.3f);
             else
-                //Toast.makeText(getContext(), "收藏成功", Toast.LENGTH_SHORT).show();
+                //Toast.makeText(getContext(), "点赞成功", Toast.LENGTH_SHORT).show();
                 imageButton.setAlpha(1.0f);
             stared = !stared;
             EventBus.getDefault().post(new MyEvent(position, stared));
