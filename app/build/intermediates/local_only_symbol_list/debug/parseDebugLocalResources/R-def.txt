@@ -41,7 +41,6 @@ drawable button_shape
 drawable fab_pressed
 drawable fragment_border
 drawable great_wall
-drawable hny
 drawable ic_launcher_background
 drawable ic_launcher_foreground
 drawable item_round_gray_backfround

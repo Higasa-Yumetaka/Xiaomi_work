@@ -3023,7 +3023,6 @@ drawable design_snackbar_background
 drawable fab_pressed
 drawable fragment_border
 drawable great_wall
-drawable hny
 drawable ic_arrow_back_black_24
 drawable ic_call_answer
 drawable ic_call_answer_low

@@ -3022,7 +3022,6 @@ int drawable design_snackbar_background 0x7f08008c
 int drawable fab_pressed 0x7f08008d
 int drawable fragment_border 0x7f08008e
 int drawable great_wall 0x7f08008f
-int drawable hny 0x7f08010f
 int drawable ic_arrow_back_black_24 0x7f080090
 int drawable ic_call_answer 0x7f080091
 int drawable ic_call_answer_low 0x7f080092

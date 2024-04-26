@@ -39,11 +39,11 @@ public class AnimationActivity_2 extends AppCompatActivity {
         public static void startCombinedAnimation(final View view) {
             // 围绕X轴旋转
             ObjectAnimator rotateAnimatorX1 = ObjectAnimator.ofFloat(view, View.ROTATION_X, 0f, 360f);
-            rotateAnimatorX1.setDuration(1000); // 持续时间为1000ms
+            rotateAnimatorX1.setDuration(1000);
             rotateAnimatorX1.setInterpolator(new MyInterpolator1()); // 使用自定义插值器
             // 围绕y轴旋转
             ObjectAnimator rotateAnimatorY2 = ObjectAnimator.ofFloat(view, View.ROTATION_Y, 0f, -1440f);
-            rotateAnimatorY2.setDuration(3000); // 持续时间为1000ms
+            rotateAnimatorY2.setDuration(1000);
             rotateAnimatorY2.setInterpolator(new MyInterpolator1()); // 使用自定义插值器
             // 向右移动
             PropertyValuesHolder translationX1 = PropertyValuesHolder.ofFloat(View.TRANSLATION_X, 0, 120f);
@@ -53,15 +53,15 @@ public class AnimationActivity_2 extends AppCompatActivity {
             // 向左移动
             PropertyValuesHolder translationX2 = PropertyValuesHolder.ofFloat(View.TRANSLATION_X, 240f, -240f);
             ObjectAnimator translateAnimatorX2 = ObjectAnimator.ofPropertyValuesHolder(view, translationX2);
-            translateAnimatorX2.setDuration(3000);
+            translateAnimatorX2.setDuration(1000);
             // 向上移动
             PropertyValuesHolder translationY1 = PropertyValuesHolder.ofFloat(View.TRANSLATION_Y, 0f, -240f);
             ObjectAnimator translateAnimatorY1 = ObjectAnimator.ofPropertyValuesHolder(view, translationY1);
-            translateAnimatorY1.setDuration(3000);
+            translateAnimatorY1.setDuration(1000);
             //向下移动
             PropertyValuesHolder translationY2 = PropertyValuesHolder.ofFloat(View.TRANSLATION_Y, -240f, 0f);
             ObjectAnimator translateAnimatorY2 = ObjectAnimator.ofPropertyValuesHolder(view, translationY2);
-            translateAnimatorY2.setDuration(3000);
+            translateAnimatorY2.setDuration(1000);
             // 向右移动
             PropertyValuesHolder translationX3 = PropertyValuesHolder.ofFloat(View.TRANSLATION_X, -240, 0f);
             ObjectAnimator translateAnimatorX3 = ObjectAnimator.ofPropertyValuesHolder(view, translationX3);
@@ -73,13 +73,13 @@ public class AnimationActivity_2 extends AppCompatActivity {
             alphaAnimator1.setInterpolator(new MyInterpolator1());
             // 从0.5变成1
             ObjectAnimator alphaAnimator2 = ObjectAnimator.ofFloat(view, View.ALPHA, 0.5f, 1f);
-            alphaAnimator2.setDuration(3000);
+            alphaAnimator2.setDuration(500);
             alphaAnimator2.setInterpolator(new MyInterpolator1());
             // 估值器
             ValueAnimator.AnimatorUpdateListener updateListener = animation -> {
                 float fraction = animation.getAnimatedFraction();
                 float x = 120 * fraction;
-                float y = (float) Math.sin(Math.toRadians(fraction * 360)) * 100; // 通过正弦函数计算y轴上的位置
+                float y = (float) Math.sin(Math.toRadians(fraction * 360)) * 100;
                 view.setX(x);
                 view.setY(y);
             };
