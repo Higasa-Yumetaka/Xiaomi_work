@@ -16,10 +16,6 @@ import java.util.List;
 
 public class Main0425Activity extends AppCompatActivity {
 
-    public List<QuickMultiEntity> myQuikMultiEntityList;
-
-    public List<String> myStringList = new ArrayList<>();
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

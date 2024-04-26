@@ -13,10 +13,16 @@ public class MyBaseProviderMultiAdapter extends BaseProviderMultiAdapter<MyStruc
         super(datalist);
         addItemProvider(new MyImageProvider());
         addItemProvider(new MyTextProvider());
+        addItemProvider(new MyLoadingProvider());
     }
 
     @Override
     protected int getItemType(@NotNull List<? extends MyStruct> data, int position) {
-        return data.get(position).getItemType();
+        // 当滑动到最后时返回MyStruct.TYPE_LOADING，否则返回data.get(position).getType()
+        if (position + 1 == data.size()) {
+            return MyStruct.TYPE_LOADING;
+        } else {
+            return data.get(position).getType();
+        }
     }
 }

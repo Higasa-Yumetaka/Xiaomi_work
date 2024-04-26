@@ -66,6 +66,7 @@ drawable pic5
 drawable pic6
 drawable pic7
 drawable pic_privacy
+drawable progressbar_refresh
 drawable round_blue_background
 drawable rounded_gray_background
 drawable save
@@ -125,11 +126,13 @@ id list_item_work_detail_textview
 id list_item_work_name_textview
 id list_view_activity_main0424
 id ll_buttom
+id ll_end
 id main
 id main_listView
 id menu_dashboard
 id menu_home
 id menu_notifications
+id pb_loading
 id pic_privacy
 id recycleView_0425
 id recycle_view
@@ -156,6 +159,7 @@ id textView_3
 id textView_dashboard
 id textView_home
 id textView_notification
+id tv_loading
 id viewPager
 id viewPager0425
 layout activity_main
@@ -184,6 +188,7 @@ layout fragment_viewpager_3_0422
 layout header_activity_main0424
 layout item_activity_main0424
 layout item_image_recycle_0425
+layout item_refresh_footer
 layout item_text_recycle_0425
 layout layout_example_fragment
 layout layout_example_fragment2

@@ -3137,6 +3137,7 @@ int drawable pic5 0x7f0800ff
 int drawable pic6 0x7f080100
 int drawable pic7 0x7f080101
 int drawable pic_privacy 0x7f080102
+int drawable progressbar_refresh 0x7f08010d
 int drawable round_blue_background 0x7f080103
 int drawable rounded_gray_background 0x7f080104
 int drawable save 0x7f080105
@@ -3445,6 +3446,7 @@ int id list_item_work_detail_textview 0x7f090126
 int id list_item_work_name_textview 0x7f090127
 int id list_view_activity_main0424 0x7f090128
 int id ll_buttom 0x7f090129
+int id ll_end 0x7f090252
 int id load_more_load_complete_view 0x7f09012a
 int id load_more_load_end_view 0x7f09012b
 int id load_more_load_fail_view 0x7f09012c
@@ -3563,6 +3565,7 @@ int id parent_matrix 0x7f09019c
 int id password_toggle 0x7f09019d
 int id path 0x7f09019e
 int id pathRelative 0x7f09019f
+int id pb_loading 0x7f090253
 int id peekHeight 0x7f0901a0
 int id percent 0x7f0901a1
 int id pic_privacy 0x7f0901a2
@@ -3715,6 +3718,7 @@ int id transition_position 0x7f090232
 int id transition_scene_layoutid_cache 0x7f090233
 int id transition_transform 0x7f090234
 int id triangle 0x7f090235
+int id tv_loading 0x7f090254
 int id tv_prompt 0x7f090236
 int id unchecked 0x7f090237
 int id uniform 0x7f090238
@@ -3900,6 +3904,7 @@ int layout ime_base_split_test_activity 0x7f0c0045
 int layout ime_secondary_split_test_activity 0x7f0c0046
 int layout item_activity_main0424 0x7f0c0047
 int layout item_image_recycle_0425 0x7f0c0048
+int layout item_refresh_footer 0x7f0c0091
 int layout item_text_recycle_0425 0x7f0c0049
 int layout layout_example_fragment 0x7f0c004a
 int layout layout_example_fragment2 0x7f0c004b

@@ -3138,6 +3138,7 @@ drawable pic5
 drawable pic6
 drawable pic7
 drawable pic_privacy
+drawable progressbar_refresh
 drawable round_blue_background
 drawable rounded_gray_background
 drawable save
@@ -3446,6 +3447,7 @@ id list_item_work_detail_textview
 id list_item_work_name_textview
 id list_view_activity_main0424
 id ll_buttom
+id ll_end
 id load_more_load_complete_view
 id load_more_load_end_view
 id load_more_load_fail_view
@@ -3564,6 +3566,7 @@ id parent_matrix
 id password_toggle
 id path
 id pathRelative
+id pb_loading
 id peekHeight
 id percent
 id pic_privacy
@@ -3716,6 +3719,7 @@ id transition_position
 id transition_scene_layoutid_cache
 id transition_transform
 id triangle
+id tv_loading
 id tv_prompt
 id unchecked
 id uniform
@@ -3901,6 +3905,7 @@ layout ime_base_split_test_activity
 layout ime_secondary_split_test_activity
 layout item_activity_main0424
 layout item_image_recycle_0425
+layout item_refresh_footer
 layout item_text_recycle_0425
 layout layout_example_fragment
 layout layout_example_fragment2
