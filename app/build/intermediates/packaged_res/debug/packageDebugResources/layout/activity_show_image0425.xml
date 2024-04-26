@@ -8,8 +8,8 @@
     tools:context=".work_0425.ShowImageActivity0425">
 
     <ImageView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:id="@+id/ActivityImageView0425"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -24,8 +24,8 @@
         android:layout_marginBottom="25dp"
         android:backgroundTint="#00000000"
         android:src="@drawable/star"
-        app:layout_constraintEnd_toEndOf="@id/ActivityImageView0425"
-        app:layout_constraintBottom_toBottomOf="@id/ActivityImageView0425"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
         />
 
 

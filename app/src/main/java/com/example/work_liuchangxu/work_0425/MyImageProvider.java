@@ -41,7 +41,7 @@ public class MyImageProvider extends BaseItemProvider<MyStruct> {
         if (myStruct.isStared()) {
             imageButton.setAlpha(1.0f);
         } else {
-            imageButton.setAlpha(0.5f);
+            imageButton.setAlpha(0.3f);
         }
         imageButton.setOnClickListener(v -> {
             if(myStruct.isStared())
@@ -49,7 +49,7 @@ public class MyImageProvider extends BaseItemProvider<MyStruct> {
             else
                 Toast.makeText(getContext(), "收藏成功", Toast.LENGTH_SHORT).show();
             myStruct.setStared(!myStruct.isStared());
-            imageButton.setAlpha(myStruct.isStared() ? 1.0f : 0.5f);
+            imageButton.setAlpha(myStruct.isStared() ? 1.0f : 0.3f);
         });
     }
 
@@ -57,6 +57,8 @@ public class MyImageProvider extends BaseItemProvider<MyStruct> {
     public void onClick(@NotNull BaseViewHolder helper, @NotNull View view, MyStruct data, int position) {
         Intent intent = new Intent(getContext(), ShowImageActivity0425.class);
         intent.putExtra("image", (int) data.getObject());
+        intent.putExtra("stared", (boolean) data.isStared());
+        intent.putExtra("position", position);
         startActivity(getContext(), intent, null);
     }
 }
