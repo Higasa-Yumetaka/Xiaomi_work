@@ -1,5 +1,5 @@
-com.example.work_liuchangxu.test.app-annotation-experimental-1.4.0-0 C:\Users\34829\.gradle\caches\transforms-4\44e2b6ad71e4aa573872d3dea223eed4\transformed\annotation-experimental-1.4.0\res
-com.example.work_liuchangxu.test.app-core-1.5.0-1 C:\Users\34829\.gradle\caches\transforms-4\5ef6488115dd7b87aeb5a7d177ab8776\transformed\core-1.5.0\res
+com.example.work_liuchangxu.test.app-annotation-experimental-1.4.0-0 C:\Users\34829\.gradle\caches\transforms-4\62bd2a0d990d97315f4c3ec492522ad1\transformed\annotation-experimental-1.4.0\res
+com.example.work_liuchangxu.test.app-core-1.5.0-1 C:\Users\34829\.gradle\caches\transforms-4\7d42596da6cd58ad6097998d807fab38\transformed\core-1.5.0\res
 com.example.work_liuchangxu.test.app-androidTest-2 D:\Projects\Android\work_liuchangxu\app\build\generated\res\resValues\androidTest\debug
 com.example.work_liuchangxu.test.app-mergeDebugAndroidTestResources-3 D:\Projects\Android\work_liuchangxu\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\merged.dir
 com.example.work_liuchangxu.test.app-mergeDebugAndroidTestResources-4 D:\Projects\Android\work_liuchangxu\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\stripped.dir

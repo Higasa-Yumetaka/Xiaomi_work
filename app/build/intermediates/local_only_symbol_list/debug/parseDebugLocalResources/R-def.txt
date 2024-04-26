@@ -126,7 +126,6 @@ id list_item_work_detail_textview
 id list_item_work_name_textview
 id list_view_activity_main0424
 id ll_buttom
-id ll_end
 id main
 id main_listView
 id menu_dashboard

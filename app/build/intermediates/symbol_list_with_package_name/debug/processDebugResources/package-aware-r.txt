@@ -3447,7 +3447,6 @@ id list_item_work_detail_textview
 id list_item_work_name_textview
 id list_view_activity_main0424
 id ll_buttom
-id ll_end
 id load_more_load_complete_view
 id load_more_load_end_view
 id load_more_load_fail_view

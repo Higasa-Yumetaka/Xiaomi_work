@@ -24,6 +24,7 @@ import org.greenrobot.eventbus.ThreadMode;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Objects;
 
 public class Fragment_main_0425 extends Fragment {
 
@@ -90,14 +91,33 @@ public class Fragment_main_0425 extends Fragment {
 
     @Subscribe(threadMode = ThreadMode.MAIN)
     public void addItem(MyLoadingEvent event) {
+        Log.w("Fragment_main_0425", "addItem: ");
         if (event.LOADING_STATE == MyLoadingEvent.STATE_LOADING) {
-            for (int i = 0; i < 3; i++) {
-                dataList.add(new MyStruct(MyStruct.TYPE_TEXT, "这是第" + (dataList.size() + 1) + "个文本"));
-                dataList.add(new MyStruct(MyStruct.TYPE_IMAGE, R.drawable.great_wall));
-            }
-        }
+            // 令起线程异步模拟向数据源中添加数据
+            new Thread(() -> {
+                try {
+                    Thread.sleep(2000);
+                    requireActivity().runOnUiThread(() -> {
+                        List<MyStruct> newDataList = new ArrayList<>();
+                        // 随机加载10到20个数据
+                        int count = (int) (Math.random() * 10) + 10;
+                        for(int i = 0; i < count; i++) {
+                            newDataList.add(new MyStruct(MyStruct.TYPE_TEXT, "这是第" + (dataList.size() / 2 + 1 + i) + "个文本"));
+                            newDataList.add(new MyStruct(MyStruct.TYPE_IMAGE, R.drawable.great_wall));
+                        }
+                        // 将新数据设置到 Adapter 中
+                        adapter.addData(newDataList);
+                        // 通知 Adapter 刷新数据
+                        adapter.notifyDataSetChanged();
+                        // 标记加载完成
+                        adapter.setLoadingComplete();
+                    });
+                } catch (InterruptedException e) {
+                    e.printStackTrace();
+                }
+            }).start();
 
-        adapter.notifyItemInserted(dataList.size() - 1);
+        }
     }
 
 }
