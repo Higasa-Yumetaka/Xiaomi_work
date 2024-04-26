@@ -4,7 +4,7 @@
             "outputFile": "com.example.work_liuchangxu.app-mergeDebugResources-39:/values-v24/values-v24.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\34829\\.gradle\\caches\\transforms-4\\8899001f8864461ca5ef7c66438e52b8\\transformed\\appcompat-1.6.1\\res\\values-v24\\values-v24.xml",
+                    "source": "C:\\Users\\34829\\.gradle\\caches\\transforms-4\\f0f3163d130372ec28a9a5ef0e918b86\\transformed\\appcompat-1.6.1\\res\\values-v24\\values-v24.xml",
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "4,4",
@@ -14,7 +14,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\34829\\.gradle\\caches\\transforms-4\\7f98daf5054ba51d61e41efc82f003c3\\transformed\\material-1.11.0\\res\\values-v24\\values-v24.xml",
+                    "source": "C:\\Users\\34829\\.gradle\\caches\\transforms-4\\7fb5413e21034f4faf36f7a450568309\\transformed\\material-1.11.0\\res\\values-v24\\values-v24.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,9,12,15",
                         "startColumns": "4,4,4,4,4,4,4,4",

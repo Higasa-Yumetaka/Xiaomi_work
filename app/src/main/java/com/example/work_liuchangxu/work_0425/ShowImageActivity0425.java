@@ -5,6 +5,7 @@ import android.widget.ImageView;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.bumptech.glide.Glide;
 import com.example.work_liuchangxu.R;
 
 public class ShowImageActivity0425 extends AppCompatActivity {
@@ -15,9 +16,12 @@ public class ShowImageActivity0425 extends AppCompatActivity {
         setContentView(R.layout.activity_show_image0425);
 
         // 获取extra
-        int image = getIntent().getIntExtra("image", 0);
+        int image = getIntent().getIntExtra("image",0);
         // 设置image
         ImageView imageView = findViewById(R.id.ActivityImageView0425);
-        imageView.setImageResource(image);
+        Glide.with(this)
+                .load(image)
+                .into(imageView);
+
     }
 }

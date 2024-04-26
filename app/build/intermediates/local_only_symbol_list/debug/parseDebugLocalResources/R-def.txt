@@ -71,6 +71,7 @@ drawable rounded_gray_background
 drawable save
 drawable search
 drawable simple_back
+drawable star
 drawable textview_background
 id ActivityImageView0425
 id ActivityTextView0425
@@ -140,6 +141,8 @@ id service_activity_main0424
 id service_help_center_more_text
 id service_help_center_text
 id spinner_language
+id star_button_activity_image0425
+id star_button_activity_text0425
 id star_button_image0425
 id star_button_text0425
 id swipeRefreshLayout_0425
@@ -215,3 +218,4 @@ style MyTextStyle2
 style Theme.work_liuchanxu
 xml backup_rules
 xml data_extraction_rules
+xml network_security_config

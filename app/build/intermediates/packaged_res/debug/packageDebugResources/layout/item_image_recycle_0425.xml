@@ -17,13 +17,14 @@
         app:layout_constraintBottom_toBottomOf="parent"
         />
 
-    <Button
+    <ImageButton
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="star"
         android:id="@+id/star_button_image0425"
-        android:layout_marginEnd="25dp"
+        android:layout_marginEnd="10dp"
         android:layout_marginBottom="25dp"
+        android:src="@drawable/star"
+        android:backgroundTint="#00000000"
         app:layout_constraintEnd_toEndOf="@id/item_imageView0425"
         app:layout_constraintBottom_toBottomOf="@id/item_imageView0425"/>
 

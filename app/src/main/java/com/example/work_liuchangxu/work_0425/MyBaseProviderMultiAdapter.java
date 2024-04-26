@@ -1,6 +1,7 @@
 package com.example.work_liuchangxu.work_0425;
 
 import com.chad.library.adapter.base.BaseProviderMultiAdapter;
+import com.chad.library.adapter.base.viewholder.BaseViewHolder;
 
 import org.jetbrains.annotations.NotNull;
 

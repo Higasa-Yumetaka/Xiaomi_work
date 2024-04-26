@@ -4,6 +4,7 @@ import static androidx.core.content.ContextCompat.startActivity;
 
 import android.content.Intent;
 import android.view.View;
+import android.widget.ImageButton;
 import android.widget.Toast;
 
 import androidx.annotation.NonNull;
@@ -15,6 +16,7 @@ import com.example.work_liuchangxu.R;
 import org.jetbrains.annotations.NotNull;
 
 public class MyTextProvider extends BaseItemProvider<MyStruct> {
+
     @Override
     public int getItemViewType() {
         return MyStruct.TYPE_TEXT;
@@ -28,6 +30,21 @@ public class MyTextProvider extends BaseItemProvider<MyStruct> {
     @Override
     public void convert(@NonNull BaseViewHolder baseViewHolder, MyStruct myStruct) {
         baseViewHolder.setText(R.id.item_textView0425, (String) myStruct.getObject());
+
+        ImageButton imageButton = baseViewHolder.getView(R.id.star_button_text0425);
+        if (myStruct.isStared()) {
+            imageButton.setAlpha(1.0f);
+        } else {
+            imageButton.setAlpha(0.5f);
+        }
+        imageButton.setOnClickListener(v -> {
+            if(myStruct.isStared())
+                Toast.makeText(getContext(), "取消收藏", Toast.LENGTH_SHORT).show();
+            else
+                Toast.makeText(getContext(), "收藏成功", Toast.LENGTH_SHORT).show();
+            myStruct.setStared(!myStruct.isStared());
+            imageButton.setAlpha(myStruct.isStared() ? 1.0f : 0.5f);
+        });
     }
 
     @Override

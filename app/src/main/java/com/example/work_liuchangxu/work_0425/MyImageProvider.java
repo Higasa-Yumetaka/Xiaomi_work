@@ -4,11 +4,15 @@ import static androidx.core.content.ContextCompat.startActivity;
 
 import android.content.Intent;
 import android.view.View;
-import android.widget.Button;
+import android.widget.ImageButton;
+import android.widget.ImageView;
 import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 
+import com.bumptech.glide.Glide;
+import com.bumptech.glide.load.resource.bitmap.RoundedCorners;
+import com.bumptech.glide.request.RequestOptions;
 import com.chad.library.adapter.base.provider.BaseItemProvider;
 import com.chad.library.adapter.base.viewholder.BaseViewHolder;
 import com.example.work_liuchangxu.R;
@@ -28,16 +32,31 @@ public class MyImageProvider extends BaseItemProvider<MyStruct> {
 
     @Override
     public void convert(@NonNull BaseViewHolder baseViewHolder, MyStruct myStruct) {
-        baseViewHolder.setImageResource(R.id.item_imageView0425, (int) myStruct.getObject());
+        Glide.with(getContext())
+                .load((int) myStruct.getObject())
+                .apply(new RequestOptions().transforms(new RoundedCorners(25)))
+                .into((ImageView) baseViewHolder.getView(R.id.item_imageView0425));
+
+        ImageButton imageButton = baseViewHolder.getView(R.id.star_button_image0425);
+        if (myStruct.isStared()) {
+            imageButton.setAlpha(1.0f);
+        } else {
+            imageButton.setAlpha(0.5f);
+        }
+        imageButton.setOnClickListener(v -> {
+            if(myStruct.isStared())
+                Toast.makeText(getContext(), "取消收藏", Toast.LENGTH_SHORT).show();
+            else
+                Toast.makeText(getContext(), "收藏成功", Toast.LENGTH_SHORT).show();
+            myStruct.setStared(!myStruct.isStared());
+            imageButton.setAlpha(myStruct.isStared() ? 1.0f : 0.5f);
+        });
     }
 
     @Override
     public void onClick(@NotNull BaseViewHolder helper, @NotNull View view, MyStruct data, int position) {
-        //Toast.makeText(getContext(), "Image " + position, Toast.LENGTH_SHORT).show();
-        // 启动ShowImageActivity
         Intent intent = new Intent(getContext(), ShowImageActivity0425.class);
         intent.putExtra("image", (int) data.getObject());
         startActivity(getContext(), intent, null);
     }
-
 }

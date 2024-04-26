@@ -4,7 +4,7 @@
             "outputFile": "com.example.work_liuchangxu.app-mergeDebugResources-39:/values-az/values-az.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\34829\\.gradle\\caches\\transforms-4\\7f98daf5054ba51d61e41efc82f003c3\\transformed\\material-1.11.0\\res\\values-az\\values-az.xml",
+                    "source": "C:\\Users\\34829\\.gradle\\caches\\transforms-4\\7fb5413e21034f4faf36f7a450568309\\transformed\\material-1.11.0\\res\\values-az\\values-az.xml",
                     "from": {
                         "startLines": "2,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -23,7 +23,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\34829\\.gradle\\caches\\transforms-4\\8899001f8864461ca5ef7c66438e52b8\\transformed\\appcompat-1.6.1\\res\\values-az\\values-az.xml",
+                    "source": "C:\\Users\\34829\\.gradle\\caches\\transforms-4\\f0f3163d130372ec28a9a5ef0e918b86\\transformed\\appcompat-1.6.1\\res\\values-az\\values-az.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -40,7 +40,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\34829\\.gradle\\caches\\transforms-4\\716926fc2d9080c88c5d6a06b3045e2d\\transformed\\core-1.13.0\\res\\values-az\\values-az.xml",
+                    "source": "C:\\Users\\34829\\.gradle\\caches\\transforms-4\\736ae96b98390579c027c5f68ba0681d\\transformed\\core-1.13.0\\res\\values-az\\values-az.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9",
                         "startColumns": "4,4,4,4,4,4,4,4",

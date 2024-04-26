@@ -3143,6 +3143,7 @@ drawable rounded_gray_background
 drawable save
 drawable search
 drawable simple_back
+drawable star
 drawable test_level_drawable
 drawable textview_background
 drawable tooltip_frame_dark
@@ -3643,6 +3644,8 @@ id src_atop
 id src_in
 id src_over
 id standard
+id star_button_activity_image0425
+id star_button_activity_text0425
 id star_button_image0425
 id star_button_text0425
 id start
@@ -5434,3 +5437,4 @@ styleable ViewTransition android_id SharedValue SharedValueId clearsTag duration
 styleable include constraintSet
 xml backup_rules
 xml data_extraction_rules
+xml network_security_config

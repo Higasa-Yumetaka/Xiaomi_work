@@ -9,6 +9,7 @@ public class MyStruct implements MultiItemEntity {
 
     public int Type;
     public Object object;
+    public boolean stared;
 
     public MyStruct(int type, Object object) {
         Type = type;
@@ -29,6 +30,14 @@ public class MyStruct implements MultiItemEntity {
 
     public void setObject(Object object) {
         this.object = object;
+    }
+
+    public boolean isStared() {
+        return stared;
+    }
+
+    public void setStared(boolean stared) {
+        this.stared = stared;
     }
 
     @Override
