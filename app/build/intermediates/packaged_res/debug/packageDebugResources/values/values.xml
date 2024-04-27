@@ -37,6 +37,7 @@
     <color name="todo_unfinished_text">#000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="yellow">#FFEB3B</color>
+    <item name="edit" type="id"/>
     <string name="app_name">Work</string>
     <string name="bind_service_1">First Bind Service</string>
     <string name="bind_service_2">Second Bind Service</string>

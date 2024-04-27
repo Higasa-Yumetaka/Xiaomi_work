@@ -16,14 +16,21 @@ public class TagCloud extends ViewGroup {
 
     public TagCloud(Context context) {
         super(context);
+        addDrag();
     }
 
     public TagCloud(Context context, android.util.AttributeSet attrs) {
         super(context, attrs);
+        addDrag();
     }
 
     public TagCloud(Context context, android.util.AttributeSet attrs, int defStyleAttr) {
         super(context, attrs, defStyleAttr);
+        addDrag();
+    }
+
+    public void addDrag(){
+        new DragDetector(this);
     }
 
     public void setTags(List<String> tags){
