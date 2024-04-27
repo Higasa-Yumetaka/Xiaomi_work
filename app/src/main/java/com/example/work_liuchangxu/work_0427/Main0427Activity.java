@@ -15,10 +15,8 @@ public class Main0427Activity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_edit_view);
         setTags();
-
-
-
     }
+
     private void setTags() {
         TagCloud tagCloud = findViewById(R.id.tag_cloud);
         DragDetector dragDetector = new DragDetector(tagCloud);
