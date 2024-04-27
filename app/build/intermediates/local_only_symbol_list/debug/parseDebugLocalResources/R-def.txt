@@ -76,6 +76,7 @@ drawable simple_back
 drawable star
 drawable textview_background
 drawable textview_background_0427
+drawable textview_background_2_0427
 id ActivityImageView0425
 id ActivityTextView0425
 id add_button
