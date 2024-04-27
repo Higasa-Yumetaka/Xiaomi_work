@@ -1,12 +1,18 @@
 # Liuchangxu Android Works
 
-## 今日作业0426-Animate已上传
+## 今日作业0427-View已上传
 
-## 作业0427
+### 作业0427
 
 1. 完成“云标签”控件，包括自定义属性
 2. 完成拖动手势
 3. 完成拖动手势后，触发标签变更位置
+
+![实现的界面](demo/work_0427/作业演示图片.png)
+
+演示视频见[此处](demo/work_0427/作业演示视频0427.mp4)
+
+代码见[此处](app/src/main/java/com/example/work_liuchangxu/work_0427)
 
 ## 往日作业
 
