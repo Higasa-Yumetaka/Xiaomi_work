@@ -3148,6 +3148,7 @@ drawable simple_back
 drawable star
 drawable test_level_drawable
 drawable textview_background
+drawable textview_background_0427
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
 id ALT
@@ -3673,6 +3674,7 @@ id tag_accessibility_actions
 id tag_accessibility_clickable_spans
 id tag_accessibility_heading
 id tag_accessibility_pane_title
+id tag_cloud
 id tag_on_apply_window_listener
 id tag_on_receive_content_listener
 id tag_on_receive_content_mime_types
@@ -3864,10 +3866,12 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
+layout activity_edit_view
 layout activity_main
 layout activity_main0424
 layout activity_main0425
 layout activity_main0426
+layout activity_main0427
 layout activity_main_0422
 layout activity_recycle
 layout activity_service

@@ -75,6 +75,7 @@ drawable search
 drawable simple_back
 drawable star
 drawable textview_background
+drawable textview_background_0427
 id ActivityImageView0425
 id ActivityTextView0425
 id add_button
@@ -154,6 +155,7 @@ id star_button_text0425
 id start_button
 id swipeRefreshLayout_0425
 id tablayout0425
+id tag_cloud
 id textView
 id textView3
 id textView_0425
@@ -166,10 +168,12 @@ id textView_notification
 id tv_loading
 id viewPager
 id viewPager0425
+layout activity_edit_view
 layout activity_main
 layout activity_main0424
 layout activity_main0425
 layout activity_main0426
+layout activity_main0427
 layout activity_main_0422
 layout activity_recycle
 layout activity_service

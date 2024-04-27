@@ -17,6 +17,9 @@
         android:theme="@style/Theme.work_liuchanxu"
         tools:targetApi="31">
         <activity
+            android:name=".work_0427.Main0427Activity"
+            android:exported="false" />
+        <activity
             android:name=".work_0426.AnimationActivity_2"
             android:exported="false" />
         <activity

@@ -35,6 +35,7 @@ public class TrueMainActivity extends AppCompatActivity {
         setContentView(R.layout.true_activity_main);
 
         // 新建作业添加到NameList
+        NameList.add("work_0427|View");
         NameList.add("work_0426|Animation");
         NameList.add("work_0425|Components");
         NameList.add("work_0424|UI");
@@ -58,17 +59,19 @@ public class TrueMainActivity extends AppCompatActivity {
 
         // 新建作业跳转
         if (position == (Total_nums - 1)){
-            intent = new Intent(this, Work0421MainActivity.class);
+            intent = new Intent(this, com.example.work_liuchangxu.work_0421.Work0421MainActivity.class);
         } else if (position == (Total_nums - 2)){
-            intent = new Intent(this, Main0422Activity.class);
+            intent = new Intent(this, com.example.work_liuchangxu.work_0422.Main0422Activity.class);
         } else if (position == (Total_nums - 3)){
-            intent = new Intent(this, RecycleActivity.class);
+            intent = new Intent(this, com.example.work_liuchangxu.work_0423.RecycleActivity.class);
         } else if (position == (Total_nums - 4)){
-            intent = new Intent(this, Main0424Activity.class);
+            intent = new Intent(this, com.example.work_liuchangxu.work_0424.Main0424Activity.class);
         } else if (position == (Total_nums - 5)){
             intent = new Intent(this, com.example.work_liuchangxu.work_0425.Main0425Activity.class);
         } else if (position == (Total_nums - 6)){
-            intent = new Intent(this, Main0426Activity.class);
+            intent = new Intent(this, com.example.work_liuchangxu.work_0426.Main0426Activity.class);
+        } else if (position == (Total_nums - 7)){
+            intent = new Intent(this, com.example.work_liuchangxu.work_0427.Main0427Activity.class);
         }
         startActivity(intent);
     };
