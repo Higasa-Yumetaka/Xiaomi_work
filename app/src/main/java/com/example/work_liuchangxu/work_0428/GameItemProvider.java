@@ -37,6 +37,6 @@ public class GameItemProvider extends BaseItemProvider<MyStruct> {
         Glide.with(baseViewHolder.itemView.getContext())
                 .load(myStruct.getIcon())
                 .transform(roundedCorners)
-                .into((ImageView) baseViewHolder.findView(R.id.item_game_image));
+                .into((ImageView) Objects.requireNonNull(baseViewHolder.findView(R.id.item_game_image)));
     }
 }
