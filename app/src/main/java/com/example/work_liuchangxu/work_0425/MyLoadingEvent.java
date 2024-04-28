@@ -9,8 +9,13 @@ public class MyLoadingEvent {
 
     public int LOADING_STATE = 0;
 
+    public int current;
+
     public MyLoadingEvent(int state){
         this.LOADING_STATE = state;
     }
 
+    public int getCurrent() {
+        return current;
+    }
 }

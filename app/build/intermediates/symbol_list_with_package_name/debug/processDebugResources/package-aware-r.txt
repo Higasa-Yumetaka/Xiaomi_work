@@ -3044,6 +3044,7 @@ drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
 drawable ic_search_black_24
 drawable item_round_gray_backfround
+drawable item_tag_backfround
 drawable lanten
 drawable logo1
 drawable logo10
@@ -3316,6 +3317,7 @@ id contiguous
 id continuousVelocity
 id coordinator
 id cos
+id countdown_button
 id counterclockwise
 id cradle
 id currentState
@@ -3429,6 +3431,7 @@ id item_4_activity_main0424
 id item_5_activity_main0424
 id item_6_activity_main0424
 id item_button
+id item_game_image
 id item_imageView0425
 id item_logo
 id item_name_textview
@@ -3459,6 +3462,9 @@ id load_more_load_fail_view
 id load_more_loading_view
 id loading_progress
 id loading_text
+id login_bz4x
+id login_image
+id login_phone
 id m3_side_sheet
 id main
 id main_listView
@@ -3586,6 +3592,7 @@ id radio
 id ratio
 id rectangles
 id recycleView_0425
+id recycleView_0428_2
 id recycle_view
 id report_drawn
 id reverseSawtooth
@@ -3670,6 +3677,7 @@ id submenuarrow
 id submit_area
 id supportScrollUp
 id swipeRefreshLayout_0425
+id swipeRefreshLayout_0428_2
 id tabMode
 id tablayout0425
 id tag_accessibility_actions
@@ -3711,6 +3719,10 @@ id textinput_helper_text
 id textinput_placeholder
 id textinput_prefix_text
 id textinput_suffix_text
+id textview_game_brief
+id textview_game_name
+id textview_game_score
+id textview_game_tag
 id time
 id title
 id titleDividerNoCustom
@@ -3874,6 +3886,7 @@ layout activity_main0424
 layout activity_main0425
 layout activity_main0426
 layout activity_main0427
+layout activity_main04281
 layout activity_main_0422
 layout activity_recycle
 layout activity_service
@@ -3908,6 +3921,7 @@ layout fragment_buttom_1_0422
 layout fragment_buttom_2_0422
 layout fragment_buttom_3_0422
 layout fragment_main_layout_0425
+layout fragment_main_layout_0428_2
 layout fragment_self_layout_0425
 layout fragment_viewpager_1_0422
 layout fragment_viewpager_2_0422
@@ -3916,6 +3930,7 @@ layout header_activity_main0424
 layout ime_base_split_test_activity
 layout ime_secondary_split_test_activity
 layout item_activity_main0424
+layout item_game_layout_0428_2
 layout item_image_recycle_0425
 layout item_refresh_footer
 layout item_text_recycle_0425
@@ -4047,6 +4062,8 @@ string character_counter_content_description
 string character_counter_overflowed_content_description
 string character_counter_pattern
 string clear_text_end_icon_content_description
+string countdown_finished
+string countdown_format
 string error_a11y_label
 string error_icon_content_description
 string exposed_dropdown_menu_content_description

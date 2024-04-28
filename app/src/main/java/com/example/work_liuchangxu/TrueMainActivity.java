@@ -14,13 +14,6 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.example.work_liuchangxu.work_0421.Work0421MainActivity;
-import com.example.work_liuchangxu.work_0422.Main0422Activity;
-import com.example.work_liuchangxu.work_0423.RecycleActivity;
-import com.example.work_liuchangxu.work_0424.Main0424Activity;
-import com.example.work_liuchangxu.work_0426.AnimationActivity_1;
-import com.example.work_liuchangxu.work_0426.Main0426Activity;
-
 import java.util.ArrayList;
 import java.util.List;
 
@@ -35,6 +28,8 @@ public class TrueMainActivity extends AppCompatActivity {
         setContentView(R.layout.true_activity_main);
 
         // 新建作业添加到NameList
+        NameList.add("work_0428_2|Network");
+        NameList.add("work_0428_1|Handler");
         NameList.add("work_0427|View");
         NameList.add("work_0426|Animation");
         NameList.add("work_0425|Components");
@@ -72,6 +67,10 @@ public class TrueMainActivity extends AppCompatActivity {
             intent = new Intent(this, com.example.work_liuchangxu.work_0426.Main0426Activity.class);
         } else if (position == (Total_nums - 7)){
             intent = new Intent(this, com.example.work_liuchangxu.work_0427.Main0427Activity.class);
+        } else if(position == (Total_nums - 8)){
+            intent = new Intent(this, com.example.work_liuchangxu.work_0428.Main0428Activity_1.class);
+        } else if(position == (Total_nums - 9)){
+            intent = new Intent(this, com.example.work_liuchangxu.work_0428.Main0428Activity_2.class);
         }
         startActivity(intent);
     };

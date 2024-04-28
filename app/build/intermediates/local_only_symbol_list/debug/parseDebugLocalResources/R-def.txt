@@ -44,6 +44,7 @@ drawable great_wall
 drawable ic_launcher_background
 drawable ic_launcher_foreground
 drawable item_round_gray_backfround
+drawable item_tag_backfround
 drawable lanten
 drawable logo1
 drawable logo10
@@ -106,6 +107,7 @@ id button_singleinstance
 id button_singletask
 id button_singletop
 id button_standard
+id countdown_button
 id delete_cancel
 id delete_confirm
 id delete_message
@@ -121,6 +123,7 @@ id item_4_activity_main0424
 id item_5_activity_main0424
 id item_6_activity_main0424
 id item_button
+id item_game_image
 id item_imageView0425
 id item_logo
 id item_name_textview
@@ -132,6 +135,9 @@ id list_item_work_detail_textview
 id list_item_work_name_textview
 id list_view_activity_main0424
 id ll_buttom
+id login_bz4x
+id login_image
+id login_phone
 id main
 id main_listView
 id menu_dashboard
@@ -141,6 +147,7 @@ id my_view
 id pb_loading
 id pic_privacy
 id recycleView_0425
+id recycleView_0428_2
 id recycle_view
 id search_activity_main0424
 id search_result_activity_main0424
@@ -156,6 +163,7 @@ id star_button_image0425
 id star_button_text0425
 id start_button
 id swipeRefreshLayout_0425
+id swipeRefreshLayout_0428_2
 id tablayout0425
 id tag_cloud
 id textView
@@ -167,6 +175,10 @@ id textView_3
 id textView_dashboard
 id textView_home
 id textView_notification
+id textview_game_brief
+id textview_game_name
+id textview_game_score
+id textview_game_tag
 id tv_loading
 id viewPager
 id viewPager0425
@@ -176,6 +188,7 @@ layout activity_main0424
 layout activity_main0425
 layout activity_main0426
 layout activity_main0427
+layout activity_main04281
 layout activity_main_0422
 layout activity_recycle
 layout activity_service
@@ -193,12 +206,14 @@ layout fragment_buttom_1_0422
 layout fragment_buttom_2_0422
 layout fragment_buttom_3_0422
 layout fragment_main_layout_0425
+layout fragment_main_layout_0428_2
 layout fragment_self_layout_0425
 layout fragment_viewpager_1_0422
 layout fragment_viewpager_2_0422
 layout fragment_viewpager_3_0422
 layout header_activity_main0424
 layout item_activity_main0424
+layout item_game_layout_0428_2
 layout item_image_recycle_0425
 layout item_refresh_footer
 layout item_text_recycle_0425
@@ -218,6 +233,8 @@ mipmap ic_launcher_round
 string app_name
 string bind_service_1
 string bind_service_2
+string countdown_finished
+string countdown_format
 string go_to_singleinstance_activity
 string go_to_singletask_activity
 string go_to_singletop_activity

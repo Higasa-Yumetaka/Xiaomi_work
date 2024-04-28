@@ -52,5 +52,16 @@ dependencies {
     implementation("io.github.cymchad:BaseRecyclerViewAdapterHelper:3.0.14")
     implementation libs.swiperefreshlayout.v100
     implementation libs.glide
+    implementation libs.gson
+    implementation libs.okhttp
+    implementation libs.retrofit
+    implementation libs.okhttp
+    implementation libs.logging.interceptor
+    implementation libs.retrofit
+    implementation libs.adapter.rxjava
+    implementation libs.converter.gson
+    implementation libs.rxandroid
+    implementation libs.rxjava
+
     annotationProcessor libs.compiler
 }

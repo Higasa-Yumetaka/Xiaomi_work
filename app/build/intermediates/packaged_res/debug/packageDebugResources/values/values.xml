@@ -41,6 +41,8 @@
     <string name="app_name">Work</string>
     <string name="bind_service_1">First Bind Service</string>
     <string name="bind_service_2">Second Bind Service</string>
+    <string name="countdown_finished">重新发送</string>
+    <string name="countdown_format">%d 秒</string>
     <string name="go_to_singleinstance_activity">Go to SingleInstance Activity</string>
     <string name="go_to_singletask_activity">Go to SingleTask Activity</string>
     <string name="go_to_singletop_activity">Go to SingleTop Activity</string>

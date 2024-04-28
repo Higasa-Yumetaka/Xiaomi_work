@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".work_0425.Fragment_main_0425"
+    android:orientation="vertical">
+    <SearchView
+        android:height="50dp"
+        style="@style/Widget.AppCompat.SearchView"
+        android:layout_marginStart="25dp"
+        android:layout_marginEnd="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="25dp"
+        android:id="@+id/search_view"
+        android:background="@drawable/rounded_gray_background"
+        android:paddingStart="15dp"
+        android:hint="搜索游戏"
+        android:textColorHint="@color/mid_gray"
+        android:autofillHints="None" />
+
+    <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:id="@+id/swipeRefreshLayout_0428_2">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recycleView_0428_2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        </androidx.recyclerview.widget.RecyclerView>
+
+    </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+
+
+</LinearLayout>

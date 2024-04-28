@@ -49,5 +49,4 @@ public class Main0425Activity extends AppCompatActivity {
         }
     };
 
-
 }

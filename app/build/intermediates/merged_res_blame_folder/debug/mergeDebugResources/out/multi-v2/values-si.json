@@ -4,7 +4,7 @@
             "outputFile": "com.example.work_liuchangxu.app-mergeDebugResources-39:/values-si/values-si.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\34829\\.gradle\\caches\\transforms-4\\7fb5413e21034f4faf36f7a450568309\\transformed\\material-1.11.0\\res\\values-si\\values-si.xml",
+                    "source": "C:\\Users\\34829\\.gradle\\caches\\transforms-4\\d596b9cd01688ddeb625a8026fcde634\\transformed\\material-1.11.0\\res\\values-si\\values-si.xml",
                     "from": {
                         "startLines": "2,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -23,7 +23,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\34829\\.gradle\\caches\\transforms-4\\f0f3163d130372ec28a9a5ef0e918b86\\transformed\\appcompat-1.6.1\\res\\values-si\\values-si.xml",
+                    "source": "C:\\Users\\34829\\.gradle\\caches\\transforms-4\\3474cc7809b354d5d4ac8c159d279ae1\\transformed\\appcompat-1.6.1\\res\\values-si\\values-si.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -40,7 +40,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\34829\\.gradle\\caches\\transforms-4\\736ae96b98390579c027c5f68ba0681d\\transformed\\core-1.13.0\\res\\values-si\\values-si.xml",
+                    "source": "C:\\Users\\34829\\.gradle\\caches\\transforms-4\\3baa8893696e0bc61581c511e3c04878\\transformed\\core-1.13.0\\res\\values-si\\values-si.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9",
                         "startColumns": "4,4,4,4,4,4,4,4",
