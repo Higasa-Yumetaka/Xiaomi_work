@@ -77,7 +77,7 @@ public class MyStruct implements MultiItemEntity {
     }
 
     public String getBrief() {
-        return " " + brief;
+        return " | " + brief;
     }
 
     public String getVersionName() {
