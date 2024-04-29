@@ -64,8 +64,8 @@
 38-->D:\Projects\Android\work_liuchangxu\app\src\main\AndroidManifest.xml:17:9-52
 39        <activity
 39-->D:\Projects\Android\work_liuchangxu\app\src\main\AndroidManifest.xml:19:9-20:39
-40            android:name="com.example.work_liuchangxu.work_0429.Main0428Activity_2"
-40-->D:\Projects\Android\work_liuchangxu\app\src\main\AndroidManifest.xml:19:19-63
+40            android:name="com.example.work_liuchangxu.work_0429.Main0428Activity_optimized"
+40-->D:\Projects\Android\work_liuchangxu\app\src\main\AndroidManifest.xml:19:19-71
 41            android:exported="false" />
 41-->D:\Projects\Android\work_liuchangxu\app\src\main\AndroidManifest.xml:20:13-37
 42        <activity

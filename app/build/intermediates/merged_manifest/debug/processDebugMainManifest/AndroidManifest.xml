@@ -37,7 +37,7 @@
         android:testOnly="true"
         android:theme="@style/Theme.work_liuchanxu" >
         <activity
-            android:name="com.example.work_liuchangxu.work_0429.Main0428Activity_2"
+            android:name="com.example.work_liuchangxu.work_0429.Main0428Activity_optimized"
             android:exported="false" />
         <activity
             android:name="com.example.work_liuchangxu.work_0429.Main0429Activity"

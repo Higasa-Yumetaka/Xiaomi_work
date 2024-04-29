@@ -72,7 +72,7 @@ public class TrueMainActivity extends AppCompatActivity {
         } else if(position == (Total_nums - 9)){
             intent = new Intent(this, com.example.work_liuchangxu.work_0428.Main0428Activity_2.class);
         } else if(position == (Total_nums - 10)){
-            intent = new Intent(this, com.example.work_liuchangxu.work_0429.Main0428Activity_2.class);
+            intent = new Intent(this, com.example.work_liuchangxu.work_0429.Main0428Activity_optimized.class);
         } else if(position == (Total_nums - 11)){
             intent = new Intent(this, com.example.work_liuchangxu.work_0429.Main0429Activity.class);
         }
