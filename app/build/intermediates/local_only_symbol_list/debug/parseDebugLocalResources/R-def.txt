@@ -44,6 +44,7 @@ drawable great_wall
 drawable ic_launcher_background
 drawable ic_launcher_foreground
 drawable item_round_gray_backfround
+drawable item_round_gray_backfround_0428_2
 drawable item_tag_backfround
 drawable lanten
 drawable logo1

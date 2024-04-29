@@ -8,7 +8,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:padding="10dp"
-        android:background="@drawable/item_round_gray_backfround"
+        android:background="@drawable/item_round_gray_backfround_0428_2"
         android:layout_margin="5dp">
 
         <ImageView
