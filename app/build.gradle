@@ -63,5 +63,7 @@ dependencies {
     implementation libs.rxandroid
     implementation libs.rxjava
 
+    debugImplementation libs.leakcanary.android
+
     annotationProcessor libs.compiler
 }

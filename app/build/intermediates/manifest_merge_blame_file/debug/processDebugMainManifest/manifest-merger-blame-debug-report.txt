@@ -15,299 +15,475 @@
 12-->D:\Projects\Android\work_liuchangxu\app\src\main\AndroidManifest.xml:6:5-67
 12-->D:\Projects\Android\work_liuchangxu\app\src\main\AndroidManifest.xml:6:22-64
 13
-14    <permission
-14-->[androidx.core:core:1.13.0] C:\Users\34829\.gradle\caches\transforms-4\3baa8893696e0bc61581c511e3c04878\transformed\core-1.13.0\AndroidManifest.xml:22:5-24:47
-15        android:name="com.example.work_liuchangxu.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
-15-->[androidx.core:core:1.13.0] C:\Users\34829\.gradle\caches\transforms-4\3baa8893696e0bc61581c511e3c04878\transformed\core-1.13.0\AndroidManifest.xml:23:9-81
-16        android:protectionLevel="signature" />
-16-->[androidx.core:core:1.13.0] C:\Users\34829\.gradle\caches\transforms-4\3baa8893696e0bc61581c511e3c04878\transformed\core-1.13.0\AndroidManifest.xml:24:9-44
-17
-18    <uses-permission android:name="com.example.work_liuchangxu.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
-18-->[androidx.core:core:1.13.0] C:\Users\34829\.gradle\caches\transforms-4\3baa8893696e0bc61581c511e3c04878\transformed\core-1.13.0\AndroidManifest.xml:26:5-97
-18-->[androidx.core:core:1.13.0] C:\Users\34829\.gradle\caches\transforms-4\3baa8893696e0bc61581c511e3c04878\transformed\core-1.13.0\AndroidManifest.xml:26:22-94
-19
-20    <application
-20-->D:\Projects\Android\work_liuchangxu\app\src\main\AndroidManifest.xml:8:5-118:19
-21        android:allowBackup="true"
-21-->D:\Projects\Android\work_liuchangxu\app\src\main\AndroidManifest.xml:9:9-35
-22        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-22-->[androidx.core:core:1.13.0] C:\Users\34829\.gradle\caches\transforms-4\3baa8893696e0bc61581c511e3c04878\transformed\core-1.13.0\AndroidManifest.xml:28:18-86
-23        android:dataExtractionRules="@xml/data_extraction_rules"
-23-->D:\Projects\Android\work_liuchangxu\app\src\main\AndroidManifest.xml:10:9-65
-24        android:debuggable="true"
-25        android:extractNativeLibs="false"
-26        android:fullBackupContent="@xml/backup_rules"
-26-->D:\Projects\Android\work_liuchangxu\app\src\main\AndroidManifest.xml:11:9-54
-27        android:icon="@mipmap/ic_launcher"
-27-->D:\Projects\Android\work_liuchangxu\app\src\main\AndroidManifest.xml:12:9-43
-28        android:label="@string/app_name"
-28-->D:\Projects\Android\work_liuchangxu\app\src\main\AndroidManifest.xml:13:9-41
-29        android:networkSecurityConfig="@xml/network_security_config"
-29-->D:\Projects\Android\work_liuchangxu\app\src\main\AndroidManifest.xml:14:9-69
-30        android:roundIcon="@mipmap/ic_launcher_round"
-30-->D:\Projects\Android\work_liuchangxu\app\src\main\AndroidManifest.xml:15:9-54
-31        android:supportsRtl="true"
-31-->D:\Projects\Android\work_liuchangxu\app\src\main\AndroidManifest.xml:16:9-35
-32        android:testOnly="true"
-33        android:theme="@style/Theme.work_liuchanxu" >
-33-->D:\Projects\Android\work_liuchangxu\app\src\main\AndroidManifest.xml:17:9-52
-34        <activity
-34-->D:\Projects\Android\work_liuchangxu\app\src\main\AndroidManifest.xml:19:9-21:40
-35            android:name="com.example.work_liuchangxu.work_0428.Main0428Activity_2"
-35-->D:\Projects\Android\work_liuchangxu\app\src\main\AndroidManifest.xml:20:13-57
-36            android:exported="false" />
-36-->D:\Projects\Android\work_liuchangxu\app\src\main\AndroidManifest.xml:21:13-37
-37        <activity
-37-->D:\Projects\Android\work_liuchangxu\app\src\main\AndroidManifest.xml:22:9-24:40
-38            android:name="com.example.work_liuchangxu.work_0428.Main0428Activity_1"
-38-->D:\Projects\Android\work_liuchangxu\app\src\main\AndroidManifest.xml:23:13-57
-39            android:exported="false" />
-39-->D:\Projects\Android\work_liuchangxu\app\src\main\AndroidManifest.xml:24:13-37
-40        <activity
-40-->D:\Projects\Android\work_liuchangxu\app\src\main\AndroidManifest.xml:25:9-27:40
-41            android:name="com.example.work_liuchangxu.work_0427.Main0427Activity"
-41-->D:\Projects\Android\work_liuchangxu\app\src\main\AndroidManifest.xml:26:13-55
-42            android:exported="false" />
-42-->D:\Projects\Android\work_liuchangxu\app\src\main\AndroidManifest.xml:27:13-37
-43        <activity
-43-->D:\Projects\Android\work_liuchangxu\app\src\main\AndroidManifest.xml:28:9-30:40
-44            android:name="com.example.work_liuchangxu.work_0426.AnimationActivity_2"
-44-->D:\Projects\Android\work_liuchangxu\app\src\main\AndroidManifest.xml:29:13-58
-45            android:exported="false" />
-45-->D:\Projects\Android\work_liuchangxu\app\src\main\AndroidManifest.xml:30:13-37
-46        <activity
-46-->D:\Projects\Android\work_liuchangxu\app\src\main\AndroidManifest.xml:31:9-33:40
-47            android:name="com.example.work_liuchangxu.work_0426.Main0426Activity"
-47-->D:\Projects\Android\work_liuchangxu\app\src\main\AndroidManifest.xml:32:13-55
-48            android:exported="false" />
-48-->D:\Projects\Android\work_liuchangxu\app\src\main\AndroidManifest.xml:33:13-37
-49        <activity
-49-->D:\Projects\Android\work_liuchangxu\app\src\main\AndroidManifest.xml:34:9-36:40
-50            android:name="com.example.work_liuchangxu.work_0426.AnimationActivity_1"
-50-->D:\Projects\Android\work_liuchangxu\app\src\main\AndroidManifest.xml:35:13-58
-51            android:exported="false" />
-51-->D:\Projects\Android\work_liuchangxu\app\src\main\AndroidManifest.xml:36:13-37
-52        <activity
-52-->D:\Projects\Android\work_liuchangxu\app\src\main\AndroidManifest.xml:37:9-39:40
-53            android:name="com.example.work_liuchangxu.work_0425.ShowImageActivity0425"
-53-->D:\Projects\Android\work_liuchangxu\app\src\main\AndroidManifest.xml:38:13-60
-54            android:exported="false" />
-54-->D:\Projects\Android\work_liuchangxu\app\src\main\AndroidManifest.xml:39:13-37
-55        <activity
-55-->D:\Projects\Android\work_liuchangxu\app\src\main\AndroidManifest.xml:40:9-42:40
-56            android:name="com.example.work_liuchangxu.work_0425.ShowTextActivity0425"
-56-->D:\Projects\Android\work_liuchangxu\app\src\main\AndroidManifest.xml:41:13-59
-57            android:exported="false" />
-57-->D:\Projects\Android\work_liuchangxu\app\src\main\AndroidManifest.xml:42:13-37
-58        <activity
-58-->D:\Projects\Android\work_liuchangxu\app\src\main\AndroidManifest.xml:43:9-45:40
-59            android:name="com.example.work_liuchangxu.work_0425.Main0425Activity"
-59-->D:\Projects\Android\work_liuchangxu\app\src\main\AndroidManifest.xml:44:13-55
-60            android:exported="false" />
-60-->D:\Projects\Android\work_liuchangxu\app\src\main\AndroidManifest.xml:45:13-37
-61        <activity
-61-->D:\Projects\Android\work_liuchangxu\app\src\main\AndroidManifest.xml:46:9-48:39
-62            android:name="com.example.work_liuchangxu.work_0424.Main0424Activity"
-62-->D:\Projects\Android\work_liuchangxu\app\src\main\AndroidManifest.xml:47:13-55
-63            android:exported="true" />
-63-->D:\Projects\Android\work_liuchangxu\app\src\main\AndroidManifest.xml:48:13-36
-64        <activity
-64-->D:\Projects\Android\work_liuchangxu\app\src\main\AndroidManifest.xml:49:9-57:20
-65            android:name="com.example.work_liuchangxu.TrueMainActivity"
-65-->D:\Projects\Android\work_liuchangxu\app\src\main\AndroidManifest.xml:50:13-45
-66            android:exported="true" >
-66-->D:\Projects\Android\work_liuchangxu\app\src\main\AndroidManifest.xml:51:13-36
-67            <intent-filter>
-67-->D:\Projects\Android\work_liuchangxu\app\src\main\AndroidManifest.xml:52:13-56:29
-68                <action android:name="android.intent.action.MAIN" />
-68-->D:\Projects\Android\work_liuchangxu\app\src\main\AndroidManifest.xml:53:17-69
-68-->D:\Projects\Android\work_liuchangxu\app\src\main\AndroidManifest.xml:53:25-66
-69
-70                <category android:name="android.intent.category.LAUNCHER" />
-70-->D:\Projects\Android\work_liuchangxu\app\src\main\AndroidManifest.xml:55:17-77
-70-->D:\Projects\Android\work_liuchangxu\app\src\main\AndroidManifest.xml:55:27-74
-71            </intent-filter>
-72        </activity>
-73        <activity
-73-->D:\Projects\Android\work_liuchangxu\app\src\main\AndroidManifest.xml:58:9-60:39
-74            android:name="com.example.work_liuchangxu.work_0423.RecycleActivity"
-74-->D:\Projects\Android\work_liuchangxu\app\src\main\AndroidManifest.xml:59:13-54
-75            android:exported="true" />
-75-->D:\Projects\Android\work_liuchangxu\app\src\main\AndroidManifest.xml:60:13-36
-76        <activity
-76-->D:\Projects\Android\work_liuchangxu\app\src\main\AndroidManifest.xml:61:9-63:39
-77            android:name="com.example.work_liuchangxu.work_0422.Main0422Activity"
-77-->D:\Projects\Android\work_liuchangxu\app\src\main\AndroidManifest.xml:62:13-55
-78            android:exported="true" />
-78-->D:\Projects\Android\work_liuchangxu\app\src\main\AndroidManifest.xml:63:13-36
-79
-80        <service
-80-->D:\Projects\Android\work_liuchangxu\app\src\main\AndroidManifest.xml:65:9-69:41
-81            android:name="com.example.work_liuchangxu.work_0421.RemoteService"
-81-->D:\Projects\Android\work_liuchangxu\app\src\main\AndroidManifest.xml:66:13-52
-82            android:enabled="true"
-82-->D:\Projects\Android\work_liuchangxu\app\src\main\AndroidManifest.xml:67:13-35
-83            android:exported="false"
-83-->D:\Projects\Android\work_liuchangxu\app\src\main\AndroidManifest.xml:68:13-37
-84            android:permission="TODO" />
-84-->D:\Projects\Android\work_liuchangxu\app\src\main\AndroidManifest.xml:69:13-38
-85
-86        <receiver
-86-->D:\Projects\Android\work_liuchangxu\app\src\main\AndroidManifest.xml:71:9-74:39
-87            android:name="com.example.work_liuchangxu.work_0421.NativeReceiver"
-87-->D:\Projects\Android\work_liuchangxu\app\src\main\AndroidManifest.xml:72:13-53
-88            android:enabled="true"
-88-->D:\Projects\Android\work_liuchangxu\app\src\main\AndroidManifest.xml:73:13-35
+14    <!-- To store the heap dumps and leak analysis results. -->
+15    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+15-->[com.squareup.leakcanary:leakcanary-android-core:2.12] C:\Users\34829\.gradle\caches\transforms-4\70d13e681486b7940ee13811d1dcef2d\transformed\leakcanary-android-core-2.12\AndroidManifest.xml:25:5-80
+15-->[com.squareup.leakcanary:leakcanary-android-core:2.12] C:\Users\34829\.gradle\caches\transforms-4\70d13e681486b7940ee13811d1dcef2d\transformed\leakcanary-android-core-2.12\AndroidManifest.xml:25:22-77
+16    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" /> <!-- To allow posting notifications on Android 13 -->
+16-->[com.squareup.leakcanary:leakcanary-android-core:2.12] C:\Users\34829\.gradle\caches\transforms-4\70d13e681486b7940ee13811d1dcef2d\transformed\leakcanary-android-core-2.12\AndroidManifest.xml:26:5-81
+16-->[com.squareup.leakcanary:leakcanary-android-core:2.12] C:\Users\34829\.gradle\caches\transforms-4\70d13e681486b7940ee13811d1dcef2d\transformed\leakcanary-android-core-2.12\AndroidManifest.xml:26:22-78
+17    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+17-->[com.squareup.leakcanary:leakcanary-android-core:2.12] C:\Users\34829\.gradle\caches\transforms-4\70d13e681486b7940ee13811d1dcef2d\transformed\leakcanary-android-core-2.12\AndroidManifest.xml:29:5-77
+17-->[com.squareup.leakcanary:leakcanary-android-core:2.12] C:\Users\34829\.gradle\caches\transforms-4\70d13e681486b7940ee13811d1dcef2d\transformed\leakcanary-android-core-2.12\AndroidManifest.xml:29:22-74
+18
+19    <permission
+19-->[androidx.core:core:1.13.0] C:\Users\34829\.gradle\caches\transforms-4\dd0ea05a97368f320034c9e3c6476463\transformed\core-1.13.0\AndroidManifest.xml:22:5-24:47
+20        android:name="com.example.work_liuchangxu.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+20-->[androidx.core:core:1.13.0] C:\Users\34829\.gradle\caches\transforms-4\dd0ea05a97368f320034c9e3c6476463\transformed\core-1.13.0\AndroidManifest.xml:23:9-81
+21        android:protectionLevel="signature" />
+21-->[androidx.core:core:1.13.0] C:\Users\34829\.gradle\caches\transforms-4\dd0ea05a97368f320034c9e3c6476463\transformed\core-1.13.0\AndroidManifest.xml:24:9-44
+22
+23    <uses-permission android:name="com.example.work_liuchangxu.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+23-->[androidx.core:core:1.13.0] C:\Users\34829\.gradle\caches\transforms-4\dd0ea05a97368f320034c9e3c6476463\transformed\core-1.13.0\AndroidManifest.xml:26:5-97
+23-->[androidx.core:core:1.13.0] C:\Users\34829\.gradle\caches\transforms-4\dd0ea05a97368f320034c9e3c6476463\transformed\core-1.13.0\AndroidManifest.xml:26:22-94
+24
+25    <application
+25-->D:\Projects\Android\work_liuchangxu\app\src\main\AndroidManifest.xml:8:5-122:19
+26        android:allowBackup="true"
+26-->D:\Projects\Android\work_liuchangxu\app\src\main\AndroidManifest.xml:9:9-35
+27        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+27-->[androidx.core:core:1.13.0] C:\Users\34829\.gradle\caches\transforms-4\dd0ea05a97368f320034c9e3c6476463\transformed\core-1.13.0\AndroidManifest.xml:28:18-86
+28        android:dataExtractionRules="@xml/data_extraction_rules"
+28-->D:\Projects\Android\work_liuchangxu\app\src\main\AndroidManifest.xml:10:9-65
+29        android:debuggable="true"
+30        android:extractNativeLibs="false"
+31        android:fullBackupContent="@xml/backup_rules"
+31-->D:\Projects\Android\work_liuchangxu\app\src\main\AndroidManifest.xml:11:9-54
+32        android:icon="@mipmap/ic_launcher"
+32-->D:\Projects\Android\work_liuchangxu\app\src\main\AndroidManifest.xml:12:9-43
+33        android:label="@string/app_name"
+33-->D:\Projects\Android\work_liuchangxu\app\src\main\AndroidManifest.xml:13:9-41
+34        android:networkSecurityConfig="@xml/network_security_config"
+34-->D:\Projects\Android\work_liuchangxu\app\src\main\AndroidManifest.xml:14:9-69
+35        android:roundIcon="@mipmap/ic_launcher_round"
+35-->D:\Projects\Android\work_liuchangxu\app\src\main\AndroidManifest.xml:15:9-54
+36        android:supportsRtl="true"
+36-->D:\Projects\Android\work_liuchangxu\app\src\main\AndroidManifest.xml:16:9-35
+37        android:testOnly="true"
+38        android:theme="@style/Theme.work_liuchanxu" >
+38-->D:\Projects\Android\work_liuchangxu\app\src\main\AndroidManifest.xml:17:9-52
+39        <activity
+39-->D:\Projects\Android\work_liuchangxu\app\src\main\AndroidManifest.xml:19:9-20:39
+40            android:name="com.example.work_liuchangxu.work_0429.Main0428Activity_2"
+40-->D:\Projects\Android\work_liuchangxu\app\src\main\AndroidManifest.xml:19:19-63
+41            android:exported="false" />
+41-->D:\Projects\Android\work_liuchangxu\app\src\main\AndroidManifest.xml:20:13-37
+42        <activity
+42-->D:\Projects\Android\work_liuchangxu\app\src\main\AndroidManifest.xml:21:9-22:39
+43            android:name="com.example.work_liuchangxu.work_0429.Main0429Activity"
+43-->D:\Projects\Android\work_liuchangxu\app\src\main\AndroidManifest.xml:21:19-61
+44            android:exported="false" />
+44-->D:\Projects\Android\work_liuchangxu\app\src\main\AndroidManifest.xml:22:13-37
+45        <activity
+45-->D:\Projects\Android\work_liuchangxu\app\src\main\AndroidManifest.xml:23:9-25:40
+46            android:name="com.example.work_liuchangxu.work_0428.Main0428Activity_2"
+46-->D:\Projects\Android\work_liuchangxu\app\src\main\AndroidManifest.xml:24:13-57
+47            android:exported="false" />
+47-->D:\Projects\Android\work_liuchangxu\app\src\main\AndroidManifest.xml:25:13-37
+48        <activity
+48-->D:\Projects\Android\work_liuchangxu\app\src\main\AndroidManifest.xml:26:9-28:40
+49            android:name="com.example.work_liuchangxu.work_0428.Main0428Activity_1"
+49-->D:\Projects\Android\work_liuchangxu\app\src\main\AndroidManifest.xml:27:13-57
+50            android:exported="false" />
+50-->D:\Projects\Android\work_liuchangxu\app\src\main\AndroidManifest.xml:28:13-37
+51        <activity
+51-->D:\Projects\Android\work_liuchangxu\app\src\main\AndroidManifest.xml:29:9-31:40
+52            android:name="com.example.work_liuchangxu.work_0427.Main0427Activity"
+52-->D:\Projects\Android\work_liuchangxu\app\src\main\AndroidManifest.xml:30:13-55
+53            android:exported="false" />
+53-->D:\Projects\Android\work_liuchangxu\app\src\main\AndroidManifest.xml:31:13-37
+54        <activity
+54-->D:\Projects\Android\work_liuchangxu\app\src\main\AndroidManifest.xml:32:9-34:40
+55            android:name="com.example.work_liuchangxu.work_0426.AnimationActivity_2"
+55-->D:\Projects\Android\work_liuchangxu\app\src\main\AndroidManifest.xml:33:13-58
+56            android:exported="false" />
+56-->D:\Projects\Android\work_liuchangxu\app\src\main\AndroidManifest.xml:34:13-37
+57        <activity
+57-->D:\Projects\Android\work_liuchangxu\app\src\main\AndroidManifest.xml:35:9-37:40
+58            android:name="com.example.work_liuchangxu.work_0426.Main0426Activity"
+58-->D:\Projects\Android\work_liuchangxu\app\src\main\AndroidManifest.xml:36:13-55
+59            android:exported="false" />
+59-->D:\Projects\Android\work_liuchangxu\app\src\main\AndroidManifest.xml:37:13-37
+60        <activity
+60-->D:\Projects\Android\work_liuchangxu\app\src\main\AndroidManifest.xml:38:9-40:40
+61            android:name="com.example.work_liuchangxu.work_0426.AnimationActivity_1"
+61-->D:\Projects\Android\work_liuchangxu\app\src\main\AndroidManifest.xml:39:13-58
+62            android:exported="false" />
+62-->D:\Projects\Android\work_liuchangxu\app\src\main\AndroidManifest.xml:40:13-37
+63        <activity
+63-->D:\Projects\Android\work_liuchangxu\app\src\main\AndroidManifest.xml:41:9-43:40
+64            android:name="com.example.work_liuchangxu.work_0425.ShowImageActivity0425"
+64-->D:\Projects\Android\work_liuchangxu\app\src\main\AndroidManifest.xml:42:13-60
+65            android:exported="false" />
+65-->D:\Projects\Android\work_liuchangxu\app\src\main\AndroidManifest.xml:43:13-37
+66        <activity
+66-->D:\Projects\Android\work_liuchangxu\app\src\main\AndroidManifest.xml:44:9-46:40
+67            android:name="com.example.work_liuchangxu.work_0425.ShowTextActivity0425"
+67-->D:\Projects\Android\work_liuchangxu\app\src\main\AndroidManifest.xml:45:13-59
+68            android:exported="false" />
+68-->D:\Projects\Android\work_liuchangxu\app\src\main\AndroidManifest.xml:46:13-37
+69        <activity
+69-->D:\Projects\Android\work_liuchangxu\app\src\main\AndroidManifest.xml:47:9-49:40
+70            android:name="com.example.work_liuchangxu.work_0425.Main0425Activity"
+70-->D:\Projects\Android\work_liuchangxu\app\src\main\AndroidManifest.xml:48:13-55
+71            android:exported="false" />
+71-->D:\Projects\Android\work_liuchangxu\app\src\main\AndroidManifest.xml:49:13-37
+72        <activity
+72-->D:\Projects\Android\work_liuchangxu\app\src\main\AndroidManifest.xml:50:9-52:39
+73            android:name="com.example.work_liuchangxu.work_0424.Main0424Activity"
+73-->D:\Projects\Android\work_liuchangxu\app\src\main\AndroidManifest.xml:51:13-55
+74            android:exported="true" />
+74-->D:\Projects\Android\work_liuchangxu\app\src\main\AndroidManifest.xml:52:13-36
+75        <activity
+75-->D:\Projects\Android\work_liuchangxu\app\src\main\AndroidManifest.xml:53:9-61:20
+76            android:name="com.example.work_liuchangxu.TrueMainActivity"
+76-->D:\Projects\Android\work_liuchangxu\app\src\main\AndroidManifest.xml:54:13-45
+77            android:exported="true" >
+77-->D:\Projects\Android\work_liuchangxu\app\src\main\AndroidManifest.xml:55:13-36
+78            <intent-filter>
+78-->D:\Projects\Android\work_liuchangxu\app\src\main\AndroidManifest.xml:56:13-60:29
+79                <action android:name="android.intent.action.MAIN" />
+79-->D:\Projects\Android\work_liuchangxu\app\src\main\AndroidManifest.xml:57:17-69
+79-->D:\Projects\Android\work_liuchangxu\app\src\main\AndroidManifest.xml:57:25-66
+80
+81                <category android:name="android.intent.category.LAUNCHER" />
+81-->D:\Projects\Android\work_liuchangxu\app\src\main\AndroidManifest.xml:59:17-77
+81-->D:\Projects\Android\work_liuchangxu\app\src\main\AndroidManifest.xml:59:27-74
+82            </intent-filter>
+83        </activity>
+84        <activity
+84-->D:\Projects\Android\work_liuchangxu\app\src\main\AndroidManifest.xml:62:9-64:39
+85            android:name="com.example.work_liuchangxu.work_0423.RecycleActivity"
+85-->D:\Projects\Android\work_liuchangxu\app\src\main\AndroidManifest.xml:63:13-54
+86            android:exported="true" />
+86-->D:\Projects\Android\work_liuchangxu\app\src\main\AndroidManifest.xml:64:13-36
+87        <activity
+87-->D:\Projects\Android\work_liuchangxu\app\src\main\AndroidManifest.xml:65:9-67:39
+88            android:name="com.example.work_liuchangxu.work_0422.Main0422Activity"
+88-->D:\Projects\Android\work_liuchangxu\app\src\main\AndroidManifest.xml:66:13-55
 89            android:exported="true" />
-89-->D:\Projects\Android\work_liuchangxu\app\src\main\AndroidManifest.xml:74:13-36
-90        <receiver
-90-->D:\Projects\Android\work_liuchangxu\app\src\main\AndroidManifest.xml:75:9-84:20
-91            android:name="com.example.work_liuchangxu.work_0421.StaticReceiver"
-91-->D:\Projects\Android\work_liuchangxu\app\src\main\AndroidManifest.xml:76:13-53
-92            android:enabled="true"
-92-->D:\Projects\Android\work_liuchangxu\app\src\main\AndroidManifest.xml:77:13-35
-93            android:exported="true" >
-93-->D:\Projects\Android\work_liuchangxu\app\src\main\AndroidManifest.xml:78:13-36
-94            <intent-filter>
-94-->D:\Projects\Android\work_liuchangxu\app\src\main\AndroidManifest.xml:79:13-83:29
-95                <action android:name="com.example.work_liuchangxu.Static_Action" />
-95-->D:\Projects\Android\work_liuchangxu\app\src\main\AndroidManifest.xml:80:17-84
-95-->D:\Projects\Android\work_liuchangxu\app\src\main\AndroidManifest.xml:80:25-81
+89-->D:\Projects\Android\work_liuchangxu\app\src\main\AndroidManifest.xml:67:13-36
+90
+91        <service
+91-->D:\Projects\Android\work_liuchangxu\app\src\main\AndroidManifest.xml:69:9-73:41
+92            android:name="com.example.work_liuchangxu.work_0421.RemoteService"
+92-->D:\Projects\Android\work_liuchangxu\app\src\main\AndroidManifest.xml:70:13-52
+93            android:enabled="true"
+93-->D:\Projects\Android\work_liuchangxu\app\src\main\AndroidManifest.xml:71:13-35
+94            android:exported="false"
+94-->D:\Projects\Android\work_liuchangxu\app\src\main\AndroidManifest.xml:72:13-37
+95            android:permission="TODO" />
+95-->D:\Projects\Android\work_liuchangxu\app\src\main\AndroidManifest.xml:73:13-38
 96
-97                <data android:mimeType="text/plain" />
-97-->D:\Projects\Android\work_liuchangxu\app\src\main\AndroidManifest.xml:82:17-55
-97-->D:\Projects\Android\work_liuchangxu\app\src\main\AndroidManifest.xml:82:23-52
-98            </intent-filter>
-99        </receiver>
-100
-101        <activity
-101-->D:\Projects\Android\work_liuchangxu\app\src\main\AndroidManifest.xml:86:9-88:40
-102            android:name="com.example.work_liuchangxu.work_0421.ServiceActivity"
-102-->D:\Projects\Android\work_liuchangxu\app\src\main\AndroidManifest.xml:87:13-54
-103            android:exported="false" />
-103-->D:\Projects\Android\work_liuchangxu\app\src\main\AndroidManifest.xml:88:13-37
-104
-105        <service
-105-->D:\Projects\Android\work_liuchangxu\app\src\main\AndroidManifest.xml:90:9-93:39
-106            android:name="com.example.work_liuchangxu.work_0421.bindService"
-106-->D:\Projects\Android\work_liuchangxu\app\src\main\AndroidManifest.xml:91:13-50
-107            android:enabled="true"
-107-->D:\Projects\Android\work_liuchangxu\app\src\main\AndroidManifest.xml:92:13-35
-108            android:exported="true" />
-108-->D:\Projects\Android\work_liuchangxu\app\src\main\AndroidManifest.xml:93:13-36
-109        <service
-109-->D:\Projects\Android\work_liuchangxu\app\src\main\AndroidManifest.xml:94:9-97:39
-110            android:name="com.example.work_liuchangxu.work_0421.startService"
-110-->D:\Projects\Android\work_liuchangxu\app\src\main\AndroidManifest.xml:95:13-51
-111            android:enabled="true"
-111-->D:\Projects\Android\work_liuchangxu\app\src\main\AndroidManifest.xml:96:13-35
-112            android:exported="true" />
-112-->D:\Projects\Android\work_liuchangxu\app\src\main\AndroidManifest.xml:97:13-36
-113
-114        <activity
-114-->D:\Projects\Android\work_liuchangxu\app\src\main\AndroidManifest.xml:99:9-102:51
-115            android:name="com.example.work_liuchangxu.work_0421.SingleInstanceActivity"
-115-->D:\Projects\Android\work_liuchangxu\app\src\main\AndroidManifest.xml:100:13-61
-116            android:exported="false"
-116-->D:\Projects\Android\work_liuchangxu\app\src\main\AndroidManifest.xml:101:13-37
-117            android:launchMode="singleInstance" />
-117-->D:\Projects\Android\work_liuchangxu\app\src\main\AndroidManifest.xml:102:13-48
-118        <activity
-118-->D:\Projects\Android\work_liuchangxu\app\src\main\AndroidManifest.xml:103:9-106:47
-119            android:name="com.example.work_liuchangxu.work_0421.SingleTaskActivity"
-119-->D:\Projects\Android\work_liuchangxu\app\src\main\AndroidManifest.xml:104:13-57
-120            android:exported="false"
-120-->D:\Projects\Android\work_liuchangxu\app\src\main\AndroidManifest.xml:105:13-37
-121            android:launchMode="singleTask" />
-121-->D:\Projects\Android\work_liuchangxu\app\src\main\AndroidManifest.xml:106:13-44
-122        <activity
-122-->D:\Projects\Android\work_liuchangxu\app\src\main\AndroidManifest.xml:107:9-110:46
-123            android:name="com.example.work_liuchangxu.work_0421.SingleTopActivity"
-123-->D:\Projects\Android\work_liuchangxu\app\src\main\AndroidManifest.xml:108:13-56
-124            android:exported="false"
-124-->D:\Projects\Android\work_liuchangxu\app\src\main\AndroidManifest.xml:109:13-37
-125            android:launchMode="singleTop" />
-125-->D:\Projects\Android\work_liuchangxu\app\src\main\AndroidManifest.xml:110:13-43
-126        <activity
-126-->D:\Projects\Android\work_liuchangxu\app\src\main\AndroidManifest.xml:111:9-114:45
-127            android:name="com.example.work_liuchangxu.work_0421.StandardActivity"
-127-->D:\Projects\Android\work_liuchangxu\app\src\main\AndroidManifest.xml:112:13-55
-128            android:exported="false"
-128-->D:\Projects\Android\work_liuchangxu\app\src\main\AndroidManifest.xml:113:13-37
-129            android:launchMode="standard" />
-129-->D:\Projects\Android\work_liuchangxu\app\src\main\AndroidManifest.xml:114:13-42
-130        <activity
-130-->D:\Projects\Android\work_liuchangxu\app\src\main\AndroidManifest.xml:115:9-117:39
-131            android:name="com.example.work_liuchangxu.work_0421.Work0421MainActivity"
-131-->D:\Projects\Android\work_liuchangxu\app\src\main\AndroidManifest.xml:116:13-59
-132            android:exported="true" />
-132-->D:\Projects\Android\work_liuchangxu\app\src\main\AndroidManifest.xml:117:13-36
-133
-134        <provider
-134-->[androidx.emoji2:emoji2:1.2.0] C:\Users\34829\.gradle\caches\transforms-4\8edce6b9b8f9e08ea4a573ab2f19dd8e\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
-135            android:name="androidx.startup.InitializationProvider"
-135-->[androidx.emoji2:emoji2:1.2.0] C:\Users\34829\.gradle\caches\transforms-4\8edce6b9b8f9e08ea4a573ab2f19dd8e\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
-136            android:authorities="com.example.work_liuchangxu.androidx-startup"
-136-->[androidx.emoji2:emoji2:1.2.0] C:\Users\34829\.gradle\caches\transforms-4\8edce6b9b8f9e08ea4a573ab2f19dd8e\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
-137            android:exported="false" >
-137-->[androidx.emoji2:emoji2:1.2.0] C:\Users\34829\.gradle\caches\transforms-4\8edce6b9b8f9e08ea4a573ab2f19dd8e\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
-138            <meta-data
-138-->[androidx.emoji2:emoji2:1.2.0] C:\Users\34829\.gradle\caches\transforms-4\8edce6b9b8f9e08ea4a573ab2f19dd8e\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
-139                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-139-->[androidx.emoji2:emoji2:1.2.0] C:\Users\34829\.gradle\caches\transforms-4\8edce6b9b8f9e08ea4a573ab2f19dd8e\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
-140                android:value="androidx.startup" />
-140-->[androidx.emoji2:emoji2:1.2.0] C:\Users\34829\.gradle\caches\transforms-4\8edce6b9b8f9e08ea4a573ab2f19dd8e\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
-141            <meta-data
-141-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\34829\.gradle\caches\transforms-4\b8007ab0b9724312ec009f9b6b120ad2\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:29:13-31:52
-142                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-142-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\34829\.gradle\caches\transforms-4\b8007ab0b9724312ec009f9b6b120ad2\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:30:17-78
-143                android:value="androidx.startup" />
-143-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\34829\.gradle\caches\transforms-4\b8007ab0b9724312ec009f9b6b120ad2\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:31:17-49
-144            <meta-data
-144-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\34829\.gradle\caches\transforms-4\a0ad271f2d2b066c017aebac5da18bda\transformed\profileinstaller-1.3.1\AndroidManifest.xml:29:13-31:52
-145                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
-145-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\34829\.gradle\caches\transforms-4\a0ad271f2d2b066c017aebac5da18bda\transformed\profileinstaller-1.3.1\AndroidManifest.xml:30:17-85
-146                android:value="androidx.startup" />
-146-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\34829\.gradle\caches\transforms-4\a0ad271f2d2b066c017aebac5da18bda\transformed\profileinstaller-1.3.1\AndroidManifest.xml:31:17-49
-147        </provider>
-148
-149        <receiver
-149-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\34829\.gradle\caches\transforms-4\a0ad271f2d2b066c017aebac5da18bda\transformed\profileinstaller-1.3.1\AndroidManifest.xml:34:9-52:20
-150            android:name="androidx.profileinstaller.ProfileInstallReceiver"
-150-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\34829\.gradle\caches\transforms-4\a0ad271f2d2b066c017aebac5da18bda\transformed\profileinstaller-1.3.1\AndroidManifest.xml:35:13-76
-151            android:directBootAware="false"
-151-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\34829\.gradle\caches\transforms-4\a0ad271f2d2b066c017aebac5da18bda\transformed\profileinstaller-1.3.1\AndroidManifest.xml:36:13-44
-152            android:enabled="true"
-152-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\34829\.gradle\caches\transforms-4\a0ad271f2d2b066c017aebac5da18bda\transformed\profileinstaller-1.3.1\AndroidManifest.xml:37:13-35
-153            android:exported="true"
-153-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\34829\.gradle\caches\transforms-4\a0ad271f2d2b066c017aebac5da18bda\transformed\profileinstaller-1.3.1\AndroidManifest.xml:38:13-36
-154            android:permission="android.permission.DUMP" >
-154-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\34829\.gradle\caches\transforms-4\a0ad271f2d2b066c017aebac5da18bda\transformed\profileinstaller-1.3.1\AndroidManifest.xml:39:13-57
-155            <intent-filter>
-155-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\34829\.gradle\caches\transforms-4\a0ad271f2d2b066c017aebac5da18bda\transformed\profileinstaller-1.3.1\AndroidManifest.xml:40:13-42:29
-156                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
-156-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\34829\.gradle\caches\transforms-4\a0ad271f2d2b066c017aebac5da18bda\transformed\profileinstaller-1.3.1\AndroidManifest.xml:41:17-91
-156-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\34829\.gradle\caches\transforms-4\a0ad271f2d2b066c017aebac5da18bda\transformed\profileinstaller-1.3.1\AndroidManifest.xml:41:25-88
-157            </intent-filter>
-158            <intent-filter>
-158-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\34829\.gradle\caches\transforms-4\a0ad271f2d2b066c017aebac5da18bda\transformed\profileinstaller-1.3.1\AndroidManifest.xml:43:13-45:29
-159                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
-159-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\34829\.gradle\caches\transforms-4\a0ad271f2d2b066c017aebac5da18bda\transformed\profileinstaller-1.3.1\AndroidManifest.xml:44:17-85
-159-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\34829\.gradle\caches\transforms-4\a0ad271f2d2b066c017aebac5da18bda\transformed\profileinstaller-1.3.1\AndroidManifest.xml:44:25-82
-160            </intent-filter>
-161            <intent-filter>
-161-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\34829\.gradle\caches\transforms-4\a0ad271f2d2b066c017aebac5da18bda\transformed\profileinstaller-1.3.1\AndroidManifest.xml:46:13-48:29
-162                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
-162-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\34829\.gradle\caches\transforms-4\a0ad271f2d2b066c017aebac5da18bda\transformed\profileinstaller-1.3.1\AndroidManifest.xml:47:17-88
-162-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\34829\.gradle\caches\transforms-4\a0ad271f2d2b066c017aebac5da18bda\transformed\profileinstaller-1.3.1\AndroidManifest.xml:47:25-85
-163            </intent-filter>
-164            <intent-filter>
-164-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\34829\.gradle\caches\transforms-4\a0ad271f2d2b066c017aebac5da18bda\transformed\profileinstaller-1.3.1\AndroidManifest.xml:49:13-51:29
-165                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
-165-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\34829\.gradle\caches\transforms-4\a0ad271f2d2b066c017aebac5da18bda\transformed\profileinstaller-1.3.1\AndroidManifest.xml:50:17-95
-165-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\34829\.gradle\caches\transforms-4\a0ad271f2d2b066c017aebac5da18bda\transformed\profileinstaller-1.3.1\AndroidManifest.xml:50:25-92
-166            </intent-filter>
-167        </receiver>
-168    </application>
-169
-170</manifest>
+97        <receiver
+97-->D:\Projects\Android\work_liuchangxu\app\src\main\AndroidManifest.xml:75:9-78:39
+98            android:name="com.example.work_liuchangxu.work_0421.NativeReceiver"
+98-->D:\Projects\Android\work_liuchangxu\app\src\main\AndroidManifest.xml:76:13-53
+99            android:enabled="true"
+99-->D:\Projects\Android\work_liuchangxu\app\src\main\AndroidManifest.xml:77:13-35
+100            android:exported="true" />
+100-->D:\Projects\Android\work_liuchangxu\app\src\main\AndroidManifest.xml:78:13-36
+101        <receiver
+101-->D:\Projects\Android\work_liuchangxu\app\src\main\AndroidManifest.xml:79:9-88:20
+102            android:name="com.example.work_liuchangxu.work_0421.StaticReceiver"
+102-->D:\Projects\Android\work_liuchangxu\app\src\main\AndroidManifest.xml:80:13-53
+103            android:enabled="true"
+103-->D:\Projects\Android\work_liuchangxu\app\src\main\AndroidManifest.xml:81:13-35
+104            android:exported="true" >
+104-->D:\Projects\Android\work_liuchangxu\app\src\main\AndroidManifest.xml:82:13-36
+105            <intent-filter>
+105-->D:\Projects\Android\work_liuchangxu\app\src\main\AndroidManifest.xml:83:13-87:29
+106                <action android:name="com.example.work_liuchangxu.Static_Action" />
+106-->D:\Projects\Android\work_liuchangxu\app\src\main\AndroidManifest.xml:84:17-84
+106-->D:\Projects\Android\work_liuchangxu\app\src\main\AndroidManifest.xml:84:25-81
+107
+108                <data android:mimeType="text/plain" />
+108-->D:\Projects\Android\work_liuchangxu\app\src\main\AndroidManifest.xml:86:17-55
+108-->D:\Projects\Android\work_liuchangxu\app\src\main\AndroidManifest.xml:86:23-52
+109            </intent-filter>
+110        </receiver>
+111
+112        <activity
+112-->D:\Projects\Android\work_liuchangxu\app\src\main\AndroidManifest.xml:90:9-92:40
+113            android:name="com.example.work_liuchangxu.work_0421.ServiceActivity"
+113-->D:\Projects\Android\work_liuchangxu\app\src\main\AndroidManifest.xml:91:13-54
+114            android:exported="false" />
+114-->D:\Projects\Android\work_liuchangxu\app\src\main\AndroidManifest.xml:92:13-37
+115
+116        <service
+116-->D:\Projects\Android\work_liuchangxu\app\src\main\AndroidManifest.xml:94:9-97:39
+117            android:name="com.example.work_liuchangxu.work_0421.bindService"
+117-->D:\Projects\Android\work_liuchangxu\app\src\main\AndroidManifest.xml:95:13-50
+118            android:enabled="true"
+118-->D:\Projects\Android\work_liuchangxu\app\src\main\AndroidManifest.xml:96:13-35
+119            android:exported="true" />
+119-->D:\Projects\Android\work_liuchangxu\app\src\main\AndroidManifest.xml:97:13-36
+120        <service
+120-->D:\Projects\Android\work_liuchangxu\app\src\main\AndroidManifest.xml:98:9-101:39
+121            android:name="com.example.work_liuchangxu.work_0421.startService"
+121-->D:\Projects\Android\work_liuchangxu\app\src\main\AndroidManifest.xml:99:13-51
+122            android:enabled="true"
+122-->D:\Projects\Android\work_liuchangxu\app\src\main\AndroidManifest.xml:100:13-35
+123            android:exported="true" />
+123-->D:\Projects\Android\work_liuchangxu\app\src\main\AndroidManifest.xml:101:13-36
+124
+125        <activity
+125-->D:\Projects\Android\work_liuchangxu\app\src\main\AndroidManifest.xml:103:9-106:51
+126            android:name="com.example.work_liuchangxu.work_0421.SingleInstanceActivity"
+126-->D:\Projects\Android\work_liuchangxu\app\src\main\AndroidManifest.xml:104:13-61
+127            android:exported="false"
+127-->D:\Projects\Android\work_liuchangxu\app\src\main\AndroidManifest.xml:105:13-37
+128            android:launchMode="singleInstance" />
+128-->D:\Projects\Android\work_liuchangxu\app\src\main\AndroidManifest.xml:106:13-48
+129        <activity
+129-->D:\Projects\Android\work_liuchangxu\app\src\main\AndroidManifest.xml:107:9-110:47
+130            android:name="com.example.work_liuchangxu.work_0421.SingleTaskActivity"
+130-->D:\Projects\Android\work_liuchangxu\app\src\main\AndroidManifest.xml:108:13-57
+131            android:exported="false"
+131-->D:\Projects\Android\work_liuchangxu\app\src\main\AndroidManifest.xml:109:13-37
+132            android:launchMode="singleTask" />
+132-->D:\Projects\Android\work_liuchangxu\app\src\main\AndroidManifest.xml:110:13-44
+133        <activity
+133-->D:\Projects\Android\work_liuchangxu\app\src\main\AndroidManifest.xml:111:9-114:46
+134            android:name="com.example.work_liuchangxu.work_0421.SingleTopActivity"
+134-->D:\Projects\Android\work_liuchangxu\app\src\main\AndroidManifest.xml:112:13-56
+135            android:exported="false"
+135-->D:\Projects\Android\work_liuchangxu\app\src\main\AndroidManifest.xml:113:13-37
+136            android:launchMode="singleTop" />
+136-->D:\Projects\Android\work_liuchangxu\app\src\main\AndroidManifest.xml:114:13-43
+137        <activity
+137-->D:\Projects\Android\work_liuchangxu\app\src\main\AndroidManifest.xml:115:9-118:45
+138            android:name="com.example.work_liuchangxu.work_0421.StandardActivity"
+138-->D:\Projects\Android\work_liuchangxu\app\src\main\AndroidManifest.xml:116:13-55
+139            android:exported="false"
+139-->D:\Projects\Android\work_liuchangxu\app\src\main\AndroidManifest.xml:117:13-37
+140            android:launchMode="standard" />
+140-->D:\Projects\Android\work_liuchangxu\app\src\main\AndroidManifest.xml:118:13-42
+141        <activity
+141-->D:\Projects\Android\work_liuchangxu\app\src\main\AndroidManifest.xml:119:9-121:39
+142            android:name="com.example.work_liuchangxu.work_0421.Work0421MainActivity"
+142-->D:\Projects\Android\work_liuchangxu\app\src\main\AndroidManifest.xml:120:13-59
+143            android:exported="true" />
+143-->D:\Projects\Android\work_liuchangxu\app\src\main\AndroidManifest.xml:121:13-36
+144
+145        <provider
+145-->[com.squareup.leakcanary:leakcanary-android-core:2.12] C:\Users\34829\.gradle\caches\transforms-4\70d13e681486b7940ee13811d1dcef2d\transformed\leakcanary-android-core-2.12\AndroidManifest.xml:32:9-40:20
+146            android:name="leakcanary.internal.LeakCanaryFileProvider"
+146-->[com.squareup.leakcanary:leakcanary-android-core:2.12] C:\Users\34829\.gradle\caches\transforms-4\70d13e681486b7940ee13811d1dcef2d\transformed\leakcanary-android-core-2.12\AndroidManifest.xml:33:13-70
+147            android:authorities="com.squareup.leakcanary.fileprovider.com.example.work_liuchangxu"
+147-->[com.squareup.leakcanary:leakcanary-android-core:2.12] C:\Users\34829\.gradle\caches\transforms-4\70d13e681486b7940ee13811d1dcef2d\transformed\leakcanary-android-core-2.12\AndroidManifest.xml:34:13-88
+148            android:exported="false"
+148-->[com.squareup.leakcanary:leakcanary-android-core:2.12] C:\Users\34829\.gradle\caches\transforms-4\70d13e681486b7940ee13811d1dcef2d\transformed\leakcanary-android-core-2.12\AndroidManifest.xml:35:13-37
+149            android:grantUriPermissions="true" >
+149-->[com.squareup.leakcanary:leakcanary-android-core:2.12] C:\Users\34829\.gradle\caches\transforms-4\70d13e681486b7940ee13811d1dcef2d\transformed\leakcanary-android-core-2.12\AndroidManifest.xml:36:13-47
+150            <meta-data
+150-->[com.squareup.leakcanary:leakcanary-android-core:2.12] C:\Users\34829\.gradle\caches\transforms-4\70d13e681486b7940ee13811d1dcef2d\transformed\leakcanary-android-core-2.12\AndroidManifest.xml:37:13-39:66
+151                android:name="android.support.FILE_PROVIDER_PATHS"
+151-->[com.squareup.leakcanary:leakcanary-android-core:2.12] C:\Users\34829\.gradle\caches\transforms-4\70d13e681486b7940ee13811d1dcef2d\transformed\leakcanary-android-core-2.12\AndroidManifest.xml:38:17-67
+152                android:resource="@xml/leak_canary_file_paths" />
+152-->[com.squareup.leakcanary:leakcanary-android-core:2.12] C:\Users\34829\.gradle\caches\transforms-4\70d13e681486b7940ee13811d1dcef2d\transformed\leakcanary-android-core-2.12\AndroidManifest.xml:39:17-63
+153        </provider>
+154
+155        <activity
+155-->[com.squareup.leakcanary:leakcanary-android-core:2.12] C:\Users\34829\.gradle\caches\transforms-4\70d13e681486b7940ee13811d1dcef2d\transformed\leakcanary-android-core-2.12\AndroidManifest.xml:42:9-73:20
+156            android:name="leakcanary.internal.activity.LeakActivity"
+156-->[com.squareup.leakcanary:leakcanary-android-core:2.12] C:\Users\34829\.gradle\caches\transforms-4\70d13e681486b7940ee13811d1dcef2d\transformed\leakcanary-android-core-2.12\AndroidManifest.xml:43:13-69
+157            android:exported="true"
+157-->[com.squareup.leakcanary:leakcanary-android-core:2.12] C:\Users\34829\.gradle\caches\transforms-4\70d13e681486b7940ee13811d1dcef2d\transformed\leakcanary-android-core-2.12\AndroidManifest.xml:44:13-36
+158            android:icon="@mipmap/leak_canary_icon"
+158-->[com.squareup.leakcanary:leakcanary-android-core:2.12] C:\Users\34829\.gradle\caches\transforms-4\70d13e681486b7940ee13811d1dcef2d\transformed\leakcanary-android-core-2.12\AndroidManifest.xml:45:13-52
+159            android:label="@string/leak_canary_display_activity_label"
+159-->[com.squareup.leakcanary:leakcanary-android-core:2.12] C:\Users\34829\.gradle\caches\transforms-4\70d13e681486b7940ee13811d1dcef2d\transformed\leakcanary-android-core-2.12\AndroidManifest.xml:46:13-71
+160            android:taskAffinity="com.squareup.leakcanary.com.example.work_liuchangxu"
+160-->[com.squareup.leakcanary:leakcanary-android-core:2.12] C:\Users\34829\.gradle\caches\transforms-4\70d13e681486b7940ee13811d1dcef2d\transformed\leakcanary-android-core-2.12\AndroidManifest.xml:47:13-76
+161            android:theme="@style/leak_canary_LeakCanary.Base" >
+161-->[com.squareup.leakcanary:leakcanary-android-core:2.12] C:\Users\34829\.gradle\caches\transforms-4\70d13e681486b7940ee13811d1dcef2d\transformed\leakcanary-android-core-2.12\AndroidManifest.xml:48:13-63
+162            <intent-filter android:label="@string/leak_canary_import_hprof_file" >
+162-->[com.squareup.leakcanary:leakcanary-android-core:2.12] C:\Users\34829\.gradle\caches\transforms-4\70d13e681486b7940ee13811d1dcef2d\transformed\leakcanary-android-core-2.12\AndroidManifest.xml:49:13-72:29
+162-->[com.squareup.leakcanary:leakcanary-android-core:2.12] C:\Users\34829\.gradle\caches\transforms-4\70d13e681486b7940ee13811d1dcef2d\transformed\leakcanary-android-core-2.12\AndroidManifest.xml:49:28-81
+163                <action android:name="android.intent.action.VIEW" />
+163-->[com.squareup.leakcanary:leakcanary-android-core:2.12] C:\Users\34829\.gradle\caches\transforms-4\70d13e681486b7940ee13811d1dcef2d\transformed\leakcanary-android-core-2.12\AndroidManifest.xml:50:17-69
+163-->[com.squareup.leakcanary:leakcanary-android-core:2.12] C:\Users\34829\.gradle\caches\transforms-4\70d13e681486b7940ee13811d1dcef2d\transformed\leakcanary-android-core-2.12\AndroidManifest.xml:50:25-66
+164
+165                <category android:name="android.intent.category.DEFAULT" />
+165-->[com.squareup.leakcanary:leakcanary-android-core:2.12] C:\Users\34829\.gradle\caches\transforms-4\70d13e681486b7940ee13811d1dcef2d\transformed\leakcanary-android-core-2.12\AndroidManifest.xml:52:17-76
+165-->[com.squareup.leakcanary:leakcanary-android-core:2.12] C:\Users\34829\.gradle\caches\transforms-4\70d13e681486b7940ee13811d1dcef2d\transformed\leakcanary-android-core-2.12\AndroidManifest.xml:52:27-73
+166                <category android:name="android.intent.category.BROWSABLE" />
+166-->[com.squareup.leakcanary:leakcanary-android-core:2.12] C:\Users\34829\.gradle\caches\transforms-4\70d13e681486b7940ee13811d1dcef2d\transformed\leakcanary-android-core-2.12\AndroidManifest.xml:53:17-78
+166-->[com.squareup.leakcanary:leakcanary-android-core:2.12] C:\Users\34829\.gradle\caches\transforms-4\70d13e681486b7940ee13811d1dcef2d\transformed\leakcanary-android-core-2.12\AndroidManifest.xml:53:27-75
+167
+168                <data android:scheme="file" />
+168-->D:\Projects\Android\work_liuchangxu\app\src\main\AndroidManifest.xml:86:17-55
+169                <data android:scheme="content" />
+169-->D:\Projects\Android\work_liuchangxu\app\src\main\AndroidManifest.xml:86:17-55
+170                <data android:mimeType="*/*" />
+170-->D:\Projects\Android\work_liuchangxu\app\src\main\AndroidManifest.xml:86:17-55
+170-->D:\Projects\Android\work_liuchangxu\app\src\main\AndroidManifest.xml:86:23-52
+171                <data android:host="*" />
+171-->D:\Projects\Android\work_liuchangxu\app\src\main\AndroidManifest.xml:86:17-55
+172                <data android:pathPattern=".*\\.hprof" />
+172-->D:\Projects\Android\work_liuchangxu\app\src\main\AndroidManifest.xml:86:17-55
+173                <data android:pathPattern=".*\\..*\\.hprof" />
+173-->D:\Projects\Android\work_liuchangxu\app\src\main\AndroidManifest.xml:86:17-55
+174                <data android:pathPattern=".*\\..*\\..*\\.hprof" />
+174-->D:\Projects\Android\work_liuchangxu\app\src\main\AndroidManifest.xml:86:17-55
+175                <data android:pathPattern=".*\\..*\\..*\\..*\\.hprof" />
+175-->D:\Projects\Android\work_liuchangxu\app\src\main\AndroidManifest.xml:86:17-55
+176                <data android:pathPattern=".*\\..*\\..*\\..*\\..*\\.hprof" />
+176-->D:\Projects\Android\work_liuchangxu\app\src\main\AndroidManifest.xml:86:17-55
+177                <data android:pathPattern=".*\\..*\\..*\\..*\\..*\\..*\\.hprof" />
+177-->D:\Projects\Android\work_liuchangxu\app\src\main\AndroidManifest.xml:86:17-55
+178                <data android:pathPattern=".*\\..*\\..*\\..*\\..*\\..*\\..*\\.hprof" />
+178-->D:\Projects\Android\work_liuchangxu\app\src\main\AndroidManifest.xml:86:17-55
+179                <!--
+180            Since hprof isn't a standard MIME type, we have to declare such patterns.
+181            Most file providers will generate URIs including their own package name,
+182            which contains `.` characters that must be explicitly escaped in pathPattern.
+183            @see https://stackoverflow.com/a/31028507/703646
+184                -->
+185            </intent-filter>
+186        </activity>
+187
+188        <activity-alias
+188-->[com.squareup.leakcanary:leakcanary-android-core:2.12] C:\Users\34829\.gradle\caches\transforms-4\70d13e681486b7940ee13811d1dcef2d\transformed\leakcanary-android-core-2.12\AndroidManifest.xml:75:9-92:26
+189            android:name="leakcanary.internal.activity.LeakLauncherActivity"
+189-->[com.squareup.leakcanary:leakcanary-android-core:2.12] C:\Users\34829\.gradle\caches\transforms-4\70d13e681486b7940ee13811d1dcef2d\transformed\leakcanary-android-core-2.12\AndroidManifest.xml:76:13-77
+190            android:banner="@drawable/leak_canary_tv_icon"
+190-->[com.squareup.leakcanary:leakcanary-android-core:2.12] C:\Users\34829\.gradle\caches\transforms-4\70d13e681486b7940ee13811d1dcef2d\transformed\leakcanary-android-core-2.12\AndroidManifest.xml:77:13-59
+191            android:enabled="@bool/leak_canary_add_launcher_icon"
+191-->[com.squareup.leakcanary:leakcanary-android-core:2.12] C:\Users\34829\.gradle\caches\transforms-4\70d13e681486b7940ee13811d1dcef2d\transformed\leakcanary-android-core-2.12\AndroidManifest.xml:78:13-66
+192            android:exported="true"
+192-->[com.squareup.leakcanary:leakcanary-android-core:2.12] C:\Users\34829\.gradle\caches\transforms-4\70d13e681486b7940ee13811d1dcef2d\transformed\leakcanary-android-core-2.12\AndroidManifest.xml:79:13-36
+193            android:icon="@mipmap/leak_canary_icon"
+193-->[com.squareup.leakcanary:leakcanary-android-core:2.12] C:\Users\34829\.gradle\caches\transforms-4\70d13e681486b7940ee13811d1dcef2d\transformed\leakcanary-android-core-2.12\AndroidManifest.xml:80:13-52
+194            android:label="@string/leak_canary_display_activity_label"
+194-->[com.squareup.leakcanary:leakcanary-android-core:2.12] C:\Users\34829\.gradle\caches\transforms-4\70d13e681486b7940ee13811d1dcef2d\transformed\leakcanary-android-core-2.12\AndroidManifest.xml:81:13-71
+195            android:targetActivity="leakcanary.internal.activity.LeakActivity"
+195-->[com.squareup.leakcanary:leakcanary-android-core:2.12] C:\Users\34829\.gradle\caches\transforms-4\70d13e681486b7940ee13811d1dcef2d\transformed\leakcanary-android-core-2.12\AndroidManifest.xml:82:13-79
+196            android:taskAffinity="com.squareup.leakcanary.com.example.work_liuchangxu"
+196-->[com.squareup.leakcanary:leakcanary-android-core:2.12] C:\Users\34829\.gradle\caches\transforms-4\70d13e681486b7940ee13811d1dcef2d\transformed\leakcanary-android-core-2.12\AndroidManifest.xml:83:13-76
+197            android:theme="@style/leak_canary_LeakCanary.Base" >
+197-->[com.squareup.leakcanary:leakcanary-android-core:2.12] C:\Users\34829\.gradle\caches\transforms-4\70d13e681486b7940ee13811d1dcef2d\transformed\leakcanary-android-core-2.12\AndroidManifest.xml:84:13-63
+198            <intent-filter>
+198-->[com.squareup.leakcanary:leakcanary-android-core:2.12] C:\Users\34829\.gradle\caches\transforms-4\70d13e681486b7940ee13811d1dcef2d\transformed\leakcanary-android-core-2.12\AndroidManifest.xml:85:13-91:29
+199                <action android:name="android.intent.action.MAIN" />
+199-->D:\Projects\Android\work_liuchangxu\app\src\main\AndroidManifest.xml:57:17-69
+199-->D:\Projects\Android\work_liuchangxu\app\src\main\AndroidManifest.xml:57:25-66
+200
+201                <category android:name="android.intent.category.LAUNCHER" />
+201-->D:\Projects\Android\work_liuchangxu\app\src\main\AndroidManifest.xml:59:17-77
+201-->D:\Projects\Android\work_liuchangxu\app\src\main\AndroidManifest.xml:59:27-74
+202                <!-- Android TV launcher intent -->
+203                <category android:name="android.intent.category.LEANBACK_LAUNCHER" />
+203-->[com.squareup.leakcanary:leakcanary-android-core:2.12] C:\Users\34829\.gradle\caches\transforms-4\70d13e681486b7940ee13811d1dcef2d\transformed\leakcanary-android-core-2.12\AndroidManifest.xml:90:17-86
+203-->[com.squareup.leakcanary:leakcanary-android-core:2.12] C:\Users\34829\.gradle\caches\transforms-4\70d13e681486b7940ee13811d1dcef2d\transformed\leakcanary-android-core-2.12\AndroidManifest.xml:90:27-83
+204            </intent-filter>
+205        </activity-alias>
+206
+207        <activity
+207-->[com.squareup.leakcanary:leakcanary-android-core:2.12] C:\Users\34829\.gradle\caches\transforms-4\70d13e681486b7940ee13811d1dcef2d\transformed\leakcanary-android-core-2.12\AndroidManifest.xml:94:9-100:68
+208            android:name="leakcanary.internal.RequestPermissionActivity"
+208-->[com.squareup.leakcanary:leakcanary-android-core:2.12] C:\Users\34829\.gradle\caches\transforms-4\70d13e681486b7940ee13811d1dcef2d\transformed\leakcanary-android-core-2.12\AndroidManifest.xml:95:13-73
+209            android:excludeFromRecents="true"
+209-->[com.squareup.leakcanary:leakcanary-android-core:2.12] C:\Users\34829\.gradle\caches\transforms-4\70d13e681486b7940ee13811d1dcef2d\transformed\leakcanary-android-core-2.12\AndroidManifest.xml:96:13-46
+210            android:icon="@mipmap/leak_canary_icon"
+210-->[com.squareup.leakcanary:leakcanary-android-core:2.12] C:\Users\34829\.gradle\caches\transforms-4\70d13e681486b7940ee13811d1dcef2d\transformed\leakcanary-android-core-2.12\AndroidManifest.xml:97:13-52
+211            android:label="@string/leak_canary_storage_permission_activity_label"
+211-->[com.squareup.leakcanary:leakcanary-android-core:2.12] C:\Users\34829\.gradle\caches\transforms-4\70d13e681486b7940ee13811d1dcef2d\transformed\leakcanary-android-core-2.12\AndroidManifest.xml:98:13-82
+212            android:taskAffinity="com.squareup.leakcanary.com.example.work_liuchangxu"
+212-->[com.squareup.leakcanary:leakcanary-android-core:2.12] C:\Users\34829\.gradle\caches\transforms-4\70d13e681486b7940ee13811d1dcef2d\transformed\leakcanary-android-core-2.12\AndroidManifest.xml:99:13-76
+213            android:theme="@style/leak_canary_Theme.Transparent" />
+213-->[com.squareup.leakcanary:leakcanary-android-core:2.12] C:\Users\34829\.gradle\caches\transforms-4\70d13e681486b7940ee13811d1dcef2d\transformed\leakcanary-android-core-2.12\AndroidManifest.xml:100:13-65
+214
+215        <receiver android:name="leakcanary.internal.NotificationReceiver" />
+215-->[com.squareup.leakcanary:leakcanary-android-core:2.12] C:\Users\34829\.gradle\caches\transforms-4\70d13e681486b7940ee13811d1dcef2d\transformed\leakcanary-android-core-2.12\AndroidManifest.xml:102:9-77
+215-->[com.squareup.leakcanary:leakcanary-android-core:2.12] C:\Users\34829\.gradle\caches\transforms-4\70d13e681486b7940ee13811d1dcef2d\transformed\leakcanary-android-core-2.12\AndroidManifest.xml:102:19-74
+216
+217        <provider
+217-->[com.squareup.leakcanary:leakcanary-object-watcher-android:2.12] C:\Users\34829\.gradle\caches\transforms-4\7013ff8e8b412a7d2f7c8f584a2e88c8\transformed\leakcanary-object-watcher-android-2.12\AndroidManifest.xml:8:9-12:40
+218            android:name="leakcanary.internal.MainProcessAppWatcherInstaller"
+218-->[com.squareup.leakcanary:leakcanary-object-watcher-android:2.12] C:\Users\34829\.gradle\caches\transforms-4\7013ff8e8b412a7d2f7c8f584a2e88c8\transformed\leakcanary-object-watcher-android-2.12\AndroidManifest.xml:9:13-78
+219            android:authorities="com.example.work_liuchangxu.leakcanary-installer"
+219-->[com.squareup.leakcanary:leakcanary-object-watcher-android:2.12] C:\Users\34829\.gradle\caches\transforms-4\7013ff8e8b412a7d2f7c8f584a2e88c8\transformed\leakcanary-object-watcher-android-2.12\AndroidManifest.xml:10:13-72
+220            android:enabled="@bool/leak_canary_watcher_auto_install"
+220-->[com.squareup.leakcanary:leakcanary-object-watcher-android:2.12] C:\Users\34829\.gradle\caches\transforms-4\7013ff8e8b412a7d2f7c8f584a2e88c8\transformed\leakcanary-object-watcher-android-2.12\AndroidManifest.xml:11:13-69
+221            android:exported="false" />
+221-->[com.squareup.leakcanary:leakcanary-object-watcher-android:2.12] C:\Users\34829\.gradle\caches\transforms-4\7013ff8e8b412a7d2f7c8f584a2e88c8\transformed\leakcanary-object-watcher-android-2.12\AndroidManifest.xml:12:13-37
+222        <provider
+222-->[com.squareup.leakcanary:plumber-android:2.12] C:\Users\34829\.gradle\caches\transforms-4\2a3175504a7b04058d749b16b80432e9\transformed\plumber-android-2.12\AndroidManifest.xml:8:9-12:40
+223            android:name="leakcanary.internal.PlumberInstaller"
+223-->[com.squareup.leakcanary:plumber-android:2.12] C:\Users\34829\.gradle\caches\transforms-4\2a3175504a7b04058d749b16b80432e9\transformed\plumber-android-2.12\AndroidManifest.xml:9:13-64
+224            android:authorities="com.example.work_liuchangxu.plumber-installer"
+224-->[com.squareup.leakcanary:plumber-android:2.12] C:\Users\34829\.gradle\caches\transforms-4\2a3175504a7b04058d749b16b80432e9\transformed\plumber-android-2.12\AndroidManifest.xml:10:13-69
+225            android:enabled="@bool/leak_canary_plumber_auto_install"
+225-->[com.squareup.leakcanary:plumber-android:2.12] C:\Users\34829\.gradle\caches\transforms-4\2a3175504a7b04058d749b16b80432e9\transformed\plumber-android-2.12\AndroidManifest.xml:11:13-69
+226            android:exported="false" />
+226-->[com.squareup.leakcanary:plumber-android:2.12] C:\Users\34829\.gradle\caches\transforms-4\2a3175504a7b04058d749b16b80432e9\transformed\plumber-android-2.12\AndroidManifest.xml:12:13-37
+227        <provider
+227-->[androidx.emoji2:emoji2:1.2.0] C:\Users\34829\.gradle\caches\transforms-4\8ead8e04f189bf7e7fef38ca3f5d7fa3\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+228            android:name="androidx.startup.InitializationProvider"
+228-->[androidx.emoji2:emoji2:1.2.0] C:\Users\34829\.gradle\caches\transforms-4\8ead8e04f189bf7e7fef38ca3f5d7fa3\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+229            android:authorities="com.example.work_liuchangxu.androidx-startup"
+229-->[androidx.emoji2:emoji2:1.2.0] C:\Users\34829\.gradle\caches\transforms-4\8ead8e04f189bf7e7fef38ca3f5d7fa3\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+230            android:exported="false" >
+230-->[androidx.emoji2:emoji2:1.2.0] C:\Users\34829\.gradle\caches\transforms-4\8ead8e04f189bf7e7fef38ca3f5d7fa3\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+231            <meta-data
+231-->[androidx.emoji2:emoji2:1.2.0] C:\Users\34829\.gradle\caches\transforms-4\8ead8e04f189bf7e7fef38ca3f5d7fa3\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+232                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+232-->[androidx.emoji2:emoji2:1.2.0] C:\Users\34829\.gradle\caches\transforms-4\8ead8e04f189bf7e7fef38ca3f5d7fa3\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+233                android:value="androidx.startup" />
+233-->[androidx.emoji2:emoji2:1.2.0] C:\Users\34829\.gradle\caches\transforms-4\8ead8e04f189bf7e7fef38ca3f5d7fa3\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+234            <meta-data
+234-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\34829\.gradle\caches\transforms-4\a3cf3487e50ad6ab4b89183361e94ac9\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:29:13-31:52
+235                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+235-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\34829\.gradle\caches\transforms-4\a3cf3487e50ad6ab4b89183361e94ac9\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:30:17-78
+236                android:value="androidx.startup" />
+236-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\34829\.gradle\caches\transforms-4\a3cf3487e50ad6ab4b89183361e94ac9\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:31:17-49
+237            <meta-data
+237-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\34829\.gradle\caches\transforms-4\f75425a82004db71dc8239ed1447003e\transformed\profileinstaller-1.3.1\AndroidManifest.xml:29:13-31:52
+238                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+238-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\34829\.gradle\caches\transforms-4\f75425a82004db71dc8239ed1447003e\transformed\profileinstaller-1.3.1\AndroidManifest.xml:30:17-85
+239                android:value="androidx.startup" />
+239-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\34829\.gradle\caches\transforms-4\f75425a82004db71dc8239ed1447003e\transformed\profileinstaller-1.3.1\AndroidManifest.xml:31:17-49
+240        </provider>
+241
+242        <receiver
+242-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\34829\.gradle\caches\transforms-4\f75425a82004db71dc8239ed1447003e\transformed\profileinstaller-1.3.1\AndroidManifest.xml:34:9-52:20
+243            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+243-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\34829\.gradle\caches\transforms-4\f75425a82004db71dc8239ed1447003e\transformed\profileinstaller-1.3.1\AndroidManifest.xml:35:13-76
+244            android:directBootAware="false"
+244-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\34829\.gradle\caches\transforms-4\f75425a82004db71dc8239ed1447003e\transformed\profileinstaller-1.3.1\AndroidManifest.xml:36:13-44
+245            android:enabled="true"
+245-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\34829\.gradle\caches\transforms-4\f75425a82004db71dc8239ed1447003e\transformed\profileinstaller-1.3.1\AndroidManifest.xml:37:13-35
+246            android:exported="true"
+246-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\34829\.gradle\caches\transforms-4\f75425a82004db71dc8239ed1447003e\transformed\profileinstaller-1.3.1\AndroidManifest.xml:38:13-36
+247            android:permission="android.permission.DUMP" >
+247-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\34829\.gradle\caches\transforms-4\f75425a82004db71dc8239ed1447003e\transformed\profileinstaller-1.3.1\AndroidManifest.xml:39:13-57
+248            <intent-filter>
+248-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\34829\.gradle\caches\transforms-4\f75425a82004db71dc8239ed1447003e\transformed\profileinstaller-1.3.1\AndroidManifest.xml:40:13-42:29
+249                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+249-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\34829\.gradle\caches\transforms-4\f75425a82004db71dc8239ed1447003e\transformed\profileinstaller-1.3.1\AndroidManifest.xml:41:17-91
+249-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\34829\.gradle\caches\transforms-4\f75425a82004db71dc8239ed1447003e\transformed\profileinstaller-1.3.1\AndroidManifest.xml:41:25-88
+250            </intent-filter>
+251            <intent-filter>
+251-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\34829\.gradle\caches\transforms-4\f75425a82004db71dc8239ed1447003e\transformed\profileinstaller-1.3.1\AndroidManifest.xml:43:13-45:29
+252                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+252-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\34829\.gradle\caches\transforms-4\f75425a82004db71dc8239ed1447003e\transformed\profileinstaller-1.3.1\AndroidManifest.xml:44:17-85
+252-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\34829\.gradle\caches\transforms-4\f75425a82004db71dc8239ed1447003e\transformed\profileinstaller-1.3.1\AndroidManifest.xml:44:25-82
+253            </intent-filter>
+254            <intent-filter>
+254-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\34829\.gradle\caches\transforms-4\f75425a82004db71dc8239ed1447003e\transformed\profileinstaller-1.3.1\AndroidManifest.xml:46:13-48:29
+255                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+255-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\34829\.gradle\caches\transforms-4\f75425a82004db71dc8239ed1447003e\transformed\profileinstaller-1.3.1\AndroidManifest.xml:47:17-88
+255-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\34829\.gradle\caches\transforms-4\f75425a82004db71dc8239ed1447003e\transformed\profileinstaller-1.3.1\AndroidManifest.xml:47:25-85
+256            </intent-filter>
+257            <intent-filter>
+257-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\34829\.gradle\caches\transforms-4\f75425a82004db71dc8239ed1447003e\transformed\profileinstaller-1.3.1\AndroidManifest.xml:49:13-51:29
+258                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+258-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\34829\.gradle\caches\transforms-4\f75425a82004db71dc8239ed1447003e\transformed\profileinstaller-1.3.1\AndroidManifest.xml:50:17-95
+258-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\34829\.gradle\caches\transforms-4\f75425a82004db71dc8239ed1447003e\transformed\profileinstaller-1.3.1\AndroidManifest.xml:50:25-92
+259            </intent-filter>
+260        </receiver>
+261    </application>
+262
+263</manifest>

@@ -3,6 +3,13 @@ package com.example.work_liuchangxu.work_0428;
 public class Response<T> {
     private int code;
     private String message;
+
+    public Response(int code, String message, T data) {
+        this.code = code;
+        this.message = message;
+        this.data = data;
+    }
+
     private T data;
 
     public int getCode() {

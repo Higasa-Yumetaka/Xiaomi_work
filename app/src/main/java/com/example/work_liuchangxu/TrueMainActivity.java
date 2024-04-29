@@ -28,6 +28,8 @@ public class TrueMainActivity extends AppCompatActivity {
         setContentView(R.layout.true_activity_main);
 
         // 新建作业添加到NameList
+        NameList.add("work_0429_2|ANR");
+        NameList.add("work_0429_1|完善work_0428_2的内存泄漏问题");
         NameList.add("work_0428_2|Network");
         NameList.add("work_0428_1|Handler");
         NameList.add("work_0427|View");
@@ -37,8 +39,6 @@ public class TrueMainActivity extends AppCompatActivity {
         NameList.add("work_0423|RecycleView");
         NameList.add("work_0422|Fragment");
         NameList.add("work_0421|Activity");
-
-
 
         MyListAdapter adapter = new MyListAdapter(TrueMainActivity.this, R.layout.list_item_layout, NameList);
         adapter.setOnItemClickListener(onButtonClickListener);
@@ -71,6 +71,10 @@ public class TrueMainActivity extends AppCompatActivity {
             intent = new Intent(this, com.example.work_liuchangxu.work_0428.Main0428Activity_1.class);
         } else if(position == (Total_nums - 9)){
             intent = new Intent(this, com.example.work_liuchangxu.work_0428.Main0428Activity_2.class);
+        } else if(position == (Total_nums - 10)){
+            intent = new Intent(this, com.example.work_liuchangxu.work_0429.Main0428Activity_2.class);
+        } else if(position == (Total_nums - 11)){
+            intent = new Intent(this, com.example.work_liuchangxu.work_0429.Main0429Activity.class);
         }
         startActivity(intent);
     };

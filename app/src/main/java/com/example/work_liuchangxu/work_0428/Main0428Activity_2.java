@@ -9,6 +9,7 @@ import androidx.fragment.app.FragmentStatePagerAdapter;
 import androidx.viewpager.widget.ViewPager;
 
 import com.example.work_liuchangxu.R;
+import com.example.work_liuchangxu.work_0429.MyANRWatchDog;
 import com.google.android.material.tabs.TabLayout;
 
 public class Main0428Activity_2 extends AppCompatActivity {

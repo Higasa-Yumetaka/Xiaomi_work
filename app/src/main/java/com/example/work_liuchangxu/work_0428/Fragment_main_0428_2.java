@@ -1,7 +1,6 @@
 package com.example.work_liuchangxu.work_0428;
 
 import android.os.Bundle;
-import android.os.Handler;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -73,7 +72,7 @@ public class Fragment_main_0428_2 extends Fragment {
                 if (response.body() != null) {
                     dataList.clear();
                     pages = response.body().getData().getPages();
-                    dataList = (List<MyStruct>) response.body().getData().getRecords();
+                    dataList = response.body().getData().getRecords();
                     Log.w("Fragment_main_0428_2", "onCreateView: getGameData" + dataList.size());
                     adapter = new MyBaseProviderMultiAdapter(dataList);
                     recyclerView.setAdapter(adapter);
