@@ -115,11 +115,7 @@ class FragmentMainKotlin : Fragment() {
                         val newDataList: MutableList<ItemData> = ArrayList()
                         for (i in 0 until count) {
                             newDataList.add(
-                                ItemData(
-                                    ItemData.TYPE_TEXT,
-                                    "这是第" + (dataList!!.size / 2 + 1 + i) + "个文本"
-                                )
-                            )
+                                ItemData(ItemData.TYPE_TEXT, "这是第" + (dataList!!.size / 2 + 1 + i) + "个文本"))
                             newDataList.add(ItemData(ItemData.TYPE_IMAGE, R.drawable.great_wall))
                         }
                         // 将新数据设置到 Adapter 中
