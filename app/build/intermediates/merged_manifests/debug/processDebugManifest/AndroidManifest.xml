@@ -37,6 +37,15 @@
         android:testOnly="true"
         android:theme="@style/Theme.work_liuchanxu" >
         <activity
+            android:name="com.example.work_liuchangxu.work_0430.ShowTextActivity0430"
+            android:exported="false" />
+        <activity
+            android:name="com.example.work_liuchangxu.work_0430.ShowImageActivity0430"
+            android:exported="false" />
+        <activity
+            android:name="com.example.work_liuchangxu.work_0430.Main0430Activity"
+            android:exported="false" />
+        <activity
             android:name="com.example.work_liuchangxu.work_0429.Main0428Activity_optimized"
             android:exported="false" />
         <activity
@@ -215,16 +224,6 @@
         <receiver android:name="leakcanary.internal.NotificationReceiver" />
 
         <provider
-            android:name="leakcanary.internal.MainProcessAppWatcherInstaller"
-            android:authorities="com.example.work_liuchangxu.leakcanary-installer"
-            android:enabled="@bool/leak_canary_watcher_auto_install"
-            android:exported="false" />
-        <provider
-            android:name="leakcanary.internal.PlumberInstaller"
-            android:authorities="com.example.work_liuchangxu.plumber-installer"
-            android:enabled="@bool/leak_canary_plumber_auto_install"
-            android:exported="false" />
-        <provider
             android:name="androidx.startup.InitializationProvider"
             android:authorities="com.example.work_liuchangxu.androidx-startup"
             android:exported="false" >
@@ -238,6 +237,16 @@
                 android:name="androidx.profileinstaller.ProfileInstallerInitializer"
                 android:value="androidx.startup" />
         </provider>
+        <provider
+            android:name="leakcanary.internal.MainProcessAppWatcherInstaller"
+            android:authorities="com.example.work_liuchangxu.leakcanary-installer"
+            android:enabled="@bool/leak_canary_watcher_auto_install"
+            android:exported="false" />
+        <provider
+            android:name="leakcanary.internal.PlumberInstaller"
+            android:authorities="com.example.work_liuchangxu.plumber-installer"
+            android:enabled="@bool/leak_canary_plumber_auto_install"
+            android:exported="false" />
 
         <receiver
             android:name="androidx.profileinstaller.ProfileInstallReceiver"

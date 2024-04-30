@@ -21,6 +21,7 @@ swiperefreshlayoutVersion = "1.1.0"
 okhttp = "4.12.0"
 retrofit = "2.9.0"
 gson = "2.10.1"
+kotlin = "1.9.0"
 
 [libraries]
 adapter-rxjava = { module = "com.squareup.retrofit2:adapter-rxjava", version.ref = "adapterRxjava" }
@@ -49,4 +50,5 @@ swiperefreshlayout-v100 = { module = "androidx.swiperefreshlayout:swiperefreshla
 
 [plugins]
 androidApplication = { id = "com.android.application", version.ref = "agp" }
+jetbrainsKotlinAndroid = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
 

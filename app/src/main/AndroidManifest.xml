@@ -16,10 +16,21 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.work_liuchanxu"
         tools:targetApi="31">
-        <activity android:name=".work_0429.Main0428Activity_optimized"
-            android:exported="false"/>
-        <activity android:name=".work_0429.Main0429Activity"
-            android:exported="false"/>
+        <activity
+            android:name=".work_0430.ShowTextActivity0430"
+            android:exported="false" />
+        <activity
+            android:name=".work_0430.ShowImageActivity0430"
+            android:exported="false" />
+        <activity
+            android:name=".work_0430.Main0430Activity"
+            android:exported="false" />
+        <activity
+            android:name=".work_0429.Main0428Activity_optimized"
+            android:exported="false" />
+        <activity
+            android:name=".work_0429.Main0429Activity"
+            android:exported="false" />
         <activity
             android:name=".work_0428.Main0428Activity_2"
             android:exported="false" />

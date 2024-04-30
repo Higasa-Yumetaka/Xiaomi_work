@@ -4,7 +4,7 @@
             "outputFile": "com.example.work_liuchangxu.app-mergeDebugResources-43:/values-en/values-en.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\34829\\.gradle\\caches\\transforms-4\\57512372decb8ac7c183c16f95a85feb\\transformed\\BaseRecyclerViewAdapterHelper-3.0.14\\res\\values-en\\values-en.xml",
+                    "source": "C:\\Users\\34829\\.gradle\\caches\\transforms-4\\9597dd7e5964399e005d3a757b505cc2\\transformed\\BaseRecyclerViewAdapterHelper-3.0.14\\res\\values-en\\values-en.xml",
                     "from": {
                         "startLines": "2,3,4,5",
                         "startColumns": "4,4,4,4",
