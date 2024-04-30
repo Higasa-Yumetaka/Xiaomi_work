@@ -1,5 +1,7 @@
 ## MyANRWatchDog
 
+[MyANRWatchDog.java](../../app/src/main/java/com/example/work_liuchangxu/work_0429/MyANRWatchDog.java)
+
 ### 使用方法：
 ```
 new MyANRWatchDog().start(); // 以默认的配置启动 ANR 监控(ANR阈值5000ms，时间精度1000ms)
@@ -39,6 +41,9 @@ while(线程未被中断){
 ```
 
 ## 内存泄漏
+
+[Fragment_main_0429_2.java](../../app/src/main/java/com/example/work_liuchangxu/work_0429/Fragment_main_0429_2.java)
+
 ```
 使用WeakReference引用Fragment_main_0428_2实例，使得在回调中持有对fragment的引用变为弱引用。
 防止回调持有fragment的强引用，避免了内存泄漏问题，因为即使fragment被销毁，回调中的弱引用也不会阻止其被垃圾回收。

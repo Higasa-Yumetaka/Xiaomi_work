@@ -12,7 +12,7 @@
 
 #### ANR作业演示视频见[此处](demo/work_0429/作业演示视频0429.mp4)
 
-#### 内存泄漏优化代码见[此处](app/src/main/java/com/example/work_liuchangxu/work_0429/Main0428Activity_optimized.java)
+#### 内存泄漏优化代码见[此处](app/src/main/java/com/example/work_liuchangxu/work_0429/Fragment_main_0429_2.java)
 
 #### ANR优化代码见[此处](app/src/main/java/com/example/work_liuchangxu/work_0429/MyANRWatchDog.java)
 
