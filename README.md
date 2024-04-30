@@ -12,9 +12,41 @@
 
 #### ANR作业演示视频见[此处](demo/work_0429/作业演示视频0429.mp4)
 
+<<<<<<< HEAD
 #### 内存泄漏优化代码见[此处](app/src/main/java/com/example/work_liuchangxu/work_0429/Main0428Activity_optimized.java)
 
 #### ANR优化代码见[此处](app/src/main/java/com/example/work_liuchangxu/work_0429/MyANRWatchDog.java)
+=======
+检测方法：
+采用检测主线程一段时间内连续阻塞的方式来检测ANR，本质上是检测主线程是否存在持续一段时间的阻塞
+可以在初始化时设置ANR的超时时间和检测的精度(ms)
+通过轮询的方式检测主线程是否阻塞，向主线程发送消息_ticker，若主线程在检测精度的时间间隔内未能将_ticker清零，则认为主线程在该时间段内阻塞
+在一次轮询中，检测主线程在检测精度的时间间隔内是否阻塞
+若主线程在该检测精度的时间间隔内阻塞，则计数器加1，否则计数器清零，进行下一次轮询
+若计数器达到触发ANR的次数，则触发ANR，若未达到触发ANR的次数，则计数器清零，进行下一次轮询
+
+
+实现逻辑：
+初始化时设置ANR超时时间和检测精度(ms)
+创建一个计数器 = 0，用于记录主线程在检测精度的时间间隔内阻塞的次数
+创建一个_ticker，用于向主线程发送消息
+触发ANR阈值 = ANR超时时常/检测精度
+while(线程未被中断){
+    向主线程发送_ticker
+    sleep(检测精度)
+    if (_tick != 0){  //主线程在检测精度的时间间隔内未能将_ticker清零，即主线程阻塞
+        计数器++
+    } else {  //主线程在检测精度的时间间隔内将_ticker清零，即主线程未阻塞
+        计数器 = 0
+        break
+    }
+    if (计数器 == 触发ANR阈值){  //主线程在一次轮询中达到触发ANR的次数
+        触发ANR
+    }
+}
+
+#### 代码见[此处](app/src/main/java/com/example/work_liuchangxu/work_0429)
+>>>>>>> 16c3945d97bd75d731345f27ceb67678690b7eaf
 
 ## 往日作业
 
