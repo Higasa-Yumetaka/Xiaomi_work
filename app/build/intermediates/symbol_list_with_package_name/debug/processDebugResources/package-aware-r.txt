@@ -3723,6 +3723,7 @@ id textinput_placeholder
 id textinput_prefix_text
 id textinput_suffix_text
 id textview_game_brief
+id textview_game_collected
 id textview_game_name
 id textview_game_score
 id textview_game_tag

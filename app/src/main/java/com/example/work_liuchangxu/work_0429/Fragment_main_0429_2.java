@@ -18,7 +18,7 @@ import androidx.swiperefreshlayout.widget.SwipeRefreshLayout;
 
 import com.example.work_liuchangxu.R;
 import com.example.work_liuchangxu.work_0428.MyBaseProviderMultiAdapter;
-import com.example.work_liuchangxu.work_0428.MyData;
+import com.example.work_liuchangxu.work_0428.Records;
 import com.example.work_liuchangxu.work_0428.MyLoadingEvent;
 import com.example.work_liuchangxu.work_0428.MyStruct;
 import com.example.work_liuchangxu.work_0428.Response;
@@ -61,7 +61,7 @@ public class Fragment_main_0429_2 extends Fragment {
 
     public interface ApiService {
         @GET("quick-game/game/search")
-        Call<Response<MyData<MyStruct>>> getData(@Query("search") String param_search, @Query("current") int param_current, @Query("size") int param_size);
+        Call<Response<Records<MyStruct>>> getData(@Query("search") String param_search, @Query("current") int param_current, @Query("size") int param_size);
     }
 
     //创建网络请求接口对象实例
@@ -75,11 +75,11 @@ public class Fragment_main_0429_2 extends Fragment {
 
     private void getGameData(String search, int current, int size, boolean isRefresh) {
         Log.w("Fragment_main_0429_2", "getGameData: ");
-        Call<Response<MyData<MyStruct>>> call = api.getData(search, current, size);
+        Call<Response<Records<MyStruct>>> call = api.getData(search, current, size);
 
         call.enqueue(new Callback<>() {
             @Override
-            public void onResponse(@NonNull Call<Response<MyData<MyStruct>>> call, @NonNull retrofit2.Response<Response<MyData<MyStruct>>> response) {
+            public void onResponse(@NonNull Call<Response<Records<MyStruct>>> call, @NonNull retrofit2.Response<Response<Records<MyStruct>>> response) {
                 /*
                     * 0429：改为使用弱引用获取Fragment实例
                     * 防止Retrofit回调中的匿名内部类持有Fragment的强引用，避免内存泄漏。
@@ -105,18 +105,18 @@ public class Fragment_main_0429_2 extends Fragment {
                 }
             }
             @Override
-            public void onFailure(@NonNull Call<Response<MyData<MyStruct>>> call, @NonNull Throwable t) {
+            public void onFailure(@NonNull Call<Response<Records<MyStruct>>> call, @NonNull Throwable t) {
                 Log.e("Fragment_main_0429_2", "getGameData:onFailure" + t.getMessage());
             }
         });
     }
 
     private void insertGameData(String search, int current, int size) {
-        Call<Response<MyData<MyStruct>>> call = api.getData(search, current, size);
+        Call<Response<Records<MyStruct>>> call = api.getData(search, current, size);
 
         call.enqueue(new Callback<>() {
             @Override
-            public void onResponse(@NonNull Call<Response<MyData<MyStruct>>> call, @NonNull retrofit2.Response<Response<MyData<MyStruct>>> response) {
+            public void onResponse(@NonNull Call<Response<Records<MyStruct>>> call, @NonNull retrofit2.Response<Response<Records<MyStruct>>> response) {
                 Fragment_main_0429_2 fragment = weakReference.get();
                 if (fragment != null) {
                     Log.w("Fragment_main_0429_2", "insertGameData:onResponse: ");
@@ -136,7 +136,7 @@ public class Fragment_main_0429_2 extends Fragment {
             }
 
             @Override
-            public void onFailure(@NonNull Call<Response<MyData<MyStruct>>> call, @NonNull Throwable t) {
+            public void onFailure(@NonNull Call<Response<Records<MyStruct>>> call, @NonNull Throwable t) {
                 Fragment_main_0429_2 fragment = weakReference.get();
                 if (fragment != null) {
                     //请求失败时回调

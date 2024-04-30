@@ -1,10 +1,12 @@
 package com.example.work_liuchangxu.work_0430
 
 import android.os.Bundle
+import android.view.View
 import android.widget.ImageButton
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
 import com.example.work_liuchangxu.R
+import com.example.work_liuchangxu.work_0425.MyEvent
 import org.greenrobot.eventbus.EventBus
 
 class ShowTextActivity0430 : AppCompatActivity() {
@@ -29,7 +31,7 @@ class ShowTextActivity0430 : AppCompatActivity() {
             imageButton.setAlpha(0.3f)
             imageButton.setColorFilter(getColor(R.color.grey))
         }
-        imageButton.setOnClickListener {
+        imageButton.setOnClickListener { v: View? ->
             if (stared) {
                 imageButton.setAlpha(0.3f)
                 imageButton.setColorFilter(getColor(R.color.grey))

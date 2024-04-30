@@ -27,15 +27,15 @@ public class GameItemProvider extends BaseItemProvider<MyStruct> {
     @Override
     public void convert(@NonNull BaseViewHolder baseViewHolder, MyStruct myStruct) {
         baseViewHolder.setText(R.id.textview_game_name, myStruct.getGameName());
-        baseViewHolder.setText(R.id.textview_game_brief, myStruct.getBrief());
-        baseViewHolder.setText(R.id.textview_game_tag, myStruct.getTags());
-        baseViewHolder.setText(R.id.textview_game_score, myStruct.getScore());
+        baseViewHolder.setText(R.id.textview_game_brief, myStruct.getGameBrief());
+        baseViewHolder.setText(R.id.textview_game_tag, myStruct.getGameTags());
+        baseViewHolder.setText(R.id.textview_game_score, myStruct.getGameScore());
 
         // 使用Glide加载网络图片并添加圆角
         int radius = 50; // 圆角半径
         RoundedCorners roundedCorners = new RoundedCorners(radius);
         Glide.with(baseViewHolder.itemView.getContext())
-                .load(myStruct.getIcon())
+                .load(myStruct.getGameIcon())
                 .transform(roundedCorners)
                 .into((ImageView) Objects.requireNonNull(baseViewHolder.findView(R.id.item_game_image)));
     }

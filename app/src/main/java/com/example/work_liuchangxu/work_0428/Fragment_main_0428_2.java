@@ -54,7 +54,7 @@ public class Fragment_main_0428_2 extends Fragment {
 
     public interface ApiService {
         @GET("quick-game/game/search")
-        Call<Response<MyData<MyStruct>>> getData(@Query("search") String param_search, @Query("current") int param_current, @Query("size") int param_size);
+        Call<Response<Records<MyStruct>>> getData(@Query("search") String param_search, @Query("current") int param_current, @Query("size") int param_size);
     }
 
     //创建网络请求接口对象实例
@@ -62,11 +62,11 @@ public class Fragment_main_0428_2 extends Fragment {
 
     private void getGameData(String search, int current, int size, boolean isRefresh) {
         Log.w("Fragment_main_0428_2", "getGameData: ");
-        Call<Response<MyData<MyStruct>>> call = api.getData(search, current, size);
+        Call<Response<Records<MyStruct>>> call = api.getData(search, current, size);
 
         call.enqueue(new Callback<>() {
             @Override
-            public void onResponse(@NonNull Call<Response<MyData<MyStruct>>> call, @NonNull retrofit2.Response<Response<MyData<MyStruct>>> response) {
+            public void onResponse(@NonNull Call<Response<Records<MyStruct>>> call, @NonNull retrofit2.Response<Response<Records<MyStruct>>> response) {
                 //请求成功时回调
                 if (response.body() != null) {
                     dataList.clear();
@@ -86,7 +86,7 @@ public class Fragment_main_0428_2 extends Fragment {
                 }
             }
             @Override
-            public void onFailure(@NonNull Call<Response<MyData<MyStruct>>> call, @NonNull Throwable t) {
+            public void onFailure(@NonNull Call<Response<Records<MyStruct>>> call, @NonNull Throwable t) {
                 //请求失败时回调
                 Log.e("Fragment_main_0428_2", "getGameData:onFailure" + t.getMessage());
             }
@@ -94,17 +94,17 @@ public class Fragment_main_0428_2 extends Fragment {
     }
 
     private void insertGameData(String search, int current, int size) {
-        Call<Response<MyData<MyStruct>>> call = api.getData(search, current, size);
+        Call<Response<Records<MyStruct>>> call = api.getData(search, current, size);
 
         call.enqueue(new Callback<>() {
 
             @Override
-            public void onResponse(@NonNull Call<Response<MyData<MyStruct>>> call, @NonNull retrofit2.Response<Response<MyData<MyStruct>>> response) {
+            public void onResponse(@NonNull Call<Response<Records<MyStruct>>> call, @NonNull retrofit2.Response<Response<Records<MyStruct>>> response) {
                 Log.w("Fragment_main_0428_2", "insertGameData:onResponse: ");
                 //请求成功时回调
                 if (response.body() != null) {
                     Log.w("Fragment_main_0428_2", "onCreateView: getGameData" + dataList.size());
-                    dataList.addAll((List<MyStruct>) response.body().getData().getRecords());
+                    dataList.addAll(response.body().getData().getRecords());
                     adapter.notifyItemInserted(dataList.size() - 1);
                     adapter.setLoadingComplete();
                 }else {
@@ -113,7 +113,7 @@ public class Fragment_main_0428_2 extends Fragment {
                 }
             }
             @Override
-            public void onFailure(@NonNull Call<Response<MyData<MyStruct>>> call, @NonNull Throwable t) {
+            public void onFailure(@NonNull Call<Response<Records<MyStruct>>> call, @NonNull Throwable t) {
                 //请求失败时回调
                 Log.e("Fragment_main_0428_2", "insertGameData:onFailure" + t.getMessage());
                 adapter.setLoadingComplete(); // 当请求失败时，也调用adapter.setLoadingComplete()

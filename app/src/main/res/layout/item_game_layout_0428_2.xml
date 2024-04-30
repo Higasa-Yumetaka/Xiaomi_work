@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_height="wrap_content"
     android:layout_width="match_parent"
-    xmlns:app="http://schemas.android.com/apk/res-auto">
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tool="http://schemas.android.com/tools">
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -28,10 +28,10 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/textview_game_name"
-        android:text="game"
-        android:textSize="25dp"
+        tool:text="game"
+        android:textSize="25sp"
         android:textColor="@color/black"
-        android:gravity="left"
+        android:gravity="start"
         android:layout_marginStart="15dp"
         app:layout_constraintVertical_chainStyle="packed"
         app:layout_constraintStart_toEndOf="@id/item_game_image"
@@ -44,9 +44,9 @@
             android:id="@+id/textview_game_brief"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:gravity="left"
-            android:text="brief"
-            android:textSize="16dp"
+            android:gravity="start"
+            tool:text=" | brief"
+            android:textSize="16sp"
             app:layout_goneMarginStart="5dp"
             app:layout_constraintStart_toEndOf="@+id/textview_game_score"
             app:layout_constraintTop_toTopOf="@id/textview_game_score" />
@@ -57,10 +57,10 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="12dp"
             android:gravity="center"
-            android:text="score"
+            tool:text="⭐5.0"
             android:textColor="@color/green"
             android:textFontWeight="@integer/material_motion_duration_medium_1"
-            android:textSize="16dp"
+            android:textSize="16sp"
             app:layout_constraintStart_toEndOf="@id/item_game_image"
             app:layout_constraintTop_toBottomOf="@id/textview_game_name"
             app:layout_constraintBottom_toBottomOf="parent"
@@ -70,13 +70,28 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/textview_game_tag"
-            android:text="tag"
-            android:textSize="12dp"
+            tool:text=" tag "
+            android:textSize="12sp"
             android:textColor="@color/white"
             android:gravity="center"
             android:layout_marginStart="10dp"
             android:background="@drawable/item_tag_backfround"
             app:layout_constraintStart_toEndOf="@id/textview_game_name"
+            app:layout_constraintTop_toTopOf="@id/textview_game_name"
+            app:layout_constraintBottom_toBottomOf="@id/textview_game_name"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textview_game_collected"
+            tool:text=" collected "
+            android:textSize="12sp"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:layout_marginStart="10dp"
+            android:background="@drawable/item_tag_backfround"
+            android:backgroundTint="@color/orange"
+            app:layout_constraintStart_toEndOf="@id/textview_game_tag"
             app:layout_constraintTop_toTopOf="@id/textview_game_name"
             app:layout_constraintBottom_toBottomOf="@id/textview_game_name"/>
 

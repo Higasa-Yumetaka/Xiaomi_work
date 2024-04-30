@@ -9,6 +9,7 @@ class MyBaseProviderMultiAdapter(data: List<ItemData?>?) :
 
     init {
         addItemProvider(MyImageItemProvider())
+        addItemProvider(GameItemProvider())
         addItemProvider(MyTextItemProvider())
         addItemProvider(MyItemLoadingProvider())
     }

@@ -3722,6 +3722,7 @@ int id textinput_placeholder 0x7f090235
 int id textinput_prefix_text 0x7f090236
 int id textinput_suffix_text 0x7f090237
 int id textview_game_brief 0x7f090238
+int id textview_game_collected 0x7f090267
 int id textview_game_name 0x7f090239
 int id textview_game_score 0x7f09023a
 int id textview_game_tag 0x7f09023b

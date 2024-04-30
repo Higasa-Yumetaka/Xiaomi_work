@@ -32,7 +32,7 @@ class MyImageItemProvider : BaseItemProvider<ItemData>() {
             imageButton.setAlpha(0.3f)
             imageButton.setColorFilter(context.getColor(R.color.grey))
         }
-        imageButton.setOnClickListener { v: View? ->
+        imageButton.setOnClickListener {
             if (item.isStared) Toast.makeText(context, "取消点赞", Toast.LENGTH_SHORT)
                 .show() else Toast.makeText(context, "点赞成功", Toast.LENGTH_SHORT).show()
             item.isStared = !item.isStared

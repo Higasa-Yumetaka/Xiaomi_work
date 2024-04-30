@@ -179,6 +179,7 @@ id textView_dashboard
 id textView_home
 id textView_notification
 id textview_game_brief
+id textview_game_collected
 id textview_game_name
 id textview_game_score
 id textview_game_tag

@@ -60,53 +60,53 @@ public class MyStruct implements MultiItemEntity {
         this.createTime = createTime;
     }
 
-    public String getPackageName() {
+    public String getGamePackageName() {
         return packageName;
     }
 
-    public Long getAppId() {
+    public Long getGameAppId() {
         return appId;
     }
 
-    public String getIcon() {
+    public String getGameIcon() {
         return icon;
     }
 
-    public String getIntroduction() {
+    public String getGameIntroduction() {
         return introduction;
     }
 
-    public String getBrief() {
+    public String getGameBrief() {
         return " | " + brief;
     }
 
-    public String getVersionName() {
+    public String getGameGameVersionName() {
         return versionName;
     }
 
-    public String getApkUrl() {
+    public String getGameApkUrl() {
         return apkUrl;
     }
 
-    public String getTags() {
+    public String getGameTags() {
         return " " + tags + " ";
     }
 
-    public String getScore() {
+    public String getGameScore() {
         return "⭐" + score;
     }
 
-    public String getPlayNumFormat() {
+    public String getGamePlayNumFormat() {
         return playNumFormat;
     }
 
-    public String getCreateTime() {
+    public String getGameCreateTime() {
         return createTime;
     }
 
     private final String createTime;
 
-    public int getType() {
+    public int getGameType() {
         return Type;
     }
 
@@ -114,7 +114,7 @@ public class MyStruct implements MultiItemEntity {
         return gameName;
     }
 
-    public int getId() {
+    public int getGameId() {
         return id;
     }
 

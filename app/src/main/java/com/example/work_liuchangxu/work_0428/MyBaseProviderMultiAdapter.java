@@ -25,9 +25,9 @@ public class MyBaseProviderMultiAdapter extends BaseProviderMultiAdapter<MyStruc
                 isLoading = true;
                 EventBus.getDefault().post(new MyLoadingEvent(MyLoadingEvent.STATE_LOADING));
             }
-            return isDataComplete ? data.get(position).getType() : MyStruct.TYPE_LOADING;
+            return isDataComplete ? data.get(position).getGameType() : MyStruct.TYPE_LOADING;
         } else {
-            return data.get(position).getType();
+            return data.get(position).getGameType();
         }
     }
 

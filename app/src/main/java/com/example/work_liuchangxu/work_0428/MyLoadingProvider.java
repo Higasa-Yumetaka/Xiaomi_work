@@ -21,8 +21,8 @@ public class MyLoadingProvider extends BaseItemProvider<MyStruct> {
 
     @Override
     public void convert(@NonNull BaseViewHolder baseViewHolder, MyStruct myStruct) {
-        Log.w("MyLoadingProvider", "convert: " + myStruct.getType());
-        switch (myStruct.getType()) {
+        Log.w("MyLoadingProvider", "convert: " + myStruct.getGameType());
+        switch (myStruct.getGameType()) {
             case MyStruct.LOADING_COMPLETE:
                 baseViewHolder.setText(R.id.tv_loading, "加载完成");
                 baseViewHolder.setGone(R.id.pb_loading, true);

@@ -1,43 +1,43 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_height="wrap_content"
     android:layout_width="match_parent"
-    xmlns:app="http://schemas.android.com/apk/res-auto">
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tool="http://schemas.android.com/tools">
+
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:padding="10dp"
+        android:layout_margin="5dp"
         android:background="@drawable/item_round_gray_backfround_0428_2"
-        android:layout_margin="5dp">
+        android:padding="10dp">
 
         <ImageView
+            android:id="@+id/item_game_image"
             android:layout_width="100dp"
             android:layout_height="100dp"
-            android:id="@+id/item_game_image"
-            android:src="@mipmap/ic_launcher_round"
             android:layout_marginStart="5dp"
             android:layout_marginTop="5dp"
             android:layout_marginBottom="5dp"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
+            android:src="@mipmap/ic_launcher_round"
+            app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toStartOf="@id/textview_game_name"
-            app:layout_constraintBottom_toBottomOf="parent"/>
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
 
         <TextView
+            android:id="@+id/textview_game_name"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/textview_game_name"
-            android:text="game"
-            android:textSize="25dp"
-            android:textColor="@color/black"
-            android:gravity="left"
             android:layout_marginStart="15dp"
-            app:layout_constraintVertical_chainStyle="packed"
+            android:gravity="left"
+            android:text="game"
+            android:textColor="@color/black"
+            android:textSize="25dp"
+            app:layout_constraintBottom_toTopOf="@id/textview_game_score"
             app:layout_constraintStart_toEndOf="@id/item_game_image"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintBottom_toTopOf="@id/textview_game_score"
-            />
+            app:layout_constraintVertical_chainStyle="packed" />
 
 
         <TextView
@@ -48,9 +48,9 @@
             android:gravity="left"
             android:text="brief"
             android:textSize="16dp"
-            app:layout_goneMarginStart="5dp"
             app:layout_constraintStart_toEndOf="@+id/textview_game_score"
-            app:layout_constraintTop_toTopOf="@id/textview_game_score" />
+            app:layout_constraintTop_toTopOf="@id/textview_game_score"
+            app:layout_goneMarginStart="5dp" />
 
         <TextView
             android:id="@+id/textview_game_score"
@@ -62,24 +62,38 @@
             android:textColor="@color/green"
             android:textFontWeight="@integer/material_motion_duration_medium_1"
             android:textSize="16dp"
-            app:layout_constraintStart_toEndOf="@id/item_game_image"
-            app:layout_constraintTop_toBottomOf="@id/textview_game_name"
             app:layout_constraintBottom_toBottomOf="parent"
-            />
+            app:layout_constraintStart_toEndOf="@id/item_game_image"
+            app:layout_constraintTop_toBottomOf="@id/textview_game_name" />
 
         <TextView
+            android:id="@+id/textview_game_tag"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/textview_game_tag"
-            android:text="tag"
-            android:textSize="12dp"
-            android:textColor="@color/white"
-            android:gravity="center"
             android:layout_marginStart="10dp"
             android:background="@drawable/item_tag_backfround"
+            android:gravity="center"
+            android:text="tag"
+            android:textColor="@color/white"
+            android:textSize="12dp"
+            app:layout_constraintBottom_toBottomOf="@id/textview_game_name"
             app:layout_constraintStart_toEndOf="@id/textview_game_name"
+            app:layout_constraintTop_toTopOf="@id/textview_game_name" />
+
+        <TextView
+            android:id="@+id/textview_game_collected"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:background="@drawable/item_tag_backfround"
+            android:backgroundTint="@color/orange"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:textSize="12sp"
+            app:layout_constraintBottom_toBottomOf="@id/textview_game_name"
+            app:layout_constraintStart_toEndOf="@id/textview_game_tag"
             app:layout_constraintTop_toTopOf="@id/textview_game_name"
-            app:layout_constraintBottom_toBottomOf="@id/textview_game_name"/>
+            tool:text=" collected " />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
