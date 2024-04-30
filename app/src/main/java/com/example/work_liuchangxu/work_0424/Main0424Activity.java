@@ -1,7 +1,6 @@
 package com.example.work_liuchangxu.work_0424;
 
 import android.content.Context;
-import android.content.Intent;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -17,10 +16,6 @@ import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.example.work_liuchangxu.R;
-import com.example.work_liuchangxu.TrueMainActivity;
-import com.example.work_liuchangxu.work_0421.Work0421MainActivity;
-import com.example.work_liuchangxu.work_0422.Main0422Activity;
-import com.example.work_liuchangxu.work_0423.RecycleActivity;
 
 import java.util.ArrayList;
 import java.util.List;

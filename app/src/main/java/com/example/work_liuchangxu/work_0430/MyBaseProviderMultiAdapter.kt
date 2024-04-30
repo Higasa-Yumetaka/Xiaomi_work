@@ -14,7 +14,7 @@ class MyBaseProviderMultiAdapter(data: List<ItemData?>?) :
     }
 
     override fun getItemType(data: List<ItemData>, position: Int): Int {
-        // 当滑动到最后时返回MyStruct.TYPE_LOADING，否则返回data.get(position).getType()
+        // 当滑动到最后时返回ItemData.TYPE_LOADING，否则返回data[position].itemType
         return if (position + 1 == data.size) {
             if (!isLoading) {
                 isLoading = true

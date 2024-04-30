@@ -22,7 +22,7 @@ class MyImageItemProvider : BaseItemProvider<ItemData>() {
     override fun convert(helper: BaseViewHolder, item: ItemData) {
         Glide.with(context)
             .load(item.`object` as Int)
-            .apply(RequestOptions().transforms(RoundedCorners(25)))
+            .apply(RequestOptions().transforms(RoundedCorners(60)))
             .into((helper.getView<View>(R.id.item_imageView0425) as ImageView))
         val imageButton = helper.getView<ImageButton>(R.id.star_button_image0425)
         if (item.isStared) {

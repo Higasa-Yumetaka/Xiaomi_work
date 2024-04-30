@@ -23,8 +23,9 @@
         app:layout_constraintBottom_toBottomOf="parent" />
 
         <ImageButton
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:scaleType="centerCrop"
         android:id="@+id/star_button_activity_text0425"
         android:layout_marginEnd="25dp"
         android:layout_marginBottom="25dp"

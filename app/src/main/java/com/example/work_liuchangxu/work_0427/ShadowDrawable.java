@@ -8,8 +8,6 @@ import android.graphics.PixelFormat;
 import android.graphics.Rect;
 import android.graphics.drawable.Drawable;
 
-import androidx.annotation.Nullable;
-
 public class ShadowDrawable extends Drawable {
     private final Paint shadowPaint;
     private final int shadowRadius;

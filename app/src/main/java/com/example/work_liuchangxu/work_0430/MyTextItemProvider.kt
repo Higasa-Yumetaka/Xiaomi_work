@@ -13,7 +13,7 @@ class MyTextItemProvider : BaseItemProvider<ItemData>() {
     override val itemViewType: Int
         get() = ItemData.TYPE_TEXT
     override val layoutId: Int
-        get() = R.layout.item_news_layout_0430
+        get() = R.layout.item_text_recycle_0425
 
     override fun convert(helper: BaseViewHolder, item: ItemData) {
         helper.setText(R.id.item_textView0425, item.`object` as String)

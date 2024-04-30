@@ -18,6 +18,7 @@ import org.greenrobot.eventbus.Subscribe
 import org.greenrobot.eventbus.ThreadMode
 import java.lang.ref.WeakReference
 
+// 首页Fragment
 class FragmentMainKotlin : Fragment() {
     private var dataList: MutableList<ItemData?>? = null
     private var rootView: View? = null
@@ -33,17 +34,17 @@ class FragmentMainKotlin : Fragment() {
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        Log.w("Fragment_main_0425", "onCreateView: ")
+        Log.w("Fragment_main_0430", "onCreateView: ")
         rootView = inflater.inflate(R.layout.fragment_main_layout_0425, container, false)
         if (rootView != null) {
-            Log.w("Fragment_main_0425", "onCreateView: rootView is not null")
+            Log.w("Fragment_main_0430", "onCreateView: rootView is not null")
             recyclerView = rootView!!.findViewById(R.id.recycleView_0425)
             val localRecyclerView = recyclerView
             val layoutManager: RecyclerView.LayoutManager = LinearLayoutManager(
                 activity
             )
             localRecyclerView?.setLayoutManager(layoutManager)
-            Log.w("Fragment_main_0425", "onCreateView: recyclerView is not null")
+            Log.w("Fragment_main_043", "onCreateView: recyclerView is not null")
             dataList = ArrayList()
             val localDataList = dataList
             for (i in 0..20) {
@@ -54,7 +55,7 @@ class FragmentMainKotlin : Fragment() {
             localRecyclerView?.setAdapter(adapter)
             localRecyclerView?.setItemAnimator(DefaultItemAnimator())
         } else {
-            Log.e("Fragment_main_0425", "onCreateView: rootView is null")
+            Log.e("Fragment_main_0430", "onCreateView: rootView is null")
         }
         if (rootView != null) {
             val swipeRefreshLayout =
@@ -64,6 +65,13 @@ class FragmentMainKotlin : Fragment() {
                 val weakFragment = WeakReference(this)
                 Handler().postDelayed(
                     {
+                        // 清空并重新加载数据
+                        dataList!!.clear()
+                        for (i in 0..20) {
+                            dataList!!.add(ItemData(ItemData.TYPE_TEXT, "这是第" + (i + 1) + "个文本"))
+                            dataList!!.add(ItemData(ItemData.TYPE_IMAGE, R.drawable.great_wall))
+                        }
+                        adapter!!.notifyDataSetChanged()
                         swipeRefreshLayout.isRefreshing = false
                         weakFragment.get()?.let {
                             Toast.makeText(it.activity, "刷新完成", Toast.LENGTH_SHORT).show()
@@ -91,7 +99,7 @@ class FragmentMainKotlin : Fragment() {
 
     @Subscribe(threadMode = ThreadMode.MAIN)
     fun addItem(event: LoadingEvent) {
-        Log.w("Fragment_main_0425", "addItem: ")
+        Log.w("Fragment_main_0430", "addItem: ")
         if (event.LOADING_STATE == LoadingEvent.STATE_LOADING) {
             // 令起线程异步模拟向数据源中添加数据
             // 使用弱引用持有 Fragment 实例

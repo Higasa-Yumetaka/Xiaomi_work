@@ -1,7 +1,6 @@
 package com.example.work_liuchangxu.work_0427;
 
 import android.os.Bundle;
-import android.view.View;
 
 import androidx.appcompat.app.AppCompatActivity;
 
