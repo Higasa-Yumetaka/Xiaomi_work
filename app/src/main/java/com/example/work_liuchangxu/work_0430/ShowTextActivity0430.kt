@@ -1,7 +1,6 @@
 package com.example.work_liuchangxu.work_0430
 
 import android.os.Bundle
-import android.view.View
 import android.widget.ImageButton
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
@@ -30,7 +29,7 @@ class ShowTextActivity0430 : AppCompatActivity() {
             imageButton.setAlpha(0.3f)
             imageButton.setColorFilter(getColor(R.color.grey))
         }
-        imageButton.setOnClickListener { v: View? ->
+        imageButton.setOnClickListener {
             if (stared) {
                 imageButton.setAlpha(0.3f)
                 imageButton.setColorFilter(getColor(R.color.grey))
@@ -39,7 +38,7 @@ class ShowTextActivity0430 : AppCompatActivity() {
                 imageButton.setColorFilter(getColor(R.color.red))
             }
             stared = !stared
-            EventBus.getDefault().post(MyEvent(position, stared))
+            EventBus.getDefault().post(StarEvent(position, stared))
         }
     }
 }

@@ -9,13 +9,13 @@ import com.chad.library.adapter.base.provider.BaseItemProvider
 import com.chad.library.adapter.base.viewholder.BaseViewHolder
 import com.example.work_liuchangxu.R
 
-class MyTextProvider : BaseItemProvider<MyStruct>() {
+class MyTextItemProvider : BaseItemProvider<ItemData>() {
     override val itemViewType: Int
-        get() = MyStruct.TYPE_TEXT
+        get() = ItemData.TYPE_TEXT
     override val layoutId: Int
-        get() = R.layout.item_text_recycle_0425
+        get() = R.layout.item_news_layout_0430
 
-    override fun convert(helper: BaseViewHolder, item: MyStruct) {
+    override fun convert(helper: BaseViewHolder, item: ItemData) {
         helper.setText(R.id.item_textView0425, item.`object` as String)
         val imageButton = helper.getView<ImageButton>(R.id.star_button_text0425)
         if (item.isStared) {
@@ -25,7 +25,7 @@ class MyTextProvider : BaseItemProvider<MyStruct>() {
             imageButton.setAlpha(0.3f)
             imageButton.setColorFilter(context.getColor(R.color.grey))
         }
-        imageButton.setOnClickListener { v: View? ->
+        imageButton.setOnClickListener {
             if (item.isStared) Toast.makeText(context, "取消点赞", Toast.LENGTH_SHORT)
                 .show() else Toast.makeText(context, "点赞成功", Toast.LENGTH_SHORT).show()
             item.isStared = !item.isStared
@@ -34,9 +34,7 @@ class MyTextProvider : BaseItemProvider<MyStruct>() {
         }
     }
 
-    override fun onClick(helper: BaseViewHolder, view: View, data: MyStruct, position: Int) {
-        //Toast.makeText(getContext(), "Text " + position, Toast.LENGTH_SHORT).show();
-        // 启动ShowImageActivity
+    override fun onClick(helper: BaseViewHolder, view: View, data: ItemData, position: Int) {
         val intent = Intent(context, ShowTextActivity0430::class.java)
         intent.putExtra("text", data.`object` as String)
         intent.putExtra("stared", data.isStared)

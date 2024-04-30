@@ -4065,6 +4065,7 @@ int layout ime_secondary_split_test_activity 0x7f0c004e
 int layout item_activity_main0424 0x7f0c004f
 int layout item_game_layout_0428_2 0x7f0c0050
 int layout item_image_recycle_0425 0x7f0c0051
+int layout item_news_layout_0430 0x7f0c00aa
 int layout item_refresh_footer 0x7f0c0052
 int layout item_text_recycle_0425 0x7f0c0053
 int layout layout_example_fragment 0x7f0c0054

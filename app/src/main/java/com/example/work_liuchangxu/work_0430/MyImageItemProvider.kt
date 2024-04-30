@@ -13,13 +13,13 @@ import com.chad.library.adapter.base.provider.BaseItemProvider
 import com.chad.library.adapter.base.viewholder.BaseViewHolder
 import com.example.work_liuchangxu.R
 
-class MyImageProvider : BaseItemProvider<MyStruct>() {
+class MyImageItemProvider : BaseItemProvider<ItemData>() {
     override val itemViewType: Int
-        get() = MyStruct.TYPE_IMAGE
+        get() = ItemData.TYPE_IMAGE
     override val layoutId: Int
         get() = R.layout.item_image_recycle_0425
 
-    override fun convert(helper: BaseViewHolder, item: MyStruct) {
+    override fun convert(helper: BaseViewHolder, item: ItemData) {
         Glide.with(context)
             .load(item.`object` as Int)
             .apply(RequestOptions().transforms(RoundedCorners(25)))
@@ -41,7 +41,7 @@ class MyImageProvider : BaseItemProvider<MyStruct>() {
         }
     }
 
-    override fun onClick(helper: BaseViewHolder, view: View, data: MyStruct, position: Int) {
+    override fun onClick(helper: BaseViewHolder, view: View, data: ItemData, position: Int) {
         val intent = Intent(context, ShowImageActivity0430::class.java)
         intent.putExtra("image", data.`object` as Int)
         intent.putExtra("stared", data.isStared)

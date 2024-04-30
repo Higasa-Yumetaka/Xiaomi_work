@@ -46,7 +46,7 @@ class ShowImageActivity0430 : AppCompatActivity() {
                 imageButton.setColorFilter(getColor(R.color.red))
             }
             stared = !stared
-            EventBus.getDefault().post(MyEvent(position, stared))
+            EventBus.getDefault().post(StarEvent(position, stared))
         }
     }
 }

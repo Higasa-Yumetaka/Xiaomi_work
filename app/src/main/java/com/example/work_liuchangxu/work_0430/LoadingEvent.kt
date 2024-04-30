@@ -1,6 +1,7 @@
 package com.example.work_liuchangxu.work_0430
 
-class MyLoadingEvent(state: Int) {
+// 加载事件
+class LoadingEvent(state: Int) {
     @JvmField
     var LOADING_STATE = 0
     var current = 0

@@ -220,6 +220,7 @@ layout header_activity_main0424
 layout item_activity_main0424
 layout item_game_layout_0428_2
 layout item_image_recycle_0425
+layout item_news_layout_0430
 layout item_refresh_footer
 layout item_text_recycle_0425
 layout layout_example_fragment

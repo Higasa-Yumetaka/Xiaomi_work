@@ -16,9 +16,10 @@ import com.example.work_liuchangxu.R
 import org.greenrobot.eventbus.EventBus
 import org.greenrobot.eventbus.Subscribe
 import org.greenrobot.eventbus.ThreadMode
+import java.lang.ref.WeakReference
 
 class FragmentMainKotlin : Fragment() {
-    private var dataList: MutableList<MyStruct?>? = null
+    private var dataList: MutableList<ItemData?>? = null
     private var rootView: View? = null
     private var recyclerView: RecyclerView? = null
     var adapter: MyBaseProviderMultiAdapter? = null
@@ -46,8 +47,8 @@ class FragmentMainKotlin : Fragment() {
             dataList = ArrayList()
             val localDataList = dataList
             for (i in 0..20) {
-                localDataList?.add(MyStruct(MyStruct.TYPE_TEXT, "这是第" + (i + 1) + "个文本"))
-                localDataList?.add(MyStruct(MyStruct.TYPE_IMAGE, R.drawable.great_wall))
+                localDataList?.add(ItemData(ItemData.TYPE_TEXT, "这是第" + (i + 1) + "个文本"))
+                localDataList?.add(ItemData(ItemData.TYPE_IMAGE, R.drawable.great_wall))
             }
             adapter = MyBaseProviderMultiAdapter(localDataList)
             localRecyclerView?.setAdapter(adapter)
@@ -59,20 +60,23 @@ class FragmentMainKotlin : Fragment() {
             val swipeRefreshLayout =
                 rootView!!.findViewById<SwipeRefreshLayout>(R.id.swipeRefreshLayout_0425)
             swipeRefreshLayout.setOnRefreshListener {
+                // 使用弱引用持有 Fragment 实例
+                val weakFragment = WeakReference(this)
                 Handler().postDelayed(
                     {
-                        // 在这里停止刷新
                         swipeRefreshLayout.isRefreshing = false
-                        Toast.makeText(activity, "刷新完成", Toast.LENGTH_SHORT).show()
+                        weakFragment.get()?.let {
+                            Toast.makeText(it.activity, "刷新完成", Toast.LENGTH_SHORT).show()
+                        }
                     }, 500
-                ) // 延迟2秒
+                )
             }
         }
         return rootView
     }
 
     @Subscribe(threadMode = ThreadMode.MAIN)
-    fun onEventMainThread(event: MyEvent) {
+    fun onEventMainThread(event: StarEvent) {
         // 更新数据源中的数据
         val localDataList = dataList
         localDataList!![event.position]!!.isStared = event.isStared
@@ -86,27 +90,29 @@ class FragmentMainKotlin : Fragment() {
     }
 
     @Subscribe(threadMode = ThreadMode.MAIN)
-    fun addItem(event: MyLoadingEvent) {
+    fun addItem(event: LoadingEvent) {
         Log.w("Fragment_main_0425", "addItem: ")
-        if (event.LOADING_STATE == MyLoadingEvent.STATE_LOADING) {
+        if (event.LOADING_STATE == LoadingEvent.STATE_LOADING) {
             // 令起线程异步模拟向数据源中添加数据
+            // 使用弱引用持有 Fragment 实例
+            val weakFragment = WeakReference(this)
             Thread {
                 try {
-                    // 随机每个加载耗时
                     val sleepTime = (Math.random() * 120).toInt()
                     // 随机加载10到20个数据
                     val count = (Math.random() * 10).toInt() + 10
                     Thread.sleep(sleepTime.toLong() * count)
-                    requireActivity().runOnUiThread {
-                        val newDataList: MutableList<MyStruct> = ArrayList()
+                    // 在主线程中更新 UI
+                    weakFragment.get()?.activity?.runOnUiThread {
+                        val newDataList: MutableList<ItemData> = ArrayList()
                         for (i in 0 until count) {
                             newDataList.add(
-                                MyStruct(
-                                    MyStruct.TYPE_TEXT,
+                                ItemData(
+                                    ItemData.TYPE_TEXT,
                                     "这是第" + (dataList!!.size / 2 + 1 + i) + "个文本"
                                 )
                             )
-                            newDataList.add(MyStruct(MyStruct.TYPE_IMAGE, R.drawable.great_wall))
+                            newDataList.add(ItemData(ItemData.TYPE_IMAGE, R.drawable.great_wall))
                         }
                         // 将新数据设置到 Adapter 中
                         adapter!!.addData(newDataList)
