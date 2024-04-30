@@ -1,6 +1,20 @@
 # Liuchangxu Android Works
 
-## 今日作业0429-内存泄漏优化与ANR解决方案已上传
+## 今日作业0430-Kotlin 已上传
+
+### 作业0430
+
+1. 使用Kotlin实现滑动列表，支持点击查看详情大图和文案，包含下拉刷新功能
+2. 拥有首页和我的页面功能
+3. 列表有两种类型，分别是文本类型和图片类型
+4. 两种类型均支持点击查看详情大图和文案，支持在详情中点赞，在首页和我的页面中同步点赞状态
+5. 使用SwipeRefreshLayout实现下拉刷新功能
+
+#### 演示视频见[此处](demo/work_0430/作业演示视频0430.mp4)
+
+#### 代码见[此处](app/src/main/java/com/example/work_liuchangxu/work_0430)
+
+## 往日作业
 
 ### 作业0429
 
@@ -15,8 +29,6 @@
 #### 内存泄漏优化代码见[此处](app/src/main/java/com/example/work_liuchangxu/work_0429/Fragment_main_0429_2.java)
 
 #### ANR优化代码见[此处](app/src/main/java/com/example/work_liuchangxu/work_0429/MyANRWatchDog.java)
-
-## 往日作业
 
 ### 作业0428
 
