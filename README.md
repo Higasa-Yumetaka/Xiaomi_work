@@ -8,11 +8,13 @@
 2. 网络部分，如果用到 Thread 或者其他耗时操作，知道使用静态内部类改造，如果不涉及，就新写一个Thread案例，在runnable中做具体的网络操作，并处理内存泄露
 3. 写出相关优化方案，能达到提升监控ANR准确率的目的
 
-#### 内存泄漏优化内容见[此处](demo/work_0429/README.md)
+#### 内存泄漏优化内容、ANR优化方案见[此处](demo/work_0429/README.md)
 
 #### ANR作业演示视频见[此处](demo/work_0429/作业演示视频0429.mp4)
 
-#### 代码见[此处](app/src/main/java/com/example/work_liuchangxu/work_0429)
+#### 内存泄漏优化代码见[此处](app/src/main/java/com/example/work_liuchangxu/work_0429/Main0428Activity_optimized.java)
+
+#### ANR优化代码见[此处](app/src/main/java/com/example/work_liuchangxu/work_0429/MyANRWatchDog.java)
 
 ## 往日作业
 

@@ -1,10 +1,50 @@
-## 弱引用：
+## MyANRWatchDog
+
+### 使用方法：
+```
+new MyANRWatchDog().start(); // 以默认的配置启动 ANR 监控(ANR阈值5000ms，时间精度1000ms)
+
+new MyANRWatchDog(3000, 500).start(); // 以自定义的配置启动 ANR 监控(ANR阈值3000ms，时间精度500ms)
+```
+
+### 检测方法
+```
+采用检测主线程一段时间内连续阻塞的方式来检测ANR，本质上是检测主线程是否存在持续一段时间的阻塞
+可以在初始化时设置ANR的超时时间和检测的精度(ms)
+通过轮询的方式检测主线程是否阻塞，向主线程发送消息_ticker，若主线程在检测精度的时间间隔内未能将_ticker清零，则认为主线程在该时间段内阻塞
+在一次轮询中，检测主线程在检测精度的时间间隔内是否阻塞
+若主线程在该检测精度的时间间隔内阻塞，则计数器加1，否则计数器清零，进行下一次轮询
+若计数器达到触发ANR的次数，则触发ANR，若未达到触发ANR的次数，则计数器清零，进行下一次轮询
+```
+
+### 实现原理：
+```
+初始化时设置ANR超时时间和检测精度(ms)
+创建一个计数器 = 0，用于记录主线程在检测精度的时间间隔内阻塞的次数
+创建一个_ticker，用于向主线程发送消息
+触发ANR阈值 = ANR超时时常/检测精度
+while(线程未被中断){
+    向主线程发送_ticker
+    sleep(检测精度)
+    if (_tick != 0){  //主线程在检测精度的时间间隔内未能将_ticker清零，即主线程阻塞
+        计数器++
+    } else {  //主线程在检测精度的时间间隔内将_ticker清零，即主线程未阻塞
+        计数器 = 0
+        break
+    }
+    if (计数器 == 触发ANR阈值){  //主线程在一次轮询中达到触发ANR的次数
+        触发ANR
+    }
+}
+```
+
+## 内存泄漏
 ```
 使用WeakReference引用Fragment_main_0428_2实例，使得在回调中持有对fragment的引用变为弱引用。
 防止回调持有fragment的强引用，避免了内存泄漏问题，因为即使fragment被销毁，回调中的弱引用也不会阻止其被垃圾回收。
 ```
 
-#### 修改前的代码：
+### 修改前的代码：
 ```java
 private void getGameData(String search, int current, int size, boolean isRefresh) {
         Log.w("Fragment_main_0428_2", "getGameData: ");
@@ -68,7 +108,7 @@ private void getGameData(String search, int current, int size, boolean isRefresh
     }
 ```
 
-#### 修改后的代码：
+### 修改后的代码：
 ```java
     /*
      * 0429：改为使用弱引用获取Fragment实例
