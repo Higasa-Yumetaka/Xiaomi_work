@@ -11,6 +11,8 @@
 5. 使用SwipeRefreshLayout实现下拉刷新功能
 6. 使用Retrofit实现从网络请求数据加载到item中
 
+![实现的界面](demo/work_0430/作业演示0430.png)
+
 #### 演示视频见[此处](demo/work_0430/作业演示视频0430.mp4)
 
 #### 代码见[此处](app/src/main/java/com/example/work_liuchangxu/work_0430)
